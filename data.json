@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "China",
+    "Value": 1418000000,
+    "DisplayValue": "1.418B"
+  },
+  {
+    "Name": "India",
+    "Value": 1363000000,
+    "DisplayValue": "1.363B"
+  },
+  {
+    "Name": "United States of America",
+    "Value": 328000000,
+    "DisplayValue": "328M"
+  },
+  {
+    "Name": "Indonesia",
+    "Value": 268000000,
+    "DisplayValue": "268M"
+  },
+  {
+    "Name": "Brazil",
+    "Value": 211000000,
+    "DisplayValue": "211M"
+  },
+  {
+    "Name": "Pakistan",
+    "Value": 203000000,
+    "DisplayValue": "203M"
+  },
+  {
+    "Name": "Nigeria",
+    "Value": 199000000,
+    "DisplayValue": "199M"
+  },
+  {
+    "Name": "Bangladesh",
+    "Value": 167000000,
+    "DisplayValue": "167M"
+  },
+  {
+    "Name": "Russia",
+    "Value": 143000000,
+    "DisplayValue": "143M"
+  },
+  {
+    "Name": "Mexico",
+    "Value": 131000000,
+    "DisplayValue": "131M"
+  },
+  {
+    "Name": "Japan",
+    "Value": 12600000,
+    "DisplayValue": "126M"
+  },
+  {
+    "Name": "Ethiopia",
+    "Value": 109000000,
+    "DisplayValue": "109M"
+  },
+  {
+    "Name": "Philippines",
+    "Value": 107000000,
+    "DisplayValue": "107M"
+  },
+  {
+    "Name": "Egypt",
+    "Value": 100000000,
+    "DisplayValue": "100M"
+  },
+  {
+    "Name": "Vietnam",
+    "Value": 97000000,
+    "DisplayValue": "97M"
+  },
+  {
+    "Name": "Democratic Republic of Congo",
+    "Value": 85000000,
+    "DisplayValue": "85M"
+  },
+  {
+    "Name": "Turkey",
+    "Value": 82000000,
+    "DisplayValue": "82M"
+  },
+  {
+    "Name": "Iran",
+    "Value": 82000000,
+    "DisplayValue": "82M"
+  },
+  {
+    "Name": "Germany",
+    "Value": 82000000,
+    "DisplayValue": "82M"
+  },
+  {
+    "Name": "Thailand",
+    "Value": 69000000,
+    "DisplayValue": "69M"
+  }
+]
