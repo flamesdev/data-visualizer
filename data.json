@@ -8,12 +8,14 @@
   {
     "Name": "India",
     "Value": 1363000000,
-    "DisplayValue": "1.363B"
+    "DisplayValue": "1.363B",
+    "Colors": ["FF9933", "128807"]
   },
   {
     "Name": "United States of America",
     "Value": 328000000,
-    "DisplayValue": "328M"
+    "DisplayValue": "328M",
+    "Colors": ["B22234", "FFFFFF", "3C3B6E"]
   },
   {
     "Name": "Indonesia",
