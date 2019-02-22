@@ -2,7 +2,8 @@
   {
     "Name": "China",
     "Value": 1418000000,
-    "DisplayValue": "1.418B"
+    "DisplayValue": "1.418B",
+	"Colors": ["ED2124", "F5EC11"]
   },
   {
     "Name": "India",
