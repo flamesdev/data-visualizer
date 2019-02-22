@@ -51,7 +51,7 @@
   },
   {
     "Name": "Japan",
-    "Value": 12600000,
+    "Value": 126000000,
     "DisplayValue": "126M"
   },
   {
@@ -98,5 +98,405 @@
     "Name": "Thailand",
     "Value": 69000000,
     "DisplayValue": "69M"
+  },
+  {
+    "Name": "United Kingdom",
+    "Value": 66000000,
+    "DisplayValue": "66M"
+  },
+  {
+    "Name": "France",
+    "Value": 65000000,
+    "DisplayValue": "65M"
+  },
+  {
+    "Name": "Tanzania",
+    "Value": 60000000,
+    "DisplayValue": "60M"
+  },
+  {
+    "Name": "Italy",
+    "Value": 59000000,
+    "DisplayValue": "59M"
+  },
+  {
+    "Name": "South Africa",
+    "Value": 58000000,
+    "DisplayValue": "58M"
+  },
+  {
+    "Name": "Myanmar",
+    "Value": 54000000,
+    "DisplayValue": "54M"
+  },
+  {
+    "Name": "Kenya",
+    "Value": 52000000,
+    "DisplayValue": "52M"
+  },
+  {
+    "Name": "South Korea",
+    "Value": 51000000,
+    "DisplayValue": "51M"
+  },
+  {
+    "Name": "Colombia",
+    "Value": 49000000,
+    "DisplayValue": "49M"
+  },
+  {
+    "Name": "Spain",
+    "Value": 46000000,
+    "DisplayValue": "46M"
+  },
+  {
+    "Name": "Uganda",
+    "Value": 45000000,
+    "DisplayValue": "45M"
+  },
+  {
+    "Name": "Argentina",
+    "Value": 45000000,
+    "DisplayValue": "45M"
+  },
+  {
+    "Name": "Ukraine",
+    "Value": 43000000,
+    "DisplayValue": "43M"
+  },
+  {
+    "Name": "Algeria",
+    "Value": 42000000,
+    "DisplayValue": "42M"
+  },
+  {
+    "Name": "Sudan",
+    "Value": 42000000,
+    "DisplayValue": "42M"
+  },
+  {
+    "Name": "Iraq",
+    "Value": 40000000,
+    "DisplayValue": "40M"
+  },
+  {
+    "Name": "Poland",
+    "Value": 38000000,
+    "DisplayValue": "38M"
+  },
+  {
+    "Name": "Canada",
+    "Value": 37000000,
+    "DisplayValue": "37M"
+  },
+  {
+    "Name": "Afghanistan",
+    "Value": 37000000,
+    "DisplayValue": "37M"
+  },
+  {
+    "Name": "Morocco",
+    "Value": 36635156,
+    "DisplayValue": "36M"
+  },
+  {
+    "Name": "Saudi Arabia",
+    "Value": 34000000,
+    "DisplayValue": "34M"
+  },
+  {
+    "Name": "Peru",
+    "Value": 32000000,
+    "DisplayValue": "32M"
+  },
+  {
+    "Name": "Uzbekistan",
+    "Value": 32000000,
+    "DisplayValue": "32M"
+  },
+  {
+    "Name": "Venezuela",
+    "Value": 32000000,
+    "DisplayValue": "32M"
+  },
+  {
+    "Name": "Malaysia",
+    "Value": 32000000,
+    "DisplayValue": "32M"
+  },
+  {
+    "Name": "Angola",
+    "Value": 31000000,
+    "DisplayValue": "31M"
+  },
+  {
+    "Name": "Mozambique",
+    "Value": 31000000,
+    "DisplayValue": "31M"
+  },
+  {
+    "Name": "Ghana",
+    "Value": 30000000,
+    "DisplayValue": "30M"
+  },
+  {
+    "Name": "Nepal",
+    "Value": 29000000,
+    "DisplayValue": "29M"
+  },
+  {
+    "Name": "Yemen",
+    "Value": 29000000,
+    "DisplayValue": "29M"
+  },
+  {
+    "Name": "Madagascar",
+    "Value": 26000000,
+    "DisplayValue": "26M"
+  },
+  {
+    "Name": "North Korea",
+    "Value": 25000000,
+    "DisplayValue": "25M"
+  },
+  {
+    "Name": "Côte d'Ivoire",
+    "Value": 25000000,
+    "DisplayValue": "25M"
+  },
+  {
+    "Name": "Cameroon",
+    "Value": 25000000,
+    "DisplayValue": "25M"
+  },
+  {
+    "Name": "Australia",
+    "Value": 25000000,
+    "DisplayValue": "25M"
+  },
+  {
+    "Name": "Taiwan",
+    "Value": 23000000,
+    "DisplayValue": "23M"
+  },
+  {
+    "Name": "Niger",
+    "Value": 23000000,
+    "DisplayValue": "23M"
+  },
+  {
+    "Name": "Sri Lanka",
+    "Value": 21000000,
+    "DisplayValue": "21M"
+  },
+  {
+    "Name": "Burkina Faso",
+    "Value": 20000000,
+    "DisplayValue": "20M"
+  },
+  {
+    "Name": "Malawi",
+    "Value": 19000000,
+    "DisplayValue": "19M"
+  },
+  {
+    "Name": "Mali",
+    "Value": 19000000,
+    "DisplayValue": "19M"
+  },
+  {
+    "Name": "Romania",
+    "Value": 19000000,
+    "DisplayValue": "19M"
+  },
+  {
+    "Name": "Kazakhstan",
+    "Value": 18000000,
+    "DisplayValue": "18M"
+  },
+  {
+    "Name": "Syria",
+    "Value": 18000000,
+    "DisplayValue": "18M"
+  },
+  {
+    "Name": "Chile",
+    "Value": 18000000,
+    "DisplayValue": "18M"
+  },
+  {
+    "Name": "Zambia",
+    "Value": 18000000,
+    "DisplayValue": "18M"
+  },
+  {
+    "Name": "Guatemala",
+    "Value": 17000000,
+    "DisplayValue": "17M"
+  },
+  {
+    "Name": "Zimbabwe",
+    "Value": 17000000,
+    "DisplayValue": "17M"
+  },
+  {
+    "Name": "Netherlands",
+    "Value": 17000000,
+    "DisplayValue": "17M"
+  },
+  {
+    "Name": "Ecuador",
+    "Value": 17000000,
+    "DisplayValue": "17M"
+  },
+  {
+    "Name": "Senegal",
+    "Value": 16000000,
+    "DisplayValue": "16M"
+  },
+  {
+    "Name": "Cambodia",
+    "Value": 16000000,
+    "DisplayValue": "16M"
+  },
+  {
+    "Name": "Chad",
+    "Value": 15000000,
+    "DisplayValue": "15M"
+  },
+  {
+    "Name": "Somalia",
+    "Value": 15000000,
+    "DisplayValue": "15M"
+  },
+  {
+    "Name": "Guinea",
+    "Value": 13000000,
+    "DisplayValue": "13M"
+  },
+  {
+    "Name": "South Sudan",
+    "Value": 13000000,
+    "DisplayValue": "13M"
+  },
+  {
+    "Name": "Rwanda",
+    "Value": 12000000,
+    "DisplayValue": "12M"
+  },
+  {
+    "Name": "Benin",
+    "Value": 1100000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Tunisia",
+    "Value": 11000000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Burundi",
+    "Value": 11000000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Belgium",
+    "Value": 11000000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Cuba",
+    "Value": 11000000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Bolivia",
+    "Value": 1100000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Haiti",
+    "Value": 11000000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Greece",
+    "Value": 11000000,
+    "DisplayValue": "11M"
+  },
+  {
+    "Name": "Dominican Republic",
+    "Value": 10000000,
+    "DisplayValue": "10M"
+  },
+  {
+    "Name": "Czech Republic",
+    "Value": 10000000,
+    "DisplayValue": "10M"
+  },
+  {
+    "Name": "Portugal",
+    "Value": 10000000,
+    "DisplayValue": "10M"
+  },
+  {
+    "Name": "Jordan",
+    "Value": 10000000,
+    "DisplayValue": "10M"
+  },
+  {
+    "Name": "Sweden",
+    "Value": 10000000,
+    "DisplayValue": "10M"
+  },
+  {
+    "Name": "Azerbaijan",
+    "Value": 10000000,
+    "DisplayValue": "10M"
+  },
+  {
+    "Name": "United Arab Emirates",
+    "Value": 9000000,
+    "DisplayValue": "9M"
+  },
+  {
+    "Name": "Hungary",
+    "Value": 9000000,
+    "DisplayValue": "9M"
+  },
+  {
+    "Name": "Honduras",
+    "Value": 9000000,
+    "DisplayValue": "9M"
+  },
+  {
+    "Name": "Belarus",
+    "Value": 9000000,
+    "DisplayValue": "9M"
+  },
+  {
+    "Name": "Tajikistan",
+    "Value": 9000000,
+    "DisplayValue": "9M"
+  },
+  {
+    "Name": "Austria",
+    "Value": 8000000,
+    "DisplayValue": "8M"
+  },
+  {
+    "Name": "Serbia",
+    "Value": 8000000,
+    "DisplayValue": "8M"
+  },
+  {
+    "Name": "Switzerland",
+    "Value": 8000000,
+    "DisplayValue": "8M"
+  },
+  {
+    "Name": "Papua New Guinea",
+    "Value": 8000000,
+    "DisplayValue": "8M"
   }
 ]
