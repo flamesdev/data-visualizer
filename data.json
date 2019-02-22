@@ -56,7 +56,8 @@
   {
     "Name": "Mexico",
     "Value": 131000000,
-    "DisplayValue": "131M"
+    "DisplayValue": "131M",
+    "Colors": ["006545", "FFFFFF", "C81025"]
   },
   {
     "Name": "Japan",
