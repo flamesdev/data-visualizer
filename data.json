@@ -32,22 +32,26 @@
   {
     "Name": "Pakistan",
     "Value": 203000000,
-    "DisplayValue": "203M"
+    "DisplayValue": "203M",
+    "Colors": ["FFFFFF", "003F15"]
   },
   {
     "Name": "Nigeria",
     "Value": 199000000,
-    "DisplayValue": "199M"
+    "DisplayValue": "199M",
+    "Colors": ["008850", "FFFFFF"]
   },
   {
     "Name": "Bangladesh",
     "Value": 167000000,
-    "DisplayValue": "167M"
+    "DisplayValue": "167M",
+    "Colors": ["006A4D", "F4253F"]
   },
   {
     "Name": "Russia",
     "Value": 143000000,
-    "DisplayValue": "143M"
+    "DisplayValue": "143M",
+    "Colors": ["F7F7F7", "0000F7", "F70000"]
   },
   {
     "Name": "Mexico",

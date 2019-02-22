@@ -23,7 +23,6 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 			} else
 				colorText = color[0];
 			colorText += ")";
-			console.log(colorText);
 			div.style.background = colorText;
 		}
 		document.body.append(p);
