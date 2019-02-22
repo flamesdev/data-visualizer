@@ -9,7 +9,7 @@
     "Name": "India",
     "Value": 1363000000,
     "DisplayValue": "1.363B",
-    "Colors": ["FF9933", "128807"]
+    "Colors": ["FF9933", "FFFFFF", "128807"]
   },
   {
     "Name": "United States of America",
@@ -20,12 +20,14 @@
   {
     "Name": "Indonesia",
     "Value": 268000000,
-    "DisplayValue": "268M"
+    "DisplayValue": "268M",
+    "Colors": ["FF0000", "FFFFFF"]
   },
   {
     "Name": "Brazil",
     "Value": 211000000,
-    "DisplayValue": "211M"
+    "DisplayValue": "211M",
+    "Colors": ["009C37", "FEE000", "002277"]
   },
   {
     "Name": "Pakistan",
