@@ -16,8 +16,7 @@ img {
 .bar {
     background: white;
     border-radius: 90px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 20px;
 }
 
 body {
