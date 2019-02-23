@@ -2,9 +2,9 @@ p {
     font-family: 'Montserrat';
     color: white;
     padding: 0px;
-    padding-top: 10px;
     margin: 0px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 img {
