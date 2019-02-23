@@ -88,8 +88,7 @@
   {
     "Name": "Democratic Republic of Congo",
     "Value": 85000000,
-    "DisplayValue": "85M",
-    "ShowFlag": true
+    "DisplayValue": "85M"
   },
   {
     "Name": "Turkey",
@@ -184,8 +183,7 @@
   {
     "Name": "Ukraine",
     "Value": 43000000,
-    "DisplayValue": "43M",
-    "ShowFlag": true
+    "DisplayValue": "43M"
   },
   {
     "Name": "Algeria",
@@ -321,8 +319,7 @@
   {
     "Name": "Burkina Faso",
     "Value": 20000000,
-    "DisplayValue": "20M",
-    "ShowFlag": true
+    "DisplayValue": "20M"
   },
   {
     "Name": "Malawi",
@@ -416,8 +413,7 @@
   {
     "Name": "South Sudan",
     "Value": 13000000,
-    "DisplayValue": "13M",
-    "ShowFlag": true
+    "DisplayValue": "13M"
   },
   {
     "Name": "Rwanda",
