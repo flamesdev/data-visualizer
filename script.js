@@ -5,36 +5,32 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 	json.forEach(item => {
 		var p = document.createElement("p");
 		p.innerHTML = item.Name + " - " + item.DisplayValue;
+        
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * (screen.width / screen.width) * 100 + "%";
-		var color = item.Colors;
-		if (color != null) {
-			var colorText = "linear-gradient(to right,";
-			if (color.length != 1) {
-				var lastPercentage;
-				for (var i = 0; i < color.length; i++) {
-					if (lastPercentage != null)
-						colorText += "#" + color[i] + " " + lastPercentage + ",";
-					lastPercentage = (i + 1) / color.length * 100 + "%";
-					colorText += "#" + color[i] + " " + lastPercentage;
-					if (i != color.length - 1)
-						colorText += ",";
-				}
-			} else
-				colorText = color[0];
-			colorText += ")";
-			div.style.background = colorText;
-		}
-		document.body.append(p);
+        div.className = "bar";
+        
+        var titleDiv = document.createElement("div");
+        
+        var icon = document.createElement("img");
+        if (item.ShowFlag != null)
+            icon.src = "flag icons/" + item.Name + ".svg";
+        else
+            icon.src = "flag icons/Blank.svg";
+        
+        titleDiv.appendChild(icon);
+        titleDiv.appendChild(p);
+        
+		document.body.append(titleDiv);
 		document.body.append(div);
 	});
 });
 
 const ItemData = class {
-	constructor(Name, Value, DisplayValue, Colors) {
+	constructor(Name, Value, DisplayValue, ShowFlag) {
 		this.Name = Name;
 		this.Value = Value;
 		this.DisplayValue = DisplayValue;
-		this.Colors = Colors;
+		this.ShowFlag = ShowFlag;
 	}
 }

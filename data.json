@@ -3,76 +3,77 @@
     "Name": "China",
     "Value": 1418000000,
     "DisplayValue": "1.418B",
-	"Colors": ["ED2124", "F5EC11"]
+    "ShowFlag": true
   },
   {
     "Name": "India",
     "Value": 1363000000,
     "DisplayValue": "1.363B",
-    "Colors": ["FF9933", "FFFFFF", "128807"]
+    "ShowFlag": true
   },
   {
     "Name": "United States of America",
     "Value": 328000000,
     "DisplayValue": "328M",
-    "Colors": ["B22234", "FFFFFF", "3C3B6E"]
+    "ShowFlag": true
   },
   {
     "Name": "Indonesia",
     "Value": 268000000,
     "DisplayValue": "268M",
-    "Colors": ["FF0000", "FFFFFF"]
+    "ShowFlag": true
   },
   {
     "Name": "Brazil",
     "Value": 211000000,
     "DisplayValue": "211M",
-    "Colors": ["009C37", "FEE000", "002277"]
+    "ShowFlag": true
   },
   {
     "Name": "Pakistan",
     "Value": 203000000,
-    "DisplayValue": "203M",
-    "Colors": ["FFFFFF", "003F15"]
+    "DisplayValue": "203M"
   },
   {
     "Name": "Nigeria",
     "Value": 199000000,
     "DisplayValue": "199M",
-    "Colors": ["008850", "FFFFFF"]
+    "ShowFlag": true
   },
   {
     "Name": "Bangladesh",
     "Value": 167000000,
     "DisplayValue": "167M",
-    "Colors": ["006A4D", "F4253F"]
+    "ShowFlag": true
   },
   {
     "Name": "Russia",
     "Value": 143000000,
     "DisplayValue": "143M",
-    "Colors": ["F7F7F7", "0000F7", "F70000"]
+    "ShowFlag": true
   },
   {
     "Name": "Mexico",
     "Value": 131000000,
-    "DisplayValue": "131M",
-    "Colors": ["006545", "FFFFFF", "C81025"]
+    "DisplayValue": "131M"
   },
   {
     "Name": "Japan",
     "Value": 126000000,
-    "DisplayValue": "126M"
+    "DisplayValue": "126M",
+    "ShowFlag": true
   },
   {
     "Name": "Ethiopia",
     "Value": 109000000,
-    "DisplayValue": "109M"
+    "DisplayValue": "109M",
+    "ShowFlag": true
   },
   {
     "Name": "Philippines",
     "Value": 107000000,
-    "DisplayValue": "107M"
+    "DisplayValue": "107M",
+    "ShowFlag": true
   },
   {
     "Name": "Egypt",
@@ -87,7 +88,8 @@
   {
     "Name": "Democratic Republic of Congo",
     "Value": 85000000,
-    "DisplayValue": "85M"
+    "DisplayValue": "85M",
+    "ShowFlag": true
   },
   {
     "Name": "Turkey",
@@ -102,32 +104,38 @@
   {
     "Name": "Germany",
     "Value": 82000000,
-    "DisplayValue": "82M"
+    "DisplayValue": "82M",
+    "ShowFlag": true
   },
   {
     "Name": "Thailand",
     "Value": 69000000,
-    "DisplayValue": "69M"
+    "DisplayValue": "69M",
+    "ShowFlag": true
   },
   {
     "Name": "United Kingdom",
     "Value": 66000000,
-    "DisplayValue": "66M"
+    "DisplayValue": "66M",
+    "ShowFlag": true
   },
   {
     "Name": "France",
     "Value": 65000000,
-    "DisplayValue": "65M"
+    "DisplayValue": "65M",
+    "ShowFlag": true
   },
   {
     "Name": "Tanzania",
     "Value": 60000000,
-    "DisplayValue": "60M"
+    "DisplayValue": "60M",
+    "ShowFlag": true
   },
   {
     "Name": "Italy",
     "Value": 59000000,
-    "DisplayValue": "59M"
+    "DisplayValue": "59M",
+    "ShowFlag": true
   },
   {
     "Name": "South Africa",
@@ -142,7 +150,8 @@
   {
     "Name": "Kenya",
     "Value": 52000000,
-    "DisplayValue": "52M"
+    "DisplayValue": "52M",
+    "ShowFlag": true
   },
   {
     "Name": "South Korea",
@@ -152,12 +161,14 @@
   {
     "Name": "Colombia",
     "Value": 49000000,
-    "DisplayValue": "49M"
+    "DisplayValue": "49M",
+    "ShowFlag": true
   },
   {
     "Name": "Spain",
     "Value": 46000000,
-    "DisplayValue": "46M"
+    "DisplayValue": "46M",
+    "ShowFlag": true
   },
   {
     "Name": "Uganda",
@@ -167,17 +178,20 @@
   {
     "Name": "Argentina",
     "Value": 45000000,
-    "DisplayValue": "45M"
+    "DisplayValue": "45M",
+    "ShowFlag": true
   },
   {
     "Name": "Ukraine",
     "Value": 43000000,
-    "DisplayValue": "43M"
+    "DisplayValue": "43M",
+    "ShowFlag": true
   },
   {
     "Name": "Algeria",
     "Value": 42000000,
-    "DisplayValue": "42M"
+    "DisplayValue": "42M",
+    "ShowFlag": true
   },
   {
     "Name": "Sudan",
@@ -197,12 +211,14 @@
   {
     "Name": "Canada",
     "Value": 37000000,
-    "DisplayValue": "37M"
+    "DisplayValue": "37M",
+    "ShowFlag": true
   },
   {
     "Name": "Afghanistan",
     "Value": 37000000,
-    "DisplayValue": "37M"
+    "DisplayValue": "37M",
+    "ShowFlag": true
   },
   {
     "Name": "Morocco",
@@ -257,7 +273,8 @@
   {
     "Name": "Yemen",
     "Value": 29000000,
-    "DisplayValue": "29M"
+    "DisplayValue": "29M",
+    "ShowFlag": true
   },
   {
     "Name": "Madagascar",
@@ -277,7 +294,8 @@
   {
     "Name": "Cameroon",
     "Value": 25000000,
-    "DisplayValue": "25M"
+    "DisplayValue": "25M",
+    "ShowFlag": true
   },
   {
     "Name": "Australia",
@@ -292,7 +310,8 @@
   {
     "Name": "Niger",
     "Value": 23000000,
-    "DisplayValue": "23M"
+    "DisplayValue": "23M",
+    "ShowFlag": true
   },
   {
     "Name": "Sri Lanka",
@@ -302,7 +321,8 @@
   {
     "Name": "Burkina Faso",
     "Value": 20000000,
-    "DisplayValue": "20M"
+    "DisplayValue": "20M",
+    "ShowFlag": true
   },
   {
     "Name": "Malawi",
@@ -317,7 +337,8 @@
   {
     "Name": "Romania",
     "Value": 19000000,
-    "DisplayValue": "19M"
+    "DisplayValue": "19M",
+    "ShowFlag": true
   },
   {
     "Name": "Kazakhstan",
@@ -327,22 +348,26 @@
   {
     "Name": "Syria",
     "Value": 18000000,
-    "DisplayValue": "18M"
+    "DisplayValue": "18M",
+    "ShowFlag": true
   },
   {
     "Name": "Chile",
     "Value": 18000000,
-    "DisplayValue": "18M"
+    "DisplayValue": "18M",
+    "ShowFlag": true
   },
   {
     "Name": "Zambia",
     "Value": 18000000,
-    "DisplayValue": "18M"
+    "DisplayValue": "18M",
+    "ShowFlag": true
   },
   {
     "Name": "Guatemala",
     "Value": 17000000,
-    "DisplayValue": "17M"
+    "DisplayValue": "17M",
+    "ShowFlag": true
   },
   {
     "Name": "Zimbabwe",
@@ -352,7 +377,8 @@
   {
     "Name": "Netherlands",
     "Value": 17000000,
-    "DisplayValue": "17M"
+    "DisplayValue": "17M",
+    "ShowFlag": true
   },
   {
     "Name": "Ecuador",
@@ -367,7 +393,8 @@
   {
     "Name": "Cambodia",
     "Value": 16000000,
-    "DisplayValue": "16M"
+    "DisplayValue": "16M",
+    "ShowFlag": true
   },
   {
     "Name": "Chad",
@@ -377,17 +404,20 @@
   {
     "Name": "Somalia",
     "Value": 15000000,
-    "DisplayValue": "15M"
+    "DisplayValue": "15M",
+    "ShowFlag": true
   },
   {
     "Name": "Guinea",
     "Value": 13000000,
-    "DisplayValue": "13M"
+    "DisplayValue": "13M",
+    "ShowFlag": true
   },
   {
     "Name": "South Sudan",
     "Value": 13000000,
-    "DisplayValue": "13M"
+    "DisplayValue": "13M",
+    "ShowFlag": true
   },
   {
     "Name": "Rwanda",
@@ -397,7 +427,8 @@
   {
     "Name": "Benin",
     "Value": 11000000,
-    "DisplayValue": "11M"
+    "DisplayValue": "11M",
+    "ShowFlag": true
   },
   {
     "Name": "Tunisia",
@@ -407,22 +438,26 @@
   {
     "Name": "Burundi",
     "Value": 11000000,
-    "DisplayValue": "11M"
+    "DisplayValue": "11M",
+    "ShowFlag": true
   },
   {
     "Name": "Belgium",
     "Value": 11000000,
-    "DisplayValue": "11M"
+    "DisplayValue": "11M",
+    "ShowFlag": true
   },
   {
     "Name": "Cuba",
     "Value": 11000000,
-    "DisplayValue": "11M"
+    "DisplayValue": "11M",
+    "ShowFlag": true
   },
   {
     "Name": "Bolivia",
     "Value": 11000000,
-    "DisplayValue": "11M"
+    "DisplayValue": "11M",
+    "ShowFlag": true
   },
   {
     "Name": "Haiti",
@@ -432,7 +467,8 @@
   {
     "Name": "Greece",
     "Value": 11000000,
-    "DisplayValue": "11M"
+    "DisplayValue": "11M",
+    "ShowFlag": true
   },
   {
     "Name": "Dominican Republic",
@@ -442,7 +478,8 @@
   {
     "Name": "Czech Republic",
     "Value": 10000000,
-    "DisplayValue": "10M"
+    "DisplayValue": "10M",
+    "ShowFlag": true
   },
   {
     "Name": "Portugal",
@@ -452,17 +489,20 @@
   {
     "Name": "Jordan",
     "Value": 10000000,
-    "DisplayValue": "10M"
+    "DisplayValue": "10M",
+    "ShowFlag": true
   },
   {
     "Name": "Sweden",
     "Value": 10000000,
-    "DisplayValue": "10M"
+    "DisplayValue": "10M",
+    "ShowFlag": true
   },
   {
     "Name": "Azerbaijan",
     "Value": 10000000,
-    "DisplayValue": "10M"
+    "DisplayValue": "10M",
+    "ShowFlag": true
   },
   {
     "Name": "United Arab Emirates",
@@ -472,7 +512,8 @@
   {
     "Name": "Hungary",
     "Value": 9000000,
-    "DisplayValue": "9M"
+    "DisplayValue": "9M",
+    "ShowFlag": true
   },
   {
     "Name": "Honduras",
@@ -492,7 +533,8 @@
   {
     "Name": "Austria",
     "Value": 8000000,
-    "DisplayValue": "8M"
+    "DisplayValue": "8M",
+    "ShowFlag": true
   },
   {
     "Name": "Serbia",
@@ -502,7 +544,8 @@
   {
     "Name": "Switzerland",
     "Value": 8000000,
-    "DisplayValue": "8M"
+    "DisplayValue": "8M",
+    "ShowFlag": true
   },
   {
     "Name": "Papua New Guinea",

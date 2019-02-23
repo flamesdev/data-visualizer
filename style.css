@@ -4,15 +4,20 @@ p {
     padding: 0px;
     padding-top: 10px;
     margin: 0px;
+    display: inline-block;
 }
 
-div {
+img {
+    height: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bar {
     background: white;
     border-radius: 90px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 5px;
-    border: 0;
 }
 
 body {
