@@ -14,11 +14,11 @@ img {
 }
 
 .bar {
-    background: white;
+    background: #666666;
     border-radius: 90px;
     height: 20px;
 }
 
 body {
-    background-color: black;
+    background-color: #202020;
 }
