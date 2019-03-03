@@ -4,7 +4,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 	var max = json[0].Value;
 	json.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(item.Value);
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value));
         
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * (screen.width / screen.width) * 100 + "%";
