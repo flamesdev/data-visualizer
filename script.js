@@ -4,7 +4,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 	var max = json[0].Value;
 	json.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + item.DisplayValue;
+		p.innerHTML = item.Name + " - " + NumberToText(item.Value);
         
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * (screen.width / screen.width) * 100 + "%";
@@ -26,11 +26,17 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 	});
 });
 
+function NumberToText(number) {
+	if (number >= 1000000000)
+		return (number / 1000000000).toFixed(3) + "B";
+	else
+		return Math.floor(number / 1000000) + "M";
+}
+
 const ItemData = class {
-	constructor(Name, Value, DisplayValue, ShowFlag) {
+	constructor(Name, Value, ShowFlag) {
 		this.Name = Name;
 		this.Value = Value;
-		this.DisplayValue = DisplayValue;
 		this.ShowFlag = ShowFlag;
 	}
 }
