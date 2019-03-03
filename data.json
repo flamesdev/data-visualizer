@@ -12,7 +12,7 @@
     "ShowFlag": true
   },
   {
-    "Name": "United States",
+    "Name": "United States of America",
     "Value": 328000000,
     "DisplayValue": "328M",
     "ShowFlag": true
@@ -48,7 +48,6 @@
   },
   {
     "Name": "Russia",
-	"APIName": "Russian Federation",
     "Value": 143000000,
     "DisplayValue": "143M",
     "ShowFlag": true
@@ -78,7 +77,6 @@
   },
   {
     "Name": "Egypt",
-	"APIName": "Arab Rep of Egypt",
     "Value": 100000000,
     "DisplayValue": "100M"
   },
@@ -89,7 +87,6 @@
   },
   {
     "Name": "Democratic Republic of Congo",
-	"APIName": "Arab Rep of Egypt",
     "Value": 85000000,
     "DisplayValue": "85M"
   },
@@ -100,7 +97,6 @@
   },
   {
     "Name": "Iran",
-	"APIName": "Islamic Republic of Iran",
     "Value": 82000000,
     "DisplayValue": "82M"
   },
@@ -158,7 +154,6 @@
   },
   {
     "Name": "South Korea",
-	"APIName": "Rep of Korea",
     "Value": 51000000,
     "DisplayValue": "51M"
   },
@@ -245,7 +240,6 @@
   },
   {
     "Name": "Venezuela",
-	"APIName": "RB-de-Venezuela",
     "Value": 32000000,
     "DisplayValue": "32M"
   },
@@ -276,7 +270,6 @@
   },
   {
     "Name": "Yemen",
-	"APIName": "Rep of Yemen",
     "Value": 29000000,
     "DisplayValue": "29M",
     "ShowFlag": true
@@ -288,13 +281,11 @@
   },
   {
     "Name": "North Korea",
-	"APIName": "Dem Peoples Rep of Korea",
     "Value": 25000000,
     "DisplayValue": "25M"
   },
   {
     "Name": "Côte d'Ivoire",
-	"APIName": "Cote-d-Ivoire",
     "Value": 25000000,
     "DisplayValue": "25M"
   },
@@ -348,7 +339,6 @@
   },
   {
     "Name": "Syria",
-	"APIName": "Syrian Arab Rep",
     "Value": 18000000,
     "DisplayValue": "18M",
     "ShowFlag": true
@@ -378,7 +368,6 @@
   },
   {
     "Name": "Netherlands",
-	"APIName": "The Netherlands",
     "Value": 17000000,
     "DisplayValue": "17M",
     "ShowFlag": true
