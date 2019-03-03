@@ -71,11 +71,13 @@
   },
   {
     "Name": "Vietnam",
-    "Value": 97000000
+    "Value": 97000000,
+    "ShowFlag": true
   },
   {
     "Name": "Democratic Republic of Congo",
-    "Value": 85000000
+    "Value": 85000000,
+    "ShowFlag": true
   },
   {
     "Name": "Turkey",
