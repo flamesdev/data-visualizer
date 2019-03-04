@@ -1,12 +1,18 @@
-/*global $*/
-$.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/master/data.json", function (json) {
+var screenID = 0;
+
+var json;
+$.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/master/data.json", function (data) {
 	"use strict";
-	var screen = document.createElement("div");
-	screen.id = "screen1";
-	document.body.append(CreateScreen(json.Country_Population, screen, true, "flag icons", "flag icons/Blank.svg"));
+	json = data;
+	document.body.append(CreateScreen(0, true, true, "flag icons", "Blank"));
 });
 
-function CreateScreen(data, screen, showIcon, iconDir, defaultIcon) {
+function CreateScreen(id, show, showIcon, iconDir, defaultIcon) {
+	"use strict";
+	iconDir += "/";
+	var screen = document.createElement("div");
+	screen.id = "screen" + id;
+	var data = json[id];
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
@@ -21,9 +27,9 @@ function CreateScreen(data, screen, showIcon, iconDir, defaultIcon) {
 		var icon = document.createElement("img");
 		if (showIcon)
 			if (item.HasIcon != null)
-				icon.src = iconDir + "/" + item.Name + ".svg";
+				icon.src = iconDir + item.Name + ".svg";
 			else
-				icon.src = defaultIcon;
+				icon.src = iconDir + defaultIcon + ".svg";
 
 		titleDiv.appendChild(icon);
 		titleDiv.appendChild(p);
@@ -31,10 +37,17 @@ function CreateScreen(data, screen, showIcon, iconDir, defaultIcon) {
 		screen.appendChild(titleDiv);
 		screen.appendChild(div);
 	});
+	if (show)
+		screen.style.visibility = "show";
+	else {
+		screen.style.visibility = "hidden";
+		screen.style.display = "none";
+	}
 	return screen;
 }
 
 function NumberToText(number) {
+	"use strict"
 	if (number >= 1000000000)
 		return (number / 1000000000).toFixed(3) + "B";
 	else
