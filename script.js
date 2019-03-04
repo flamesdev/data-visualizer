@@ -6,7 +6,7 @@ window.onload = function () {
 };
 
 var json;
-$.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/master/data.json", function (data) {
+$.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/data.json", function (data) {
 	"use strict";
 	json = data;
 	CreateScreen(0, true, "flag icons", "Blank");
@@ -16,22 +16,6 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 	document.body.style.visibility = "visible";
 });
 
-var touchStart;
-var touchX;
-var touchY;
-window.addEventListener("touchstart", function (e) {
-	touchStart = new Date();
-	touchX = e.clientX;
-	touchY = e.clientY;
-});
-
-window.addEventListener("touchend", function (e) {
-	if (new Date() - touchStart >= 3000 &&
-		Math.abs(e.clientX - touchX) / screen.width <= 0.1 &&
-		Math.abs(e.clientY - touchY) / screen.height <= 0.1)
-		NextScreen();
-});
-
 document.addEventListener("keydown", (event) => {
 	if (event.keyCode === 37)
 		if (screenID - 1 >= 0)
@@ -39,15 +23,11 @@ document.addEventListener("keydown", (event) => {
 		else
 			UpdateScreen(2);
 	if (event.keyCode === 39)
-		NextScreen();
+		if (screenID + 1 <= 2)
+		  UpdateScreen(screenID + 1);
+	   else
+		  UpdateScreen(0);
 });
-
-function NextScreen() {
-	if (screenID + 1 <= 2)
-		UpdateScreen(screenID + 1);
-	else
-		UpdateScreen(0);
-}
 
 function CreateScreen(id, showIcon, iconDir, defaultIcon) {
 	"use strict";

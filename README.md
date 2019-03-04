@@ -1,4 +1,5 @@
-# population-visualizer
-A visualization of the world population by country.
-The population data originates from [here](http://www.worldometers.info/world-population/population-by-country/).
-The flag icons originate from [here](https://www.iconfinder.com/iconsets/flags-37).
+# data-visualizer
+A visualization of varying datasets.
+The population data originates from [this](www.worldometers.info/world-population).
+Some of the flag icons are inspired by [these](www.iconfinder.com/iconsets/flags-37).
+Many of the icons have been created or altered by @Zenster and I.
