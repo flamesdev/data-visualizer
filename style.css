@@ -1,3 +1,13 @@
+#title {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+#seperator {
+    background: white;
+    height: 5px;
+}
+
 p {
     font-family: 'Montserrat';
     color: white;
@@ -21,4 +31,5 @@ img {
 
 body {
     background-color: #202020;
+    visibility: hidden;
 }

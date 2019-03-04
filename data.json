@@ -482,20 +482,20 @@
         "Value": 365000000
       },
       {
-        "Name": "Oceania Population",
+        "Name": "Oceania",
         "Value": 41000000
       }
     ]
   },
   {
-    "Name": "Religion Population",
+    "Name": "Religion Population (2010)",
     "Dataset": [
       {
-        "Name": "Christianity",
+        "Name": "Christians",
         "Value": 2173180000
       },
       {
-        "Name": "Muslim",
+        "Name": "Muslims",
         "Value": 1598510000
       },
       {
@@ -503,11 +503,11 @@
         "Value": 1126500000
       },
       {
-        "Name": "Hinduism",
+        "Name": "Hindus",
         "Value": 1033080000
       },
       {
-        "Name": "Buddhism",
+        "Name": "Buddhists",
         "Value": 487540000
       },
       {
@@ -519,7 +519,7 @@
         "Value": 58110000
       },
       {
-        "Name": "Judaism",
+        "Name": "Jews",
         "Value": 13850000
       }
     ]
