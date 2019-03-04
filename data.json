@@ -523,5 +523,210 @@
         "Value": 13850000
       }
     ]
+  },
+  {
+    "Name": "Nominal GDP [USD] (2017)",
+    "Dataset": [
+      {
+        "Name": "United States of America",
+        "Value": 19485394
+      },
+      {
+        "Name": "China",
+        "Value": 12234781
+      },
+      {
+        "Name": "Japan",
+        "Value": 4872415
+      },
+      {
+        "Name": "Germany",
+        "Value": 3693204
+      },
+      {
+        "Name": "United Kingdom",
+        "Value": 2631228
+      },
+      {
+        "Name": "France",
+        "Value": 2582492
+      },
+      {
+        "Name": "India",
+        "Value": 2575666
+      },
+      {
+        "Name": "Brazil",
+        "Value": 2055512
+      },
+      {
+        "Name": "Italy",
+        "Value": 1943835
+      },
+      {
+        "Name": "Canada",
+        "Value": 1647120
+      },
+      {
+        "Name": "South Korea",
+        "Value": 1577524
+      },
+      {
+        "Name": "Russia",
+        "Value": 1530750
+      },
+      {
+        "Name": "Austrailia",
+        "Value": 1408675
+      },
+      {
+        "Name": "Spain",
+        "Value": 1314314
+      },
+      {
+        "Name": "Mexico",
+        "Value": 1158229
+      },
+      {
+        "Name": "Indonesia",
+        "Value": 1015539
+      },
+      {
+        "Name": "Turkey",
+        "Value": 851541
+      },
+      {
+        "Name": "Netherlands",
+        "Value": 830572
+      },
+      {
+        "Name": "Saudi Arabia",
+        "Value": 683827
+      },
+      {
+        "Name": "Switzerland",
+        "Value": 678938
+      },
+      {
+        "Name": "Argentina",
+        "Value": 637486
+      },
+      {
+        "Name": "Sweden",
+        "Value": 535607
+      },
+      {
+        "Name": "Poland",
+        "Value": 526211
+      },
+      {
+        "Name": "Belgium",
+        "Value": 494763
+      },
+      {
+        "Name": "Iran",
+        "Value": 460976
+      },
+      {
+        "Name": "Thailand",
+        "Value": 455302
+      },
+      {
+        "Name": "Austria",
+        "Value": 416835
+      },
+      {
+        "Name": "Norway",
+        "Value": 399470
+      },
+      {
+        "Name": "United Arab Emirates",
+        "Value": 382575
+      },
+      {
+        "Name": "Nigeria",
+        "Value": 375769
+      },
+      {
+        "Name": "Israel",
+        "Value": 353268
+      },
+      {
+        "Name": "South Africa",
+        "Value": 348872
+      },
+      {
+        "Name": "Hong Kong",
+        "Value": 341659
+      },
+      {
+        "Name": "Ireland",
+        "Value": 331430
+      },
+      {
+        "Name": "Denmark",
+        "Value": 329965
+      },
+      {
+        "Name": "Singapore",
+        "Value": 323901
+      },
+      {
+        "Name": "Malaysia",
+        "Value": 314707
+      },
+      {
+        "Name": "Philippines",
+        "Value": 313595
+      },
+      {
+        "Name": "Colombia",
+        "Value": 309191
+      },
+      {
+        "Name": "Pakistan",
+        "Value": 302139
+      },
+      {
+        "Name": "Chile",
+        "Value": 277080
+      },
+      {
+        "Name": "Venezuela",
+        "Value": 255092
+      },
+      {
+        "Name": "Finland",
+        "Value": 252246
+      },
+      {
+        "Name": "Bangladesh",
+        "Value": 245633
+      },
+      {
+        "Name": "Vietnam",
+        "Value": 223779
+      },
+      {
+        "Name": "Czech Republic",
+        "Value": 215824
+      },
+      {
+        "Name": "Romania",
+        "Value": 211803
+      },
+      {
+        "Name": "Peru",
+        "Value": 211402
+      },
+      {
+        "Name": "Greece",
+        "Value": 203085
+      },
+      {
+        "Name": "New Zealand",
+        "Value": 202044
+      }
+    ]
   }
 ]

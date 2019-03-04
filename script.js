@@ -9,9 +9,10 @@ var json;
 $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/data.json", function (data) {
 	"use strict";
 	json = data;
-	CreateScreen(0, true, "flag icons", "Blank");
-	CreateScreen(1, false, null, null);
-	CreateScreen(2, false, null, null);
+	CreateScreen(0, true, "flag icons", "Blank", 1);
+	CreateScreen(1, false, null, null, 1);
+	CreateScreen(2, false, null, null, 1);
+	CreateScreen(3, false, null, null, 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
 });
@@ -21,15 +22,15 @@ document.addEventListener("keydown", (event) => {
 		if (screenID - 1 >= 0)
 			UpdateScreen(screenID - 1);
 		else
-			UpdateScreen(2);
+			UpdateScreen(3);
 	if (event.keyCode === 39)
-		if (screenID + 1 <= 2)
-		  UpdateScreen(screenID + 1);
-	   else
-		  UpdateScreen(0);
+		if (screenID + 1 <= 3)
+			UpdateScreen(screenID + 1);
+		else
+			UpdateScreen(0);
 });
 
-function CreateScreen(id, showIcon, iconDir, defaultIcon) {
+function CreateScreen(id, showIcon, iconDir, defaultIcon, scale) {
 	"use strict";
 	iconDir += "/";
 	var screen = document.createElement("div");
@@ -38,7 +39,7 @@ function CreateScreen(id, showIcon, iconDir, defaultIcon) {
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value));
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * scale));
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -65,6 +66,7 @@ function CreateScreen(id, showIcon, iconDir, defaultIcon) {
 }
 
 function UpdateScreen(newValue) {
+	"use strict"
 	if (screenID != null) {
 		var screen = document.getElementById("screen" + screenID);
 		screen.style.visibility = "hidden";
@@ -79,10 +81,12 @@ function UpdateScreen(newValue) {
 
 function NumberToText(number) {
 	"use strict"
-	if (number >= 1000000000)
-		return (number / 1000000000).toFixed(3) + "B";
+	if (number >= 10 ** 12)
+		return (number / 10 ** 12).toFixed(3) + "T";
+	else if (number >= 10 ** 9)
+		return (number / 10 ** 9).toFixed(3) + "B";
 	else
-		return Math.floor(number / 1000000) + "M";
+		return Math.floor(number / 10 ** 6) + "M";
 }
 
 const ItemData = class {
