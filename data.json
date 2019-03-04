@@ -119,7 +119,7 @@
   },
   {
     "Name": "South Africa",
-    "Value": 58000000
+    "Value": 57000000
   },
   {
     "Name": "Myanmar",
@@ -127,7 +127,7 @@
   },
   {
     "Name": "Kenya",
-    "Value": 52000000,
+    "Value": 51000000,
     "ShowFlag": true
   },
   {
@@ -150,7 +150,7 @@
   },
   {
     "Name": "Argentina",
-    "Value": 45000000,
+    "Value": 44000000,
     "ShowFlag": true
   },
   {
@@ -181,7 +181,7 @@
   },
   {
     "Name": "Afghanistan",
-    "Value": 37000000,
+    "Value": 36000000,
     "ShowFlag": true
   },
   {
@@ -190,7 +190,7 @@
   },
   {
     "Name": "Saudi Arabia",
-    "Value": 34000000
+    "Value": 33000000
   },
   {
     "Name": "Peru",
@@ -218,7 +218,7 @@
   },
   {
     "Name": "Ghana",
-    "Value": 30000000
+    "Value": 29000000
   },
   {
     "Name": "Nepal",
@@ -248,7 +248,7 @@
   },
   {
     "Name": "Australia",
-    "Value": 25000000
+    "Value": 24000000
   },
   {
     "Name": "Taiwan",
@@ -256,12 +256,12 @@
   },
   {
     "Name": "Niger",
-    "Value": 23000000,
+    "Value": 22000000,
     "ShowFlag": true
   },
   {
     "Name": "Sri Lanka",
-    "Value": 21000000
+    "Value": 20000000
   },
   {
     "Name": "Burkina Faso",
@@ -296,7 +296,7 @@
   },
   {
     "Name": "Zambia",
-    "Value": 18000000,
+    "Value": 17000000,
     "ShowFlag": true
   },
   {
@@ -411,7 +411,7 @@
   },
   {
     "Name": "Azerbaijan",
-    "Value": 10000000,
+    "Value": 9000000,
     "ShowFlag": true
   },
   {
