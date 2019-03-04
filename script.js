@@ -3,7 +3,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/population-visualizer/mas
 	"use strict";
 	var screen = document.createElement("div");
 	screen.id = "screen1";
-	document.body.append(CreateScreen(json, screen, true, "flag icons", "flag icons/Blank.svg"));
+	document.body.append(CreateScreen(json.Country_Population, screen, true, "flag icons", "flag icons/Blank.svg"));
 });
 
 function CreateScreen(data, screen, showIcon, iconDir, defaultIcon) {
