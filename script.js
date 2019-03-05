@@ -9,11 +9,11 @@ var json;
 $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/data.json", function (data) {
 	"use strict";
 	json = data;
-	maxIndex = json.Datasets.Length - 1;
-	CreateScreen(0, true, 0, "flag icons", "Blank", 1);
-	CreateScreen(1, false, null, null, null, 1);
-	CreateScreen(2, false, null, null, null, 1);
-	CreateScreen(3, false, 0, null, null, 1000000);
+	maxIndex = json.Datasets.length - 1;
+	CreateScreen(0, true, 0, "flag icons", 1);
+	CreateScreen(1, false, null, null, 1);
+	CreateScreen(2, false, null, null, 1);
+	CreateScreen(3, true, 0, "flag icons", 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
 });
@@ -32,7 +32,7 @@ document.addEventListener("keydown", (event) => {
 			UpdateScreen(0);
 });
 
-function CreateScreen(id, showIcon, iconsetID, iconDir, defaultIcon, scale) {
+function CreateScreen(id, showIcon, iconsetID, iconDir, scale) {
 	"use strict";
 	iconDir += "/";
 	var screen = document.createElement("div");
@@ -55,7 +55,7 @@ function CreateScreen(id, showIcon, iconsetID, iconDir, defaultIcon, scale) {
 			if (iconset.includes(item.Name))
 				icon.src = iconDir + item.Name + ".svg";
 			else
-				icon.src = iconDir + defaultIcon + ".svg";
+				icon.src = iconDir + "Blank.svg";
 
 		titleDiv.appendChild(icon);
 		titleDiv.appendChild(p);
