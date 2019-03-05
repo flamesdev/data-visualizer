@@ -76,7 +76,7 @@ function UpdateScreen(newValue) {
 		screen.style.display = "none";
 	}
 	screenID = newValue;
-	title.innerHTML = json[screenID].Name;
+	title.innerHTML = json.Datasets[screenID].Name;
 	var screen = document.getElementById("screen" + screenID);
 	screen.style.visibility = "visible";
 	screen.style.display = "block";
