@@ -13,7 +13,8 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 	CreateScreen(0, true, 0, "flag icons", 1);
 	CreateScreen(1, false, null, null, 1);
 	CreateScreen(2, false, null, null, 1);
-	CreateScreen(3, true, 0, "flag icons", 1000000);
+    CreateScreen(3, false, null, null, 1);
+	CreateScreen(4, true, 0, "flag icons", 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
 });
