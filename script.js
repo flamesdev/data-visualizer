@@ -9,33 +9,36 @@ var json;
 $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/data.json", function (data) {
 	"use strict";
 	json = data;
-	CreateScreen(0, true, "flag icons", "Blank", 1);
-	CreateScreen(1, false, null, null, 1);
-	CreateScreen(2, false, null, null, 1);
-	CreateScreen(3, false, null, null, 1000000);
+	maxIndex = json.Datasets.Length - 1;
+	CreateScreen(0, true, 0, "flag icons", "Blank", 1);
+	CreateScreen(1, false, null, null, null, 1);
+	CreateScreen(2, false, null, null, null, 1);
+	CreateScreen(3, false, 0, null, null, 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
 });
 
+var maxIndex;
 document.addEventListener("keydown", (event) => {
 	if (event.keyCode === 37)
 		if (screenID - 1 >= 0)
 			UpdateScreen(screenID - 1);
 		else
-			UpdateScreen(3);
+			UpdateScreen(maxIndex);
 	if (event.keyCode === 39)
-		if (screenID + 1 <= 3)
+		if (screenID + 1 <= maxIndex)
 			UpdateScreen(screenID + 1);
 		else
 			UpdateScreen(0);
 });
 
-function CreateScreen(id, showIcon, iconDir, defaultIcon, scale) {
+function CreateScreen(id, showIcon, iconsetID, iconDir, defaultIcon, scale) {
 	"use strict";
 	iconDir += "/";
 	var screen = document.createElement("div");
 	screen.id = "screen" + id;
-	var data = json[id].Dataset;
+	var data = json.Datasets[id].Dataset;
+	var iconset = json.Iconsets[iconsetID];
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
@@ -49,7 +52,7 @@ function CreateScreen(id, showIcon, iconDir, defaultIcon, scale) {
 
 		var icon = document.createElement("img");
 		if (showIcon)
-			if (item.HasIcon != null)
+			if (iconset.includes(item.Name))
 				icon.src = iconDir + item.Name + ".svg";
 			else
 				icon.src = iconDir + defaultIcon + ".svg";
@@ -90,9 +93,8 @@ function NumberToText(number) {
 }
 
 const ItemData = class {
-	constructor(Name, Value, HasIcon) {
+	constructor(Name, Value) {
 		this.Name = Name;
 		this.Value = Value;
-		this.HasIcon = HasIcon;
 	}
 }

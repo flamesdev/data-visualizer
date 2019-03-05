@@ -1,732 +1,778 @@
-[
-  {
-    "Name": "Country Population",
-    "Dataset": [
-      {
-        "Name": "China",
-        "Value": 1418000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "India",
-        "Value": 1363000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "United States of America",
-        "Value": 328000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Indonesia",
-        "Value": 268000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Brazil",
-        "Value": 211000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Pakistan",
-        "Value": 203000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Nigeria",
-        "Value": 199000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Bangladesh",
-        "Value": 167000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Russia",
-        "Value": 143000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Mexico",
-        "Value": 131000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Japan",
-        "Value": 126000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Ethiopia",
-        "Value": 109000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Philippines",
-        "Value": 107000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Egypt",
-        "Value": 100000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Vietnam",
-        "Value": 97000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Democratic Republic of Congo",
-        "Value": 85000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Turkey",
-        "Value": 82000000
-      },
-      {
-        "Name": "Iran",
-        "Value": 82000000
-      },
-      {
-        "Name": "Germany",
-        "Value": 82000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Thailand",
-        "Value": 69000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "United Kingdom",
-        "Value": 66000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "France",
-        "Value": 65000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Tanzania",
-        "Value": 60000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Italy",
-        "Value": 59000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "South Africa",
-        "Value": 57000000
-      },
-      {
-        "Name": "Myanmar",
-        "Value": 54000000
-      },
-      {
-        "Name": "Kenya",
-        "Value": 51000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "South Korea",
-        "Value": 51000000
-      },
-      {
-        "Name": "Colombia",
-        "Value": 49000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Spain",
-        "Value": 46000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Uganda",
-        "Value": 45000000
-      },
-      {
-        "Name": "Argentina",
-        "Value": 44000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Ukraine",
-        "Value": 43000000
-      },
-      {
-        "Name": "Algeria",
-        "Value": 42000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Sudan",
-        "Value": 42000000
-      },
-      {
-        "Name": "Iraq",
-        "Value": 40000000
-      },
-      {
-        "Name": "Poland",
-        "Value": 38000000
-      },
-      {
-        "Name": "Canada",
-        "Value": 37000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Afghanistan",
-        "Value": 36000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Morocco",
-        "Value": 36635156
-      },
-      {
-        "Name": "Saudi Arabia",
-        "Value": 33000000
-      },
-      {
-        "Name": "Peru",
-        "Value": 32000000
-      },
-      {
-        "Name": "Uzbekistan",
-        "Value": 32000000
-      },
-      {
-        "Name": "Venezuela",
-        "Value": 32000000
-      },
-      {
-        "Name": "Malaysia",
-        "Value": 32000000
-      },
-      {
-        "Name": "Angola",
-        "Value": 31000000
-      },
-      {
-        "Name": "Mozambique",
-        "Value": 31000000
-      },
-      {
-        "Name": "Ghana",
-        "Value": 29000000
-      },
-      {
-        "Name": "Nepal",
-        "Value": 29000000
-      },
-      {
-        "Name": "Yemen",
-        "Value": 29000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Madagascar",
-        "Value": 26000000
-      },
-      {
-        "Name": "North Korea",
-        "Value": 25000000
-      },
-      {
-        "Name": "Côte d'Ivoire",
-        "Value": 25000000
-      },
-      {
-        "Name": "Cameroon",
-        "Value": 25000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Australia",
-        "Value": 24000000
-      },
-      {
-        "Name": "Taiwan",
-        "Value": 23000000
-      },
-      {
-        "Name": "Niger",
-        "Value": 22000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Sri Lanka",
-        "Value": 20000000
-      },
-      {
-        "Name": "Burkina Faso",
-        "Value": 20000000
-      },
-      {
-        "Name": "Malawi",
-        "Value": 19000000
-      },
-      {
-        "Name": "Mali",
-        "Value": 19000000
-      },
-      {
-        "Name": "Romania",
-        "Value": 19000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Kazakhstan",
-        "Value": 18000000
-      },
-      {
-        "Name": "Syria",
-        "Value": 18000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Chile",
-        "Value": 18000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Zambia",
-        "Value": 17000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Guatemala",
-        "Value": 17000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Zimbabwe",
-        "Value": 17000000
-      },
-      {
-        "Name": "Netherlands",
-        "Value": 17000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Ecuador",
-        "Value": 17000000
-      },
-      {
-        "Name": "Senegal",
-        "Value": 16000000
-      },
-      {
-        "Name": "Cambodia",
-        "Value": 16000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Chad",
-        "Value": 15000000
-      },
-      {
-        "Name": "Somalia",
-        "Value": 15000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Guinea",
-        "Value": 13000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "South Sudan",
-        "Value": 13000000
-      },
-      {
-        "Name": "Rwanda",
-        "Value": 12000000
-      },
-      {
-        "Name": "Benin",
-        "Value": 11000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Tunisia",
-        "Value": 11000000
-      },
-      {
-        "Name": "Burundi",
-        "Value": 11000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Belgium",
-        "Value": 11000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Cuba",
-        "Value": 11000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Bolivia",
-        "Value": 11000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Haiti",
-        "Value": 11000000
-      },
-      {
-        "Name": "Greece",
-        "Value": 11000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Dominican Republic",
-        "Value": 10000000
-      },
-      {
-        "Name": "Czech Republic",
-        "Value": 10000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Portugal",
-        "Value": 10000000
-      },
-      {
-        "Name": "Jordan",
-        "Value": 10000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Sweden",
-        "Value": 10000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Azerbaijan",
-        "Value": 9000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "United Arab Emirates",
-        "Value": 9000000
-      },
-      {
-        "Name": "Hungary",
-        "Value": 9000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Honduras",
-        "Value": 9000000
-      },
-      {
-        "Name": "Belarus",
-        "Value": 9000000
-      },
-      {
-        "Name": "Tajikistan",
-        "Value": 9000000
-      },
-      {
-        "Name": "Austria",
-        "Value": 8000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Serbia",
-        "Value": 8000000
-      },
-      {
-        "Name": "Switzerland",
-        "Value": 8000000,
-        "HasIcon": true
-      },
-      {
-        "Name": "Papua New Guinea",
-        "Value": 8000000
-      }
+{
+  "Datasets": [
+    {
+      "Name": "Country Population",
+      "Dataset": [
+        {
+          "Name": "China",
+          "Value": 1418000000
+        },
+        {
+          "Name": "India",
+          "Value": 1363000000
+        },
+        {
+          "Name": "United States of America",
+          "Value": 328000000
+        },
+        {
+          "Name": "Indonesia",
+          "Value": 268000000
+        },
+        {
+          "Name": "Brazil",
+          "Value": 211000000
+        },
+        {
+          "Name": "Pakistan",
+          "Value": 203000000
+        },
+        {
+          "Name": "Nigeria",
+          "Value": 199000000
+        },
+        {
+          "Name": "Bangladesh",
+          "Value": 167000000
+        },
+        {
+          "Name": "Russia",
+          "Value": 143000000
+        },
+        {
+          "Name": "Mexico",
+          "Value": 131000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Japan",
+          "Value": 126000000
+        },
+        {
+          "Name": "Ethiopia",
+          "Value": 109000000
+        },
+        {
+          "Name": "Philippines",
+          "Value": 107000000
+        },
+        {
+          "Name": "Egypt",
+          "Value": 100000000
+        },
+        {
+          "Name": "Vietnam",
+          "Value": 97000000
+        },
+        {
+          "Name": "Democratic Republic of Congo",
+          "Value": 85000000
+        },
+        {
+          "Name": "Turkey",
+          "Value": 82000000
+        },
+        {
+          "Name": "Iran",
+          "Value": 82000000
+        },
+        {
+          "Name": "Germany",
+          "Value": 82000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Thailand",
+          "Value": 69000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "United Kingdom",
+          "Value": 66000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "France",
+          "Value": 65000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Tanzania",
+          "Value": 60000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Italy",
+          "Value": 59000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "South Africa",
+          "Value": 57000000
+        },
+        {
+          "Name": "Myanmar",
+          "Value": 54000000
+        },
+        {
+          "Name": "Kenya",
+          "Value": 51000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "South Korea",
+          "Value": 51000000
+        },
+        {
+          "Name": "Colombia",
+          "Value": 49000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Spain",
+          "Value": 46000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Uganda",
+          "Value": 45000000
+        },
+        {
+          "Name": "Argentina",
+          "Value": 44000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Ukraine",
+          "Value": 43000000
+        },
+        {
+          "Name": "Algeria",
+          "Value": 42000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Sudan",
+          "Value": 42000000
+        },
+        {
+          "Name": "Iraq",
+          "Value": 40000000
+        },
+        {
+          "Name": "Poland",
+          "Value": 38000000
+        },
+        {
+          "Name": "Canada",
+          "Value": 37000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Afghanistan",
+          "Value": 36000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Morocco",
+          "Value": 36635156
+        },
+        {
+          "Name": "Saudi Arabia",
+          "Value": 33000000
+        },
+        {
+          "Name": "Peru",
+          "Value": 32000000
+        },
+        {
+          "Name": "Uzbekistan",
+          "Value": 32000000
+        },
+        {
+          "Name": "Venezuela",
+          "Value": 32000000
+        },
+        {
+          "Name": "Malaysia",
+          "Value": 32000000
+        },
+        {
+          "Name": "Angola",
+          "Value": 31000000
+        },
+        {
+          "Name": "Mozambique",
+          "Value": 31000000
+        },
+        {
+          "Name": "Ghana",
+          "Value": 29000000
+        },
+        {
+          "Name": "Nepal",
+          "Value": 29000000
+        },
+        {
+          "Name": "Yemen",
+          "Value": 29000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Madagascar",
+          "Value": 26000000
+        },
+        {
+          "Name": "North Korea",
+          "Value": 25000000
+        },
+        {
+          "Name": "Côte d'Ivoire",
+          "Value": 25000000
+        },
+        {
+          "Name": "Cameroon",
+          "Value": 25000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Australia",
+          "Value": 24000000
+        },
+        {
+          "Name": "Taiwan",
+          "Value": 23000000
+        },
+        {
+          "Name": "Niger",
+          "Value": 22000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Sri Lanka",
+          "Value": 20000000
+        },
+        {
+          "Name": "Burkina Faso",
+          "Value": 20000000
+        },
+        {
+          "Name": "Malawi",
+          "Value": 19000000
+        },
+        {
+          "Name": "Mali",
+          "Value": 19000000
+        },
+        {
+          "Name": "Romania",
+          "Value": 19000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Kazakhstan",
+          "Value": 18000000
+        },
+        {
+          "Name": "Syria",
+          "Value": 18000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Chile",
+          "Value": 18000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Zambia",
+          "Value": 17000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Guatemala",
+          "Value": 17000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Zimbabwe",
+          "Value": 17000000
+        },
+        {
+          "Name": "Netherlands",
+          "Value": 17000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Ecuador",
+          "Value": 17000000
+        },
+        {
+          "Name": "Senegal",
+          "Value": 16000000
+        },
+        {
+          "Name": "Cambodia",
+          "Value": 16000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Chad",
+          "Value": 15000000
+        },
+        {
+          "Name": "Somalia",
+          "Value": 15000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Guinea",
+          "Value": 13000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "South Sudan",
+          "Value": 13000000
+        },
+        {
+          "Name": "Rwanda",
+          "Value": 12000000
+        },
+        {
+          "Name": "Benin",
+          "Value": 11000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Tunisia",
+          "Value": 11000000
+        },
+        {
+          "Name": "Burundi",
+          "Value": 11000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Belgium",
+          "Value": 11000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Cuba",
+          "Value": 11000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Bolivia",
+          "Value": 11000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Haiti",
+          "Value": 11000000
+        },
+        {
+          "Name": "Greece",
+          "Value": 11000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Dominican Republic",
+          "Value": 10000000
+        },
+        {
+          "Name": "Czech Republic",
+          "Value": 10000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Portugal",
+          "Value": 10000000
+        },
+        {
+          "Name": "Jordan",
+          "Value": 10000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Sweden",
+          "Value": 10000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Azerbaijan",
+          "Value": 9000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "United Arab Emirates",
+          "Value": 9000000
+        },
+        {
+          "Name": "Hungary",
+          "Value": 9000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Honduras",
+          "Value": 9000000
+        },
+        {
+          "Name": "Belarus",
+          "Value": 9000000
+        },
+        {
+          "Name": "Tajikistan",
+          "Value": 9000000
+        },
+        {
+          "Name": "Austria",
+          "Value": 8000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Serbia",
+          "Value": 8000000
+        },
+        {
+          "Name": "Switzerland",
+          "Value": 8000000,
+          "HasIcon": true
+        },
+        {
+          "Name": "Papua New Guinea",
+          "Value": 8000000
+        }
+      ]
+    },
+    {
+      "Name": "Continent Population",
+      "Dataset": [
+        {
+          "Name": "Asia",
+          "Value": 4571000000
+        },
+        {
+          "Name": "Africa",
+          "Value": 1309000000
+        },
+        {
+          "Name": "Europe",
+          "Value": 742000000
+        },
+        {
+          "Name": "Latin America & the Caribbean",
+          "Value": 656000000
+        },
+        {
+          "Name": "North America",
+          "Value": 365000000
+        },
+        {
+          "Name": "Oceania",
+          "Value": 41000000
+        }
+      ]
+    },
+    {
+      "Name": "Religion Population (2010)",
+      "Dataset": [
+        {
+          "Name": "Christians",
+          "Value": 2173180000
+        },
+        {
+          "Name": "Muslims",
+          "Value": 1598510000
+        },
+        {
+          "Name": "No Religion",
+          "Value": 1126500000
+        },
+        {
+          "Name": "Hindus",
+          "Value": 1033080000
+        },
+        {
+          "Name": "Buddhists",
+          "Value": 487540000
+        },
+        {
+          "Name": "Folk Religion",
+          "Value": 405120000
+        },
+        {
+          "Name": "Other Religion",
+          "Value": 58110000
+        },
+        {
+          "Name": "Jews",
+          "Value": 13850000
+        }
+      ]
+    },
+    {
+      "Name": "Nominal GDP [USD] (2017)",
+      "Dataset": [
+        {
+          "Name": "United States of America",
+          "Value": 19485394
+        },
+        {
+          "Name": "China",
+          "Value": 12234781
+        },
+        {
+          "Name": "Japan",
+          "Value": 4872415
+        },
+        {
+          "Name": "Germany",
+          "Value": 3693204
+        },
+        {
+          "Name": "United Kingdom",
+          "Value": 2631228
+        },
+        {
+          "Name": "France",
+          "Value": 2582492
+        },
+        {
+          "Name": "India",
+          "Value": 2575666
+        },
+        {
+          "Name": "Brazil",
+          "Value": 2055512
+        },
+        {
+          "Name": "Italy",
+          "Value": 1943835
+        },
+        {
+          "Name": "Canada",
+          "Value": 1647120
+        },
+        {
+          "Name": "South Korea",
+          "Value": 1577524
+        },
+        {
+          "Name": "Russia",
+          "Value": 1530750
+        },
+        {
+          "Name": "Austrailia",
+          "Value": 1408675
+        },
+        {
+          "Name": "Spain",
+          "Value": 1314314
+        },
+        {
+          "Name": "Mexico",
+          "Value": 1158229
+        },
+        {
+          "Name": "Indonesia",
+          "Value": 1015539
+        },
+        {
+          "Name": "Turkey",
+          "Value": 851541
+        },
+        {
+          "Name": "Netherlands",
+          "Value": 830572
+        },
+        {
+          "Name": "Saudi Arabia",
+          "Value": 683827
+        },
+        {
+          "Name": "Switzerland",
+          "Value": 678938
+        },
+        {
+          "Name": "Argentina",
+          "Value": 637486
+        },
+        {
+          "Name": "Sweden",
+          "Value": 535607
+        },
+        {
+          "Name": "Poland",
+          "Value": 526211
+        },
+        {
+          "Name": "Belgium",
+          "Value": 494763
+        },
+        {
+          "Name": "Iran",
+          "Value": 460976
+        },
+        {
+          "Name": "Thailand",
+          "Value": 455302
+        },
+        {
+          "Name": "Austria",
+          "Value": 416835
+        },
+        {
+          "Name": "Norway",
+          "Value": 399470
+        },
+        {
+          "Name": "United Arab Emirates",
+          "Value": 382575
+        },
+        {
+          "Name": "Nigeria",
+          "Value": 375769
+        },
+        {
+          "Name": "Israel",
+          "Value": 353268
+        },
+        {
+          "Name": "South Africa",
+          "Value": 348872
+        },
+        {
+          "Name": "Hong Kong",
+          "Value": 341659
+        },
+        {
+          "Name": "Ireland",
+          "Value": 331430
+        },
+        {
+          "Name": "Denmark",
+          "Value": 329965
+        },
+        {
+          "Name": "Singapore",
+          "Value": 323901
+        },
+        {
+          "Name": "Malaysia",
+          "Value": 314707
+        },
+        {
+          "Name": "Philippines",
+          "Value": 313595
+        },
+        {
+          "Name": "Colombia",
+          "Value": 309191
+        },
+        {
+          "Name": "Pakistan",
+          "Value": 302139
+        },
+        {
+          "Name": "Chile",
+          "Value": 277080
+        },
+        {
+          "Name": "Venezuela",
+          "Value": 255092
+        },
+        {
+          "Name": "Finland",
+          "Value": 252246
+        },
+        {
+          "Name": "Bangladesh",
+          "Value": 245633
+        },
+        {
+          "Name": "Vietnam",
+          "Value": 223779
+        },
+        {
+          "Name": "Czech Republic",
+          "Value": 215824
+        },
+        {
+          "Name": "Romania",
+          "Value": 211803
+        },
+        {
+          "Name": "Peru",
+          "Value": 211402
+        },
+        {
+          "Name": "Greece",
+          "Value": 203085
+        },
+        {
+          "Name": "New Zealand",
+          "Value": 202044
+        }
+      ]
+    }
+  ],
+  "Iconsets": [
+    [
+      "China",
+      "India",
+      "United States of America",
+      "Indonesia",
+      "Brazil",
+      "Pakistan",
+      "Nigeria",
+      "Bangladesh",
+      "Russia",
+      "Mexico",
+      "Japan",
+      "Ethiopia",
+      "Philippines",
+      "Egypt",
+      "Vietnam",
+      "Democratic Republic of Congo",
+      "Germany",
+      "Thailand",
+      "United Kingdom",
+      "France",
+      "Tanzania",
+      "Italy",
+      "Kenya",
+      "Colombia",
+      "Spain",
+      "Argentina",
+      "Algeria",
+      "Canada",
+      "Afghanistan",
+      "Yemen",
+      "Cameroon",
+      "Niger",
+      "Romania",
+      "Syria",
+      "Chile",
+      "Zambia",
+      "Guatemala",
+      "Netherlands",
+      "Cambodia",
+      "Somalia",
+      "Guinea",
+      "Benin",
+      "Burundi",
+      "Belgium",
+      "Cuba",
+      "Bolivia",
+      "Haiti",
+      "Greece",
+      "Czech Republic",
+      "Jordan",
+      "Sweden",
+      "Azerbaijan",
+      "Hungary",
+      "Austria",
+      "Switzerland"
     ]
-  },
-  {
-    "Name": "Continent Population",
-    "Dataset": [
-      {
-        "Name": "Asia",
-        "Value": 4571000000
-      },
-      {
-        "Name": "Africa",
-        "Value": 1309000000
-      },
-      {
-        "Name": "Europe",
-        "Value": 742000000
-      },
-      {
-        "Name": "Latin America & the Caribbean",
-        "Value": 656000000
-      },
-      {
-        "Name": "North America",
-        "Value": 365000000
-      },
-      {
-        "Name": "Oceania",
-        "Value": 41000000
-      }
-    ]
-  },
-  {
-    "Name": "Religion Population (2010)",
-    "Dataset": [
-      {
-        "Name": "Christians",
-        "Value": 2173180000
-      },
-      {
-        "Name": "Muslims",
-        "Value": 1598510000
-      },
-      {
-        "Name": "No Religion",
-        "Value": 1126500000
-      },
-      {
-        "Name": "Hindus",
-        "Value": 1033080000
-      },
-      {
-        "Name": "Buddhists",
-        "Value": 487540000
-      },
-      {
-        "Name": "Folk Religion",
-        "Value": 405120000
-      },
-      {
-        "Name": "Other Religion",
-        "Value": 58110000
-      },
-      {
-        "Name": "Jews",
-        "Value": 13850000
-      }
-    ]
-  },
-  {
-    "Name": "Nominal GDP [USD] (2017)",
-    "Dataset": [
-      {
-        "Name": "United States of America",
-        "Value": 19485394
-      },
-      {
-        "Name": "China",
-        "Value": 12234781
-      },
-      {
-        "Name": "Japan",
-        "Value": 4872415
-      },
-      {
-        "Name": "Germany",
-        "Value": 3693204
-      },
-      {
-        "Name": "United Kingdom",
-        "Value": 2631228
-      },
-      {
-        "Name": "France",
-        "Value": 2582492
-      },
-      {
-        "Name": "India",
-        "Value": 2575666
-      },
-      {
-        "Name": "Brazil",
-        "Value": 2055512
-      },
-      {
-        "Name": "Italy",
-        "Value": 1943835
-      },
-      {
-        "Name": "Canada",
-        "Value": 1647120
-      },
-      {
-        "Name": "South Korea",
-        "Value": 1577524
-      },
-      {
-        "Name": "Russia",
-        "Value": 1530750
-      },
-      {
-        "Name": "Austrailia",
-        "Value": 1408675
-      },
-      {
-        "Name": "Spain",
-        "Value": 1314314
-      },
-      {
-        "Name": "Mexico",
-        "Value": 1158229
-      },
-      {
-        "Name": "Indonesia",
-        "Value": 1015539
-      },
-      {
-        "Name": "Turkey",
-        "Value": 851541
-      },
-      {
-        "Name": "Netherlands",
-        "Value": 830572
-      },
-      {
-        "Name": "Saudi Arabia",
-        "Value": 683827
-      },
-      {
-        "Name": "Switzerland",
-        "Value": 678938
-      },
-      {
-        "Name": "Argentina",
-        "Value": 637486
-      },
-      {
-        "Name": "Sweden",
-        "Value": 535607
-      },
-      {
-        "Name": "Poland",
-        "Value": 526211
-      },
-      {
-        "Name": "Belgium",
-        "Value": 494763
-      },
-      {
-        "Name": "Iran",
-        "Value": 460976
-      },
-      {
-        "Name": "Thailand",
-        "Value": 455302
-      },
-      {
-        "Name": "Austria",
-        "Value": 416835
-      },
-      {
-        "Name": "Norway",
-        "Value": 399470
-      },
-      {
-        "Name": "United Arab Emirates",
-        "Value": 382575
-      },
-      {
-        "Name": "Nigeria",
-        "Value": 375769
-      },
-      {
-        "Name": "Israel",
-        "Value": 353268
-      },
-      {
-        "Name": "South Africa",
-        "Value": 348872
-      },
-      {
-        "Name": "Hong Kong",
-        "Value": 341659
-      },
-      {
-        "Name": "Ireland",
-        "Value": 331430
-      },
-      {
-        "Name": "Denmark",
-        "Value": 329965
-      },
-      {
-        "Name": "Singapore",
-        "Value": 323901
-      },
-      {
-        "Name": "Malaysia",
-        "Value": 314707
-      },
-      {
-        "Name": "Philippines",
-        "Value": 313595
-      },
-      {
-        "Name": "Colombia",
-        "Value": 309191
-      },
-      {
-        "Name": "Pakistan",
-        "Value": 302139
-      },
-      {
-        "Name": "Chile",
-        "Value": 277080
-      },
-      {
-        "Name": "Venezuela",
-        "Value": 255092
-      },
-      {
-        "Name": "Finland",
-        "Value": 252246
-      },
-      {
-        "Name": "Bangladesh",
-        "Value": 245633
-      },
-      {
-        "Name": "Vietnam",
-        "Value": 223779
-      },
-      {
-        "Name": "Czech Republic",
-        "Value": 215824
-      },
-      {
-        "Name": "Romania",
-        "Value": 211803
-      },
-      {
-        "Name": "Peru",
-        "Value": 211402
-      },
-      {
-        "Name": "Greece",
-        "Value": 203085
-      },
-      {
-        "Name": "New Zealand",
-        "Value": 202044
-      }
-    ]
-  }
-]
+  ]
+}
