@@ -13,7 +13,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 	CreateScreen(0, true, 0, "flag icons", 1);
 	CreateScreen(1, false, null, null, 1);
 	CreateScreen(2, false, null, null, 1);
-    CreateScreen(3, false, null, null, 1);
+	CreateScreen(3, false, null, null, 1);
 	CreateScreen(4, true, 0, "flag icons", 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
@@ -43,7 +43,7 @@ function CreateScreen(id, showIcon, iconsetID, iconDir, scale) {
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * scale));
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * scale), data.BeginRound);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -83,19 +83,31 @@ function UpdateScreen(newValue) {
 	screen.style.display = "block";
 }
 
-function NumberToText(number) {
+function NumberToText(number, beginRound) {
 	"use strict"
-	if (number >= 10 ** 12)
-		return (number / 10 ** 12).toFixed(3) + "T";
-	else if (number >= 10 ** 9)
-		return (number / 10 ** 9).toFixed(3) + "B";
+	if (number >= 10 ** 12) {
+		number /= 10 ** 12;
+		var suffix = "T";
+		var id = 2;
+	} else if (number >= 10 ** 9) {
+		number /= 10 ** 9;
+		var suffix = "B";
+		var id = 1;
+	} else {
+		number /= 10 ** 6;
+		var suffix = "M";
+		var id = 0;
+	}
+	if (id >= beginRound)
+		return number.toFixed(3) + suffix;
 	else
-		return Math.floor(number / 10 ** 6) + "M";
+		return Math.floor(number) + suffix;
 }
 
 const ItemData = class {
-	constructor(Name, Value) {
+	constructor(Name, Value, BeginRound) {
 		this.Name = Name;
 		this.Value = Value;
+		this.BeginRound = BeginRound;
 	}
 }
