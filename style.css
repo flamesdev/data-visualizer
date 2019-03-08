@@ -15,21 +15,29 @@ p {
     margin: 0px;
     display: inline-block;
     vertical-align: middle;
+    animation: fadeIn 1s;
 }
 
 img {
     height: 2em;
     display: inline-block;
     vertical-align: middle;
+    animation: fadeIn 1s;
 }
 
 .bar {
     background: #666666;
     border-radius: 90px;
     height: 20px;
+    animation: fadeIn 1s;
 }
 
 body {
     background-color: #202020;
     visibility: hidden;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
