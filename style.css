@@ -15,20 +15,21 @@ p {
     margin: 0px;
     display: inline-block;
     vertical-align: middle;
-    animation: fadeIn 1s;
 }
 
 img {
     height: 2em;
     display: inline-block;
     vertical-align: middle;
-    animation: fadeIn 1s;
 }
 
 .bar {
     background: #666666;
     border-radius: 90px;
     height: 20px;
+}
+
+.screen {
     animation: fadeIn 1s;
 }
 

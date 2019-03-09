@@ -13,7 +13,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 	CreateScreen(0, true, 0, "flag icons", 1);
 	CreateScreen(1, false, null, null, 1);
 	CreateScreen(2, false, null, null, 1);
-    CreateScreen(3, false, null, null, 1);
+	CreateScreen(3, false, null, null, 1);
 	CreateScreen(4, true, 0, "flag icons", 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
@@ -38,6 +38,7 @@ function CreateScreen(id, showIcon, iconsetID, iconDir, scale) {
 	iconDir += "/";
 	var screen = document.createElement("div");
 	screen.id = "screen" + id;
+	screen.className = "screen";
 	var data = json.Datasets[id].Dataset;
 	var iconset = json.Iconsets[iconsetID];
 	var max = data[0].Value;
