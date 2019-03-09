@@ -1,3 +1,5 @@
+"use strict";
+
 var screenID = null;
 
 var titleElement;
@@ -7,7 +9,6 @@ window.onload = function () {
 
 var json;
 $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/data.json", function (data) {
-	"use strict";
 	json = data;
 	maxIndex = json.Datasets.length - 1;
 	for (var i = 0; i < json.Datasets.length; i++)
@@ -31,7 +32,6 @@ document.addEventListener("keydown", (event) => {
 });
 
 function CreateScreen(id) {
-	"use strict";
 	var screen = document.createElement("div");
 	screen.id = "screen" + id;
 	screen.className = "screen";
@@ -69,7 +69,6 @@ function CreateScreen(id) {
 }
 
 function UpdateScreen(newValue) {
-	"use strict"
 	if (screenID != null) {
 		var screen = document.getElementById("screen" + screenID);
 		screen.style.visibility = "hidden";
@@ -83,7 +82,6 @@ function UpdateScreen(newValue) {
 }
 
 function NumberToText(number, beginRound) {
-	"use strict"
 	if (number >= 10 ** 12) {
 		number /= 10 ** 12;
 		var suffix = "T";
