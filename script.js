@@ -13,7 +13,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 	CreateScreen(0, true, 0, "flag icons", 1);
 	CreateScreen(1, false, null, null, 1);
 	CreateScreen(2, false, null, null, 1);
-	CreateScreen(3, false, null, null, 1);
+	CreateScreen(3, false, 1, "religion icons", 1);
 	CreateScreen(4, true, 0, "flag icons", 1000000);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
@@ -39,12 +39,13 @@ function CreateScreen(id, showIcon, iconsetID, iconDir, scale) {
 	var screen = document.createElement("div");
 	screen.id = "screen" + id;
 	screen.className = "screen";
-	var data = json.Datasets[id].Dataset;
+    var datasetData = json.Datasets[id];
+	var data = datasetData.Dataset;
 	var iconset = json.Iconsets[iconsetID];
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * scale), data.BeginRound);
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * scale), datasetData.BeginRound);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -106,7 +107,7 @@ function NumberToText(number, beginRound) {
 }
 
 const ItemData = class {
-	constructor(Name, Value, BeginRound) {
+	constructor(Name, Value) {
 		this.Name = Name;
 		this.Value = Value;
 		this.BeginRound = BeginRound;

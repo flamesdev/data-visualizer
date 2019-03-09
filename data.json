@@ -42,8 +42,7 @@
         },
         {
           "Name": "Mexico",
-          "Value": 131000000,
-          "HasIcon": true
+          "Value": 131000000
         },
         {
           "Name": "Japan",
@@ -79,33 +78,27 @@
         },
         {
           "Name": "Germany",
-          "Value": 82000000,
-          "HasIcon": true
+          "Value": 82000000
         },
         {
           "Name": "Thailand",
-          "Value": 69000000,
-          "HasIcon": true
+          "Value": 69000000
         },
         {
           "Name": "United Kingdom",
-          "Value": 66000000,
-          "HasIcon": true
+          "Value": 66000000
         },
         {
           "Name": "France",
-          "Value": 65000000,
-          "HasIcon": true
+          "Value": 65000000
         },
         {
           "Name": "Tanzania",
-          "Value": 60000000,
-          "HasIcon": true
+          "Value": 60000000
         },
         {
           "Name": "Italy",
-          "Value": 59000000,
-          "HasIcon": true
+          "Value": 59000000
         },
         {
           "Name": "South Africa",
@@ -117,8 +110,7 @@
         },
         {
           "Name": "Kenya",
-          "Value": 51000000,
-          "HasIcon": true
+          "Value": 51000000
         },
         {
           "Name": "South Korea",
@@ -126,13 +118,11 @@
         },
         {
           "Name": "Colombia",
-          "Value": 49000000,
-          "HasIcon": true
+          "Value": 49000000
         },
         {
           "Name": "Spain",
-          "Value": 46000000,
-          "HasIcon": true
+          "Value": 46000000
         },
         {
           "Name": "Uganda",
@@ -140,8 +130,7 @@
         },
         {
           "Name": "Argentina",
-          "Value": 44000000,
-          "HasIcon": true
+          "Value": 44000000
         },
         {
           "Name": "Ukraine",
@@ -149,8 +138,7 @@
         },
         {
           "Name": "Algeria",
-          "Value": 42000000,
-          "HasIcon": true
+          "Value": 42000000
         },
         {
           "Name": "Sudan",
@@ -166,13 +154,11 @@
         },
         {
           "Name": "Canada",
-          "Value": 37000000,
-          "HasIcon": true
+          "Value": 37000000
         },
         {
           "Name": "Afghanistan",
-          "Value": 36000000,
-          "HasIcon": true
+          "Value": 36000000
         },
         {
           "Name": "Morocco",
@@ -216,8 +202,7 @@
         },
         {
           "Name": "Yemen",
-          "Value": 29000000,
-          "HasIcon": true
+          "Value": 29000000
         },
         {
           "Name": "Madagascar",
@@ -233,8 +218,7 @@
         },
         {
           "Name": "Cameroon",
-          "Value": 25000000,
-          "HasIcon": true
+          "Value": 25000000
         },
         {
           "Name": "Australia",
@@ -246,8 +230,7 @@
         },
         {
           "Name": "Niger",
-          "Value": 22000000,
-          "HasIcon": true
+          "Value": 22000000
         },
         {
           "Name": "Sri Lanka",
@@ -267,8 +250,7 @@
         },
         {
           "Name": "Romania",
-          "Value": 19000000,
-          "HasIcon": true
+          "Value": 19000000
         },
         {
           "Name": "Kazakhstan",
@@ -276,23 +258,19 @@
         },
         {
           "Name": "Syria",
-          "Value": 18000000,
-          "HasIcon": true
+          "Value": 18000000
         },
         {
           "Name": "Chile",
-          "Value": 18000000,
-          "HasIcon": true
+          "Value": 18000000
         },
         {
           "Name": "Zambia",
-          "Value": 17000000,
-          "HasIcon": true
+          "Value": 17000000
         },
         {
           "Name": "Guatemala",
-          "Value": 17000000,
-          "HasIcon": true
+          "Value": 17000000
         },
         {
           "Name": "Zimbabwe",
@@ -300,8 +278,7 @@
         },
         {
           "Name": "Netherlands",
-          "Value": 17000000,
-          "HasIcon": true
+          "Value": 17000000
         },
         {
           "Name": "Ecuador",
@@ -313,8 +290,7 @@
         },
         {
           "Name": "Cambodia",
-          "Value": 16000000,
-          "HasIcon": true
+          "Value": 16000000
         },
         {
           "Name": "Chad",
@@ -322,13 +298,11 @@
         },
         {
           "Name": "Somalia",
-          "Value": 15000000,
-          "HasIcon": true
+          "Value": 15000000
         },
         {
           "Name": "Guinea",
-          "Value": 13000000,
-          "HasIcon": true
+          "Value": 13000000
         },
         {
           "Name": "South Sudan",
@@ -340,8 +314,7 @@
         },
         {
           "Name": "Benin",
-          "Value": 11000000,
-          "HasIcon": true
+          "Value": 11000000
         },
         {
           "Name": "Tunisia",
@@ -349,23 +322,19 @@
         },
         {
           "Name": "Burundi",
-          "Value": 11000000,
-          "HasIcon": true
+          "Value": 11000000
         },
         {
           "Name": "Belgium",
-          "Value": 11000000,
-          "HasIcon": true
+          "Value": 11000000
         },
         {
           "Name": "Cuba",
-          "Value": 11000000,
-          "HasIcon": true
+          "Value": 11000000
         },
         {
           "Name": "Bolivia",
-          "Value": 11000000,
-          "HasIcon": true
+          "Value": 11000000
         },
         {
           "Name": "Haiti",
@@ -373,8 +342,7 @@
         },
         {
           "Name": "Greece",
-          "Value": 11000000,
-          "HasIcon": true
+          "Value": 11000000
         },
         {
           "Name": "Dominican Republic",
@@ -382,8 +350,7 @@
         },
         {
           "Name": "Czech Republic",
-          "Value": 10000000,
-          "HasIcon": true
+          "Value": 10000000
         },
         {
           "Name": "Portugal",
@@ -391,18 +358,15 @@
         },
         {
           "Name": "Jordan",
-          "Value": 10000000,
-          "HasIcon": true
+          "Value": 10000000
         },
         {
           "Name": "Sweden",
-          "Value": 10000000,
-          "HasIcon": true
+          "Value": 10000000
         },
         {
           "Name": "Azerbaijan",
-          "Value": 9000000,
-          "HasIcon": true
+          "Value": 9000000
         },
         {
           "Name": "United Arab Emirates",
@@ -410,8 +374,7 @@
         },
         {
           "Name": "Hungary",
-          "Value": 9000000,
-          "HasIcon": true
+          "Value": 9000000
         },
         {
           "Name": "Honduras",
@@ -427,8 +390,7 @@
         },
         {
           "Name": "Austria",
-          "Value": 8000000,
-          "HasIcon": true
+          "Value": 8000000
         },
         {
           "Name": "Serbia",
@@ -436,8 +398,7 @@
         },
         {
           "Name": "Switzerland",
-          "Value": 8000000,
-          "HasIcon": true
+          "Value": 8000000
         },
         {
           "Name": "Papua New Guinea",
@@ -834,6 +795,10 @@
       "Hungary",
       "Austria",
       "Switzerland"
+    ],
+    [
+      "Christianity",
+      "Islam"
     ]
   ]
 }
