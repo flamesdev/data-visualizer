@@ -41,7 +41,7 @@ function CreateScreen(id) {
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * datal.Scale), datasetData.BeginRound);
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * data.Scale), datasetData.BeginRound);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
