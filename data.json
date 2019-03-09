@@ -2,6 +2,7 @@
   "Datasets": [
     {
       "Name": "Country Population",
+      "BeginRound": 1,
       "Dataset": [
         {
           "Name": "China",
@@ -446,6 +447,7 @@
     },
     {
       "Name": "Continent Population",
+      "BeginRound": 1,
       "Dataset": [
         {
           "Name": "Asia",
@@ -475,6 +477,7 @@
     },
     {
       "Name": "World Population Over Time",
+      "BeginRound": 1,
       "Dataset": [
         {
           "Name": "2015",
@@ -532,6 +535,7 @@
     },
     {
       "Name": "Religion Population (2010)",
+      "BeginRound": 1,
       "Dataset": [
         {
           "Name": "Christians",
@@ -569,6 +573,7 @@
     },
     {
       "Name": "Nominal GDP [USD] (2017)",
+      "BeginRound": 2,
       "Dataset": [
         {
           "Name": "United States of America",
