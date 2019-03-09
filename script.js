@@ -10,11 +10,8 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 	"use strict";
 	json = data;
 	maxIndex = json.Datasets.length - 1;
-	CreateScreen(0, true, 0, "flag icons", 1);
-	CreateScreen(1, false, null, null, 1);
-	CreateScreen(2, false, null, null, 1);
-	CreateScreen(3, false, 1, "religion icons", 1);
-	CreateScreen(4, true, 0, "flag icons", 1000000);
+	for (var i = 0; i < json.Datasets.length; i++)
+		CreateScreen(i);
 	UpdateScreen(0);
 	document.body.style.visibility = "visible";
 });
@@ -33,19 +30,19 @@ document.addEventListener("keydown", (event) => {
 			UpdateScreen(0);
 });
 
-function CreateScreen(id, showIcon, iconsetID, iconDir, scale) {
+function CreateScreen(id) {
 	"use strict";
-	iconDir += "/";
 	var screen = document.createElement("div");
 	screen.id = "screen" + id;
 	screen.className = "screen";
-    var datasetData = json.Datasets[id];
+	var datasetData = json.Datasets[id];
 	var data = datasetData.Dataset;
-	var iconset = json.Iconsets[iconsetID];
+	var iconset = json.Iconsets[data.IconsetID];
+	var iconDir = "icons/" + iconset.Directory + "/";
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * scale), datasetData.BeginRound);
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * datal.Scale), datasetData.BeginRound);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -54,8 +51,8 @@ function CreateScreen(id, showIcon, iconsetID, iconDir, scale) {
 		var titleDiv = document.createElement("div");
 
 		var icon = document.createElement("img");
-		if (showIcon)
-			if (iconset.includes(item.Name))
+		if (iconset != null)
+			if (iconset.Items.includes(item.Name))
 				icon.src = iconDir + item.Name + ".svg";
 			else
 				icon.src = iconDir + "Blank.svg";
@@ -100,7 +97,7 @@ function NumberToText(number, beginRound) {
 		var suffix = "M";
 		var id = 0;
 	}
-	if (id >= beginRound)
+	if (beginRound != null && id >= beginRound)
 		return number.toFixed(3) + suffix;
 	else
 		return Math.floor(number) + suffix;

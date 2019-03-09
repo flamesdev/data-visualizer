@@ -2,6 +2,8 @@
   "Datasets": [
     {
       "Name": "Country Population",
+      "IconsetID": 0,
+      "Scale": 1,
       "BeginRound": 1,
       "Dataset": [
         {
@@ -13,7 +15,7 @@
           "Value": 1363000000
         },
         {
-          "Name": "United States of America",
+          "Name": "United States",
           "Value": 328000000
         },
         {
@@ -408,6 +410,8 @@
     },
     {
       "Name": "Continent Population",
+      "IconsetID": null,
+      "Scale": 1,
       "BeginRound": 1,
       "Dataset": [
         {
@@ -438,6 +442,8 @@
     },
     {
       "Name": "World Population Over Time",
+      "IconsetID": null,
+      "Scale": 1,
       "BeginRound": 1,
       "Dataset": [
         {
@@ -496,6 +502,8 @@
     },
     {
       "Name": "Religion Population (2010)",
+      "IconsetID": 1,
+      "Scale": 1,
       "BeginRound": 1,
       "Dataset": [
         {
@@ -534,10 +542,12 @@
     },
     {
       "Name": "Nominal GDP [USD] (2017)",
+      "IconsetID": 0,
+      "Scale": 1000000,
       "BeginRound": 2,
       "Dataset": [
         {
-          "Name": "United States of America",
+          "Name": "United States",
           "Value": 19485394
         },
         {
@@ -737,69 +747,283 @@
           "Value": 202044
         }
       ]
+    },
+    {
+      "Name": "GDP per capita [USD] (2017)",
+      "IconsetID": 0,
+      "Scale": 1,
+      "BeginRound": null,
+      "Dataset": [
+        {
+          "Name": "Luxembourg",
+          "Value": 104103
+        },
+        {
+          "Name": "Macau",
+          "Value": 80893
+        },
+        {
+          "Name": "Switzerland",
+          "Value": 80190
+        },
+        {
+          "Name": "Norway",
+          "Value": 75505
+        },
+        {
+          "Name": "Iceland",
+          "Value": 70057
+        },
+        {
+          "Name": "Ireland",
+          "Value": 69331
+        },
+        {
+          "Name": "Qatar",
+          "Value": 63506
+        },
+        {
+          "Name": "United States",
+          "Value": 59532
+        },
+        {
+          "Name": "Singapore",
+          "Value": 57714
+        },
+        {
+          "Name": "Denark",
+          "Value": 56308
+        },
+        {
+          "Name": "Austrailia",
+          "Value": 53800
+        },
+        {
+          "Name": "Sweden",
+          "Value": 53442
+        },
+        {
+          "Name": "San Marino",
+          "Value": 49664
+        },
+        {
+          "Name": "Netherlands",
+          "Value": 48223
+        },
+        {
+          "Name": "Austria",
+          "Value": 47291
+        },
+        {
+          "Name": "Hong Kong",
+          "Value": 46194
+        },
+        {
+          "Name": "Finland",
+          "Value": 45703
+        },
+        {
+          "Name": "Canada",
+          "Value": 45032
+        },
+        {
+          "Name": "Germany",
+          "Value": 44470
+        },
+        {
+          "Name": "Belgium",
+          "Value": 43324
+        },
+        {
+          "Name": "New Zealand",
+          "Value": 42941
+        },
+        {
+          "Name": "United Arab Emirates",
+          "Value": 40699
+        },
+        {
+          "Name": "Israel",
+          "Value": 40270
+        },
+        {
+          "Name": "United Kingdom",
+          "Value": 39720
+        },
+        {
+          "Name": "Andorra",
+          "Value": 39147
+        },
+        {
+          "Name": "France",
+          "Value": 38477
+        },
+        {
+          "Name": "Japan",
+          "Value": 38428
+        },
+        {
+          "Name": "European Union",
+          "Value": 33715
+        },
+        {
+          "Name": "Italy",
+          "Value": 31953
+        },
+        {
+          "Name": "The Bahamas",
+          "Value": 30762
+        },
+        {
+          "Name": "South Korea",
+          "Value": 29743
+        },
+        {
+          "Name": "Kuwait",
+          "Value": 29040
+        },
+        {
+          "Name": "Brunei",
+          "Value": 28291
+        },
+        {
+          "Name": "Spain",
+          "Value": 28157
+        },
+        {
+          "Name": "Malta",
+          "Value": 26904
+        },
+        {
+          "Name": "Aruba",
+          "Value": 25655
+        },
+        {
+          "Name": "Cyprus",
+          "Value": 25234
+        },
+        {
+          "Name": "Bahrain",
+          "Value": 23655
+        },
+        {
+          "Name": "Slovenia",
+          "Value": 23597
+        },
+        {
+          "Name": "Portugal",
+          "Value": 21136
+        },
+        {
+          "Name": "Saudi Arabia",
+          "Value": 20761
+        },
+        {
+          "Name": "Czech Republic",
+          "Value": 20368
+        },
+        {
+          "Name": "Estonia",
+          "Value": 19705
+        },
+        {
+          "Name": "Greece",
+          "Value": 18613
+        },
+        {
+          "Name": "Slovakia",
+          "Value": 17605
+        },
+        {
+          "Name": "Saint Kitts and Nevis",
+          "Value": 17090
+        },
+        {
+          "Name": "Barbados",
+          "Value": 16789
+        },
+        {
+          "Name": "Lithuania",
+          "Value": 16681
+        },
+        {
+          "Name": "Trinidad and Tobago",
+          "Value": 16145
+        },
+        {
+          "Name": "Oman",
+          "Value": 15668
+        }
+      ]
     }
   ],
   "Iconsets": [
-    [
-      "China",
-      "India",
-      "United States of America",
-      "Indonesia",
-      "Brazil",
-      "Pakistan",
-      "Nigeria",
-      "Bangladesh",
-      "Russia",
-      "Mexico",
-      "Japan",
-      "Ethiopia",
-      "Philippines",
-      "Egypt",
-      "Vietnam",
-      "Democratic Republic of Congo",
-      "Germany",
-      "Thailand",
-      "United Kingdom",
-      "France",
-      "Tanzania",
-      "Italy",
-      "Kenya",
-      "Colombia",
-      "Spain",
-      "Argentina",
-      "Algeria",
-      "Canada",
-      "Afghanistan",
-      "Yemen",
-      "Cameroon",
-      "Niger",
-      "Romania",
-      "Syria",
-      "Chile",
-      "Zambia",
-      "Guatemala",
-      "Netherlands",
-      "Cambodia",
-      "Somalia",
-      "Guinea",
-      "Benin",
-      "Burundi",
-      "Belgium",
-      "Cuba",
-      "Bolivia",
-      "Greece",
-      "Czech Republic",
-      "Jordan",
-      "Sweden",
-      "Azerbaijan",
-      "Hungary",
-      "Austria",
-      "Switzerland"
-    ],
-    [
-      "Christians",
-      "Muslims",
-      "Hindus"
-    ]
+    {
+      "Directory": "flag",
+      "Items": [
+        "China",
+        "India",
+        "United States",
+        "Indonesia",
+        "Brazil",
+        "Pakistan",
+        "Nigeria",
+        "Bangladesh",
+        "Russia",
+        "Mexico",
+        "Japan",
+        "Ethiopia",
+        "Philippines",
+        "Egypt",
+        "Vietnam",
+        "Democratic Republic of Congo",
+        "Germany",
+        "Thailand",
+        "United Kingdom",
+        "France",
+        "Tanzania",
+        "Italy",
+        "Kenya",
+        "Colombia",
+        "Spain",
+        "Argentina",
+        "Algeria",
+        "Canada",
+        "Afghanistan",
+        "Yemen",
+        "Cameroon",
+        "Niger",
+        "Romania",
+        "Syria",
+        "Chile",
+        "Zambia",
+        "Guatemala",
+        "Netherlands",
+        "Cambodia",
+        "Somalia",
+        "Guinea",
+        "Benin",
+        "Burundi",
+        "Belgium",
+        "Cuba",
+        "Bolivia",
+        "Greece",
+        "Czech Republic",
+        "Jordan",
+        "Sweden",
+        "Azerbaijan",
+        "Hungary",
+        "Austria",
+        "Switzerland"
+      ]
+    },
+    {
+      "Directory": "religion",
+      "Items": [
+        "Christians",
+        "Muslims",
+        "Hindus"
+      ]
+    }
   ]
 }
