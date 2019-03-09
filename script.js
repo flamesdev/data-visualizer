@@ -37,11 +37,11 @@ function CreateScreen(id) {
 	screen.className = "screen";
 	var datasetData = json.Datasets[id];
 	var data = datasetData.Dataset;
-	var iconset = json.Iconsets[data.IconsetID];
+	var iconset = json.Iconsets[datasetData.IconsetID];
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * data.Scale), datasetData.BeginRound);
+		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
