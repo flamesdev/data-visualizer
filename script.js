@@ -38,7 +38,6 @@ function CreateScreen(id) {
 	var datasetData = json.Datasets[id];
 	var data = datasetData.Dataset;
 	var iconset = json.Iconsets[data.IconsetID];
-	var iconDir = "icons/" + iconset.Directory + "/";
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
@@ -51,11 +50,13 @@ function CreateScreen(id) {
 		var titleDiv = document.createElement("div");
 
 		var icon = document.createElement("img");
-		if (iconset != null)
+		if (iconset != null) {
+			var iconDir = "icons/" + iconset.Directory + "/";
 			if (iconset.Items.includes(item.Name))
 				icon.src = iconDir + item.Name + ".svg";
 			else
 				icon.src = iconDir + "Blank.svg";
+		}
 
 		titleDiv.appendChild(icon);
 		titleDiv.appendChild(p);
