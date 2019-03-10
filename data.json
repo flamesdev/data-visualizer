@@ -4,7 +4,8 @@
       "Name": "Country Population",
       "IconsetID": 0,
       "Scale": 1,
-      "BeginRound": 1,
+      "BeginRound": 2,
+      "ToFixed": 3,
       "Dataset": [
         {
           "Name": "China",
@@ -412,7 +413,8 @@
       "Name": "Continent Population",
       "IconsetID": null,
       "Scale": 1,
-      "BeginRound": 1,
+      "BeginRound": 2,
+      "ToFixed": 3,
       "Dataset": [
         {
           "Name": "Asia",
@@ -444,7 +446,8 @@
       "Name": "World Population Over Time",
       "IconsetID": null,
       "Scale": 1,
-      "BeginRound": 1,
+      "BeginRound": 2,
+      "ToFixed": 3,
       "Dataset": [
         {
           "Name": "2015",
@@ -504,7 +507,8 @@
       "Name": "Religion Population (2010)",
       "IconsetID": 1,
       "Scale": 1,
-      "BeginRound": 1,
+      "BeginRound": 2,
+      "ToFixed": 3,
       "Dataset": [
         {
           "Name": "Christians",
@@ -544,7 +548,8 @@
       "Name": "Nominal GDP [USD] (2017)",
       "IconsetID": 0,
       "Scale": 1000000,
-      "BeginRound": 2,
+      "BeginRound": 3,
+      "ToFixed": 3,
       "Dataset": [
         {
           "Name": "United States",
@@ -752,7 +757,8 @@
       "Name": "GDP per capita [USD] (2017)",
       "IconsetID": 0,
       "Scale": 1,
-      "BeginRound": null,
+      "BeginRound": 0,
+      "ToFixed": 1,
       "Dataset": [
         {
           "Name": "Luxembourg",

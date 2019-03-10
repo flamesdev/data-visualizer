@@ -41,7 +41,8 @@ function CreateScreen(id) {
 	var max = data[0].Value;
 	data.forEach(item => {
 		var p = document.createElement("p");
-		p.innerHTML = item.Name + " - " + NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound);
+		p.innerHTML = item.Name + " - " +
+            NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToFixed);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -82,22 +83,34 @@ function UpdateScreen(newValue) {
 	screen.style.display = "block";
 }
 
-function NumberToText(number, beginRound) {
-	if (number >= 10 ** 12) {
-		number /= 10 ** 12;
-		var suffix = "T";
-		var id = 2;
-	} else if (number >= 10 ** 9) {
-		number /= 10 ** 9;
-		var suffix = "B";
-		var id = 1;
+function NumberToText(number, beginRound, toFixed) {
+	if (beginRound != null) {
+		if (number >= 10 ** 12) {
+			number /= 10 ** 12;
+			var suffix = "T";
+			var id = 3;
+		} else if (number >= 10 ** 9) {
+			number /= 10 ** 9;
+			var suffix = "B";
+			var id = 2;
+		} else if (number >= 10 ** 6) {
+			number /= 10 ** 6;
+			var suffix = "M";
+			var id = 1;
+		} else if (number >= 10 ** 3) {
+			number /= 10 ** 3;
+			var suffix = "K";
+			var id = 0;
+		} else {
+			var suffix = "";
+			var id = -1;
+		}
 	} else {
-		number /= 10 ** 6;
-		var suffix = "M";
-		var id = 0;
+		var suffix = "";
+		var id = -1;
 	}
 	if (beginRound != null && id >= beginRound)
-		return number.toFixed(3) + suffix;
+		return number.toFixed(toFixed) + suffix;
 	else
 		return Math.floor(number) + suffix;
 }
