@@ -25,11 +25,15 @@ document.addEventListener("keydown", (event) => {
 		else
 			UpdateScreen(maxIndex);
 	if (event.keyCode === 39)
-		if (screenID + 1 <= maxIndex)
-			UpdateScreen(screenID + 1);
-		else
-			UpdateScreen(0);
+		NextScreen();
 });
+
+function NextScreen() {
+	if (screenID + 1 <= maxIndex)
+		UpdateScreen(screenID + 1);
+	else
+		UpdateScreen(0);
+}
 
 function CreateScreen(id) {
 	var screen = document.createElement("div");
@@ -42,7 +46,7 @@ function CreateScreen(id) {
 	data.forEach(item => {
 		var p = document.createElement("p");
 		p.innerHTML = item.Name + " - " +
-            NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToFixed);
+			NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToFixed);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -67,6 +71,13 @@ function CreateScreen(id) {
 		screen.style.visibility = "hidden";
 		screen.style.display = "none";
 	});
+
+	var button = document.createElement("button");
+	button.innerHTML = "Next";
+	button.onclick = NextScreen;
+
+	screen.appendChild(button);
+
 	document.body.append(screen);
 }
 
