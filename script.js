@@ -52,7 +52,7 @@ function CreateScreen(id) {
 		div.style.width = item.Value / max * 100 + "%";
 		div.className = "bar";
 
-		var titleDiv = document.createElement("div");
+		var span = document.createElement("span");
 
 		var icon = document.createElement("img");
 		if (iconset != null) {
@@ -63,10 +63,10 @@ function CreateScreen(id) {
 				icon.src = iconDir + "Blank.svg";
 		}
 
-		titleDiv.appendChild(icon);
-		titleDiv.appendChild(p);
+		span.appendChild(icon);
+		span.appendChild(p);
 
-		screen.appendChild(titleDiv);
+		screen.appendChild(span);
 		screen.appendChild(div);
 		screen.style.visibility = "hidden";
 		screen.style.display = "none";
