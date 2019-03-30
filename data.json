@@ -13,11 +13,11 @@
         },
         {
           "Name": "India",
-          "Value": 1364900000
+          "Value": 1365000000
         },
         {
           "Name": "United States",
-          "Value": 328400000
+          "Value": 328500000
         },
         {
           "Name": "Indonesia",
@@ -25,7 +25,7 @@
         },
         {
           "Name": "Brazil",
-          "Value": 211900000
+          "Value": 212000000
         },
         {
           "Name": "Pakistan",
@@ -57,7 +57,7 @@
         },
         {
           "Name": "Philippines",
-          "Value": 107600000
+          "Value": 107700000
         },
         {
           "Name": "Egypt",
@@ -472,7 +472,7 @@
           "Value": 5500000
         },
         {
-          "Name": "Congo",
+          "Name": "Republic of the Congo",
           "Value": 5500000
         },
         {
@@ -544,7 +544,7 @@
           "Value": 3600000
         },
         {
-          "Name": "Bosnia & Herzegovina",
+          "Name": "Bosnia and Herzegovina",
           "Value": 3500000
         },
         {
@@ -752,7 +752,7 @@
           "Value": 264637
         },
         {
-          "Name": "Sao Tome & Principe",
+          "Name": "São Tomé and Príncipe",
           "Value": 212194
         },
         {
@@ -836,7 +836,7 @@
           "Value": 56645
         },
         {
-          "Name": "Saint Kitts & Nevis",
+          "Name": "Saint Kitts and Nevis",
           "Value": 56217
         },
         {
