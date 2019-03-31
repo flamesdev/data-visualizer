@@ -5,7 +5,7 @@
       "IconsetID": 0,
       "Scale": 1,
       "BeginRound": 2,
-      "ToFixed": 3,
+      "ToDecimal": 3,
       "Dataset": [
         {
           "Name": "China",
@@ -946,7 +946,7 @@
       "IconsetID": null,
       "Scale": 1,
       "BeginRound": 2,
-      "ToFixed": 3,
+      "ToDecimal": 3,
       "Dataset": [
         {
           "Name": "Asia",
@@ -979,7 +979,7 @@
       "IconsetID": null,
       "Scale": 1,
       "BeginRound": 2,
-      "ToFixed": 3,
+      "ToDecimal": 3,
       "Dataset": [
         {
           "Name": "2015",
@@ -1040,7 +1040,7 @@
       "IconsetID": 1,
       "Scale": 1,
       "BeginRound": 2,
-      "ToFixed": 3,
+      "ToDecimal": 3,
       "Dataset": [
         {
           "Name": "Christians",
@@ -1081,7 +1081,7 @@
       "IconsetID": 0,
       "Scale": 1000000,
       "BeginRound": 3,
-      "ToFixed": 3,
+      "ToDecimal": 3,
       "Dataset": [
         {
           "Name": "United States",
@@ -1290,7 +1290,7 @@
       "IconsetID": 0,
       "Scale": 1,
       "BeginRound": 0,
-      "ToFixed": 1,
+      "ToDecimal": 1,
       "Dataset": [
         {
           "Name": "Luxembourg",

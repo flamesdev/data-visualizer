@@ -46,7 +46,7 @@ function CreateScreen(id) {
 	data.forEach(item => {
 		var p = document.createElement("p");
 		p.innerHTML = item.Name + " - " +
-			NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToFixed);
+			NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToDecimal);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -94,42 +94,27 @@ function UpdateScreen(newValue) {
 	screen.style.display = "block";
 }
 
-function NumberToText(number, beginRound, toFixed) {
-	if (beginRound != null) {
-		if (number >= 10 ** 12) {
-			number /= 10 ** 12;
-			var suffix = "T";
-			var id = 3;
-		} else if (number >= 10 ** 9) {
-			number /= 10 ** 9;
-			var suffix = "B";
-			var id = 2;
-		} else if (number >= 10 ** 6) {
-			number /= 10 ** 6;
-			var suffix = "M";
-			var id = 1;
-		} else if (number >= 10 ** 3) {
-			number /= 10 ** 3;
-			var suffix = "K";
-			var id = 0;
-		} else {
-			var suffix = "";
-			var id = -1;
-		}
-	} else {
-		var suffix = "";
-		var id = -1;
-	}
-	if (beginRound != null && id >= beginRound)
-		return number.toFixed(toFixed) + suffix;
+var suffixes = ['', 'K', 'M', 'B', 'T']
+
+function NumberToText(number, beginRound, decimal) {
+	var length = number.toString().length;
+	var id = Math.trunc((length - 1) / 3);
+	console.log(id + "|" + beginRound);
+	number /= Math.pow(10, id * 3);
+	if (beginRound != null && id - 1 >= beginRound)
+		return TruncateToDecimals(number, decimal) + suffixes[id];
 	else
-		return Math.floor(number) + suffix;
+		return Math.trunc(number) + suffixes[id];
+}
+
+function TruncateToDecimals(number, decimal) {
+	var pow = Math.pow(10, decimal);
+	return Math.trunc(number * pow) / pow;
 }
 
 const ItemData = class {
 	constructor(Name, Value) {
 		this.Name = Name;
 		this.Value = Value;
-		this.BeginRound = BeginRound;
 	}
 }
