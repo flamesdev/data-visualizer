@@ -12,33 +12,28 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 	json = data;
 	maxIndex = json.Datasets.length - 1;
 	for (var i = 0; i < json.Datasets.length; i++)
-		CreateScreen(i);
-	UpdateScreen(0);
+		populateScreen(i);
+	setScreen(0);
 	document.body.style.visibility = "visible";
 });
 
 var maxIndex;
 document.addEventListener("keydown", (event) => {
 	if (event.keyCode === 37)
-		if (screenID - 1 >= 0)
-			UpdateScreen(screenID - 1);
-		else
-			UpdateScreen(maxIndex);
-	if (event.keyCode === 39)
-		NextScreen();
+		setScreen(screenID <= 1 ? screenID - 1 : 0);
+	else if (event.keyCode === 39)
+		nextScreen();
 });
 
-function NextScreen() {
-	if (screenID + 1 <= maxIndex)
-		UpdateScreen(screenID + 1);
-	else
-		UpdateScreen(0);
+function nextScreen() {
+	setScreen(screenID + 1 <= maxIndex ? screenID + 1 : 0);
 }
 
-function CreateScreen(id) {
+function populateScreen(id) {
 	var screen = document.createElement("div");
 	screen.id = "screen" + id;
 	screen.className = "screen";
+
 	var datasetData = json.Datasets[id];
 	var data = datasetData.Dataset;
 	var iconset = json.Iconsets[datasetData.IconsetID];
@@ -46,7 +41,7 @@ function CreateScreen(id) {
 	data.forEach(item => {
 		var p = document.createElement("p");
 		p.innerHTML = item.Name + " - " +
-			NumberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToDecimal);
+			numberToText(parseInt(item.Value * datasetData.Scale), datasetData.BeginRound, datasetData.ToDecimal);
 
 		var div = document.createElement("div");
 		div.style.width = item.Value / max * 100 + "%";
@@ -55,13 +50,8 @@ function CreateScreen(id) {
 		var span = document.createElement("span");
 
 		var icon = document.createElement("img");
-		if (iconset != null) {
-			var iconDir = "icons/" + iconset.Directory + "/";
-			if (iconset.Items.includes(item.Name))
-				icon.src = iconDir + item.Name + ".svg";
-			else
-				icon.src = iconDir + "Blank.svg";
-		}
+		if (iconset != null)
+			icon.src = "icons/" + iconset.Directory + "/" + (iconset.Items.includes(item.Name) ? item.Name : "Blank") + ".svg";
 
 		span.appendChild(icon);
 		span.appendChild(p);
@@ -74,14 +64,14 @@ function CreateScreen(id) {
 
 	var button = document.createElement("button");
 	button.innerHTML = "Next";
-	button.onclick = NextScreen;
+	button.onclick = nextScreen;
 
 	screen.appendChild(button);
 
 	document.body.append(screen);
 }
 
-function UpdateScreen(newValue) {
+function setScreen(newValue) {
 	if (screenID != null) {
 		var screen = document.getElementById("screen" + screenID);
 		screen.style.visibility = "hidden";
@@ -96,25 +86,17 @@ function UpdateScreen(newValue) {
 
 var suffixes = ['', 'K', 'M', 'B', 'T']
 
-function NumberToText(number, beginRound, decimal) {
+function numberToText(number, beginRound, decimal) {
 	var length = number.toString().length;
 	var id = Math.trunc((length - 1) / 3);
-	console.log(id + "|" + beginRound);
 	number /= Math.pow(10, id * 3);
 	if (beginRound != null && id - 1 >= beginRound)
-		return TruncateToDecimals(number, decimal) + suffixes[id];
+		return truncateToDecimals(number, decimal) + suffixes[id];
 	else
 		return Math.trunc(number) + suffixes[id];
 }
 
-function TruncateToDecimals(number, decimal) {
+function truncateToDecimals(number, decimal) {
 	var pow = Math.pow(10, decimal);
 	return Math.trunc(number * pow) / pow;
-}
-
-const ItemData = class {
-	constructor(Name, Value) {
-		this.Name = Name;
-		this.Value = Value;
-	}
 }
