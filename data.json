@@ -950,7 +950,7 @@
       ]
     },
     {
-      "Name": "Continent Population",
+      "Name": "Continent Population (2019)",
       "IconsetID": null,
       "Scale": 1,
       "BeginRound": 2,
@@ -958,27 +958,27 @@
       "Dataset": [
         {
           "Name": "Asia",
-          "Value": 4571000000
+          "Value": 4601371198
         },
         {
           "Name": "Africa",
-          "Value": 1309000000
+          "Value": 1308064195
         },
         {
           "Name": "Europe",
-          "Value": 742000000
+          "Value": 747182751
         },
         {
           "Name": "Latin America & the Caribbean",
-          "Value": 656000000
+          "Value": 648120957
         },
         {
           "Name": "North America",
-          "Value": 365000000
+          "Value": 366600964
         },
         {
           "Name": "Oceania",
-          "Value": 41000000
+          "Value": 42128035
         }
       ]
     },
@@ -1046,41 +1046,41 @@
     {
       "Name": "Religion Population (2010)",
       "IconsetID": 1,
-      "Scale": 1,
+      "Scale": 10000,
       "BeginRound": 2,
       "ToDecimal": 3,
       "Dataset": [
         {
           "Name": "Christians",
-          "Value": 2173180000
+          "Value": 217318
         },
         {
           "Name": "Muslims",
-          "Value": 1598510000
+          "Value": 159851
         },
         {
           "Name": "No Religion",
-          "Value": 1126500000
+          "Value": 112650
         },
         {
           "Name": "Hindus",
-          "Value": 1033080000
+          "Value": 103308
         },
         {
           "Name": "Buddhists",
-          "Value": 487540000
+          "Value": 48754
         },
         {
           "Name": "Folk Religion",
-          "Value": 405120000
+          "Value": 40512
         },
         {
           "Name": "Other Religion",
-          "Value": 58110000
+          "Value": 5811
         },
         {
           "Name": "Jews",
-          "Value": 13850000
+          "Value": 1385
         }
       ]
     },

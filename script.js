@@ -20,7 +20,7 @@ $.getJSON("https://raw.githubusercontent.com/flamesdev/data-visualizer/master/da
 var maxIndex;
 document.addEventListener("keydown", (event) => {
 	if (event.keyCode === 37)
-		setScreen(screenID <= 1 ? screenID - 1 : 0);
+		setScreen(screenID <= 0 ? maxIndex - 1 : screenID - 1);
 	else if (event.keyCode === 39)
 		nextScreen();
 });
