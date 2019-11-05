@@ -986,60 +986,40 @@
       "Name": "World Population Over Time",
       "IconsetID": null,
       "Scale": 1,
-      "BeginRound": 2,
-      "ToDecimal": 3,
+      "BeginRound": null,
+      "ToDecimal": null,
       "Dataset": [
         {
-          "Name": "2015",
-          "Value": 7383008820
+          "Name": "7.7 Billion",
+          "Value": 2019
         },
         {
-          "Name": "2010",
-          "Value": 6958169159
+          "Name": "7 Billion",
+          "Value": 2011
         },
         {
-          "Name": "2005",
-          "Value": 6542159383
+          "Name": "6 Billion",
+          "Value": 1999
         },
         {
-          "Name": "2000",
-          "Value": 6145006989
+          "Name": "5 Billion",
+          "Value": 1987
         },
         {
-          "Name": "1995",
-          "Value": 5751474416
+          "Name": "4 Billion",
+          "Value": 1974
         },
         {
-          "Name": "1990",
-          "Value": 5330943460
+          "Name": "3 Billion",
+          "Value": 1960
         },
         {
-          "Name": "1985",
-          "Value": 4873781796
+          "Name": "2 Billion",
+          "Value": 1930
         },
         {
-          "Name": "1980",
-          "Value": 4458411534
-        },
-        {
-          "Name": "1975",
-          "Value": 4079087198
-        },
-        {
-          "Name": "1970",
-          "Value": 3700577650
-        },
-        {
-          "Name": "1965",
-          "Value": 3339592688
-        },
-        {
-          "Name": "1960",
-          "Value": 3033212527
-        },
-        {
-          "Name": "1955",
-          "Value": 2772242535
+          "Name": "1 Billion",
+          "Value": 1804
         }
       ]
     },
