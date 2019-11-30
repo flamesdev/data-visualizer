@@ -983,47 +983,6 @@
       ]
     },
     {
-      "Name": "World Population Over Time",
-      "IconsetID": null,
-      "Scale": 1,
-      "BeginRound": null,
-      "ToDecimal": null,
-      "Dataset": [
-        {
-          "Name": "7.7 Billion",
-          "Value": 2019
-        },
-        {
-          "Name": "7 Billion",
-          "Value": 2011
-        },
-        {
-          "Name": "6 Billion",
-          "Value": 1999
-        },
-        {
-          "Name": "5 Billion",
-          "Value": 1987
-        },
-        {
-          "Name": "4 Billion",
-          "Value": 1974
-        },
-        {
-          "Name": "3 Billion",
-          "Value": 1960
-        },
-        {
-          "Name": "2 Billion",
-          "Value": 1930
-        },
-        {
-          "Name": "1 Billion",
-          "Value": 1804
-        }
-      ]
-    },
-    {
       "Name": "Religion Population (2010)",
       "IconsetID": 1,
       "Scale": 10000,
