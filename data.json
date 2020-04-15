@@ -1899,6 +1899,39 @@
       ]
     },
     {
+      "Name": "Continent Population (2020)",
+      "IconsetID": null,
+      "Scale": 1,
+      "BeginRound": 2,
+      "ToDecimal": 3,
+      "Dataset": [
+        {
+          "Name": "Asia",
+          "Value": 4641054775
+        },
+        {
+          "Name": "Africa",
+          "Value": 1340598147
+        },
+        {
+          "Name": "Europe",
+          "Value": 747636026
+        },
+        {
+          "Name": "Latin America & the Caribbean",
+          "Value": 653962331
+        },
+        {
+          "Name": "North America",
+          "Value": 368869647
+        },
+        {
+          "Name": "Oceania",
+          "Value": 42677813
+        }
+      ]
+    },
+    {
       "Name": "Continent Population (2019)",
       "IconsetID": null,
       "Scale": 1,
