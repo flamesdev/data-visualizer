@@ -1,7 +1,7 @@
 var data = {
   "Datasets": [{
     "Name": "Country and Territory Population (2020)",
-    "IconsetID": 0,
+    "IconsetId": 0,
     "Scale": 1,
     "BeginRound": 2,
     "ToDecimal": 3,
@@ -713,7 +713,7 @@ var data = {
     }]
   }, {
     "Name": "Country and Territory Population (2019)",
-    "IconsetID": 0,
+    "IconsetId": 0,
     "Scale": 1,
     "BeginRound": 2,
     "ToDecimal": 3,
@@ -1425,7 +1425,7 @@ var data = {
     }]
   }, {
     "Name": "Continent Population (2020)",
-    "IconsetID": null,
+    "IconsetId": null,
     "Scale": 1,
     "BeginRound": 2,
     "ToDecimal": 3,
@@ -1450,7 +1450,7 @@ var data = {
     }]
   }, {
     "Name": "Continent Population (2019)",
-    "IconsetID": null,
+    "IconsetId": null,
     "Scale": 1,
     "BeginRound": 2,
     "ToDecimal": 3,
@@ -1475,7 +1475,7 @@ var data = {
     }]
   }, {
     "Name": "Religion Population (2020)",
-    "IconsetID": 1,
+    "IconsetId": 1,
     "Scale": 1000000,
     "BeginRound": 2,
     "ToDecimal": 3,
@@ -1545,7 +1545,7 @@ var data = {
     }]
   }, {
     "Name": "Nominal GDP [USD] (2017)",
-    "IconsetID": 0,
+    "IconsetId": 0,
     "Scale": 1000000,
     "BeginRound": 3,
     "ToDecimal": 3,
@@ -1702,7 +1702,7 @@ var data = {
     }]
   }, {
     "Name": "GDP per capita [USD] (2017)",
-    "IconsetID": 0,
+    "IconsetId": 0,
     "Scale": 1,
     "BeginRound": 0,
     "ToDecimal": 1,

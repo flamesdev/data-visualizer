@@ -27,7 +27,7 @@ function populateScreen(id) {
 
   let dataset = data.Datasets[id];
   let datasetData = dataset.Dataset;
-  let iconset = data.Iconsets[dataset.IconsetID];
+  let iconset = data.Iconsets[dataset.IconsetId];
   let max = datasetData[0].Value;
   datasetData.forEach(item => {
     let p = document.createElement("p");
@@ -41,7 +41,7 @@ function populateScreen(id) {
     let span = document.createElement("span");
 
     let icon = document.createElement("img");
-    if (iconset != null) {
+    if (iconset !== undefined) {
       icon.src = "icons/" + iconset.Directory + "/" + (iconset.Items.includes(item.Name) ? item.Name : "Blank") + ".svg";
     }
 
@@ -64,7 +64,7 @@ function populateScreen(id) {
 }
 
 function setScreen(newValue) {
-  if (screenId != null) {
+  if (screenId !== null) {
     let screen = document.getElementById("screen" + screenId);
     screen.style.visibility = "hidden";
     screen.style.display = "none";
@@ -83,7 +83,7 @@ function numberToText(number, beginRound, decimal) {
   let length = number.toString().length;
   let id = Math.trunc((length - 1) / 3);
   number /= Math.pow(10, id * 3);
-  if (beginRound != null && id - 1 >= beginRound) {
+  if (beginRound !== null && id - 1 >= beginRound) {
     return truncateToDecimals(number, decimal) + suffixes[id];
   } else {
     return Math.trunc(number) + suffixes[id];
