@@ -1,54 +1,58 @@
 #title {
-    font-size: 2em;
-    padding-bottom: 5px;
+  font-size: 2em;
+  padding-bottom: 5px;
 }
 
 #seperator {
-    background: white;
-    height: 5px;
+  background: white;
+  height: 5px;
 }
 
 p {
-    font-family: 'Montserrat';
-    color: white;
-    padding: 0px;
-    margin: 0px;
-    display: inline-block;
-    vertical-align: middle;
+  font-family: 'Montserrat';
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 img {
-    height: 2em;
-    display: inline-block;
-    vertical-align: middle;
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 button {
-    font-family: 'Montserrat';
-    background-color: #000000;
-    color: white;
-    border: 1px solid white;
-    font-size: 1em;
-    padding: 5px 15px;
-    margin: 10px 0px;
+  font-family: 'Montserrat';
+  background-color: #000000;
+  color: white;
+  border: 1px solid white;
+  font-size: 1em;
+  padding: 5px 15px;
+  margin: 10px 0px;
 }
 
 .bar {
-    background: #666666;
-    border-radius: 90px;
-    height: 20px;
+  background: #666666;
+  border-radius: 90px;
+  height: 20px;
 }
 
 .screen {
-    animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
 body {
-    background-color: #202020;
-    visibility: hidden;
+  background-color: #202020;
+  visibility: hidden;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
