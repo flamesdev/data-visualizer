@@ -1,5 +1,5 @@
 # data-visualizer
-A visualization of varying datasets.
+A website that displays a visualization of various datasets.
 The country and continent population data originates from [Worldometer's population counter](https://www.worldometers.info/world-population).
 The religion population data is based on a [2010 study by Pew Research Center](https://www.pewforum.org/2012/12/18/global-religious-landscape-unaffiliated).
 The GDP data originates from the [World Bank](https://data.worldbank.org)'s nominal and per capita GDP data from 2017.
