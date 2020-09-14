@@ -1,1873 +1,697 @@
+/* eslint-disable no-var */
+/* eslint-disable no-unused-vars */
 var data = {
-  "Datasets": [{
-    "Name": "Country and Territory Population (2020)",
-    "IconsetId": 0,
-    "Scale": 1,
-    "BeginRound": 2,
-    "ToDecimal": 3,
-    "Dataset": [{
-      "Name": "China",
-      "Value": 1439323776
-    }, {
-      "Name": "India",
-      "Value": 1380004385
-    }, {
-      "Name": "United States",
-      "Value": 331002651
-    }, {
-      "Name": "Indonesia",
-      "Value": 273523615
-    }, {
-      "Name": "Pakistan",
-      "Value": 220892340
-    }, {
-      "Name": "Brazil",
-      "Value": 212559417
-    }, {
-      "Name": "Nigeria",
-      "Value": 206139589
-    }, {
-      "Name": "Bangladesh",
-      "Value": 164689383
-    }, {
-      "Name": "Russia",
-      "Value": 145934462
-    }, {
-      "Name": "Mexico",
-      "Value": 128932753
-    }, {
-      "Name": "Japan",
-      "Value": 126476461
-    }, {
-      "Name": "Ethiopia",
-      "Value": 114963588
-    }, {
-      "Name": "Philippines",
-      "Value": 109581078
-    }, {
-      "Name": "Egypt",
-      "Value": 102334404
-    }, {
-      "Name": "Vietnam",
-      "Value": 97338579
-    }, {
-      "Name": "Democratic Republic of Congo",
-      "Value": 89561403
-    }, {
-      "Name": "Turkey",
-      "Value": 84339067
-    }, {
-      "Name": "Iran",
-      "Value": 83992949
-    }, {
-      "Name": "Germany",
-      "Value": 83783942
-    }, {
-      "Name": "Thailand",
-      "Value": 69799978
-    }, {
-      "Name": "United Kingdom",
-      "Value": 67886011
-    }, {
-      "Name": "France",
-      "Value": 65273511
-    }, {
-      "Name": "Italy",
-      "Value": 60461826
-    }, {
-      "Name": "Tanzania",
-      "Value": 59734218
-    }, {
-      "Name": "South Africa",
-      "Value": 59308690
-    }, {
-      "Name": "Myanmar",
-      "Value": 54409800
-    }, {
-      "Name": "Kenya",
-      "Value": 53771296
-    }, {
-      "Name": "South Korea",
-      "Value": 51269185
-    }, {
-      "Name": "Colombia",
-      "Value": 50882891
-    }, {
-      "Name": "Spain",
-      "Value": 46754778
-    }, {
-      "Name": "Uganda",
-      "Value": 45741007
-    }, {
-      "Name": "Argentina",
-      "Value": 45195774
-    }, {
-      "Name": "Algeria",
-      "Value": 43851044
-    }, {
-      "Name": "Sudan",
-      "Value": 43849260
-    }, {
-      "Name": "Ukraine",
-      "Value": 43733762
-    }, {
-      "Name": "Iraq",
-      "Value": 40222493
-    }, {
-      "Name": "Afghanistan",
-      "Value": 38928346
-    }, {
-      "Name": "Poland",
-      "Value": 37846611
-    }, {
-      "Name": "Canada",
-      "Value": 37742154
-    }, {
-      "Name": "Morocco",
-      "Value": 36910560
-    }, {
-      "Name": "Saudi Arabia",
-      "Value": 34813871
-    }, {
-      "Name": "Uzbekistan",
-      "Value": 33469203
-    }, {
-      "Name": "Peru",
-      "Value": 32971854
-    }, {
-      "Name": "Angola",
-      "Value": 32866272
-    }, {
-      "Name": "Malaysia",
-      "Value": 32365999
-    }, {
-      "Name": "Mozambique",
-      "Value": 31255435
-    }, {
-      "Name": "Ghana",
-      "Value": 31072940
-    }, {
-      "Name": "Yemen",
-      "Value": 29825964
-    }, {
-      "Name": "Nepal",
-      "Value": 29136808
-    }, {
-      "Name": "Venezuela",
-      "Value": 28435940
-    }, {
-      "Name": "Madagascar",
-      "Value": 27691018
-    }, {
-      "Name": "Cameroon",
-      "Value": 26545863
-    }, {
-      "Name": "Côte d'Ivoire",
-      "Value": 26378274
-    }, {
-      "Name": "North Korea",
-      "Value": 25778816
-    }, {
-      "Name": "Australia",
-      "Value": 25499884
-    }, {
-      "Name": "Niger",
-      "Value": 24206644
-    }, {
-      "Name": "Taiwan",
-      "Value": 23816775
-    }, {
-      "Name": "Sri Lanka",
-      "Value": 21413249
-    }, {
-      "Name": "Burkina Faso",
-      "Value": 20903273
-    }, {
-      "Name": "Mali",
-      "Value": 20250833
-    }, {
-      "Name": "Romania",
-      "Value": 19237691
-    }, {
-      "Name": "Malawi",
-      "Value": 19129952
-    }, {
-      "Name": "Chile",
-      "Value": 19116201
-    }, {
-      "Name": "Kazakhstan",
-      "Value": 18776707
-    }, {
-      "Name": "Zambia",
-      "Value": 18383955
-    }, {
-      "Name": "Guatemala",
-      "Value": 17915568
-    }, {
-      "Name": "Ecuador",
-      "Value": 17643054
-    }, {
-      "Name": "Syria",
-      "Value": 17500658
-    }, {
-      "Name": "Netherlands",
-      "Value": 17134872
-    }, {
-      "Name": "Senegal",
-      "Value": 16743927
-    }, {
-      "Name": "Cambodia",
-      "Value": 16718965
-    }, {
-      "Name": "Chad",
-      "Value": 16425864
-    }, {
-      "Name": "Somalia",
-      "Value": 15893222
-    }, {
-      "Name": "Zimbabwe",
-      "Value": 14862924
-    }, {
-      "Name": "Guinea",
-      "Value": 13132795
-    }, {
-      "Name": "Rwanda",
-      "Value": 12952218
-    }, {
-      "Name": "Benin",
-      "Value": 12123200
-    }, {
-      "Name": "Burundi",
-      "Value": 11890784
-    }, {
-      "Name": "Tunisia",
-      "Value": 11818619
-    }, {
-      "Name": "Bolivia",
-      "Value": 11673021
-    }, {
-      "Name": "Belgium",
-      "Value": 11589623
-    }, {
-      "Name": "Haiti",
-      "Value": 11402528
-    }, {
-      "Name": "Cuba",
-      "Value": 11326616
-    }, {
-      "Name": "South Sudan",
-      "Value": 11193725
-    }, {
-      "Name": "Dominican Republic",
-      "Value": 10847910
-    }, {
-      "Name": "Czech Republic",
-      "Value": 10708981
-    }, {
-      "Name": "Greece",
-      "Value": 10423054
-    }, {
-      "Name": "Jordan",
-      "Value": 10203134
-    }, {
-      "Name": "Portugal",
-      "Value": 10196709
-    }, {
-      "Name": "Azerbaijan",
-      "Value": 10139177
-    }, {
-      "Name": "Sweden",
-      "Value": 10099265
-    }, {
-      "Name": "Honduras",
-      "Value": 9904607
-    }, {
-      "Name": "United Arab Emirates",
-      "Value": 9890402
-    }, {
-      "Name": "Hungary",
-      "Value": 9660351
-    }, {
-      "Name": "Tajikistan",
-      "Value": 9537645
-    }, {
-      "Name": "Belarus",
-      "Value": 9449323
-    }, {
-      "Name": "Austria",
-      "Value": 9006398
-    }, {
-      "Name": "Papua New Guinea",
-      "Value": 8947024
-    }, {
-      "Name": "Serbia",
-      "Value": 8737371
-    }, {
-      "Name": "Israel",
-      "Value": 8655535
-    }, {
-      "Name": "Switzerland",
-      "Value": 8654622
-    }, {
-      "Name": "Togo",
-      "Value": 8278724
-    }, {
-      "Name": "Sierra Leone",
-      "Value": 7976983
-    }, {
-      "Name": "Hong Kong",
-      "Value": 7496981
-    }, {
-      "Name": "Laos",
-      "Value": 7275560
-    }, {
-      "Name": "Paraguay",
-      "Value": 7132538
-    }, {
-      "Name": "Bulgaria",
-      "Value": 6948445
-    }, {
-      "Name": "Libya",
-      "Value": 6871292
-    }, {
-      "Name": "Lebanon",
-      "Value": 6825445
-    }, {
-      "Name": "Nicaragua",
-      "Value": 6624554
-    }, {
-      "Name": "Kyrgyzstan",
-      "Value": 6524195
-    }, {
-      "Name": "El Salvador",
-      "Value": 6486205
-    }, {
-      "Name": "Turkmenistan",
-      "Value": 6031200
-    }, {
-      "Name": "Singapore",
-      "Value": 5850342
-    }, {
-      "Name": "Denmark",
-      "Value": 5792202
-    }, {
-      "Name": "Finland",
-      "Value": 5540720
-    }, {
-      "Name": "Republic of the Congo",
-      "Value": 5518087
-    }, {
-      "Name": "Slovakia",
-      "Value": 5459642
-    }, {
-      "Name": "Norway",
-      "Value": 5421241
-    }, {
-      "Name": "Oman",
-      "Value": 5106626
-    }, {
-      "Name": "State of Palestine",
-      "Value": 5101414
-    }, {
-      "Name": "Costa Rica",
-      "Value": 5094118
-    }, {
-      "Name": "Liberia",
-      "Value": 5057681
-    }, {
-      "Name": "Ireland",
-      "Value": 4937786
-    }, {
-      "Name": "Central African Republic",
-      "Value": 4829767
-    }, {
-      "Name": "New Zealand",
-      "Value": 4822233
-    }, {
-      "Name": "Mauritania",
-      "Value": 4649658
-    }, {
-      "Name": "Panama",
-      "Value": 4314767
-    }, {
-      "Name": "Kuwait",
-      "Value": 4270571
-    }, {
-      "Name": "Croatia",
-      "Value": 4105267
-    }, {
-      "Name": "Moldova",
-      "Value": 4033963
-    }, {
-      "Name": "Georgia",
-      "Value": 3989167
-    }, {
-      "Name": "Eritrea",
-      "Value": 3546421
-    }, {
-      "Name": "Uruguay",
-      "Value": 3473730
-    }, {
-      "Name": "Bosnia and Herzegovina",
-      "Value": 3280819
-    }, {
-      "Name": "Mongolia",
-      "Value": 3278290
-    }, {
-      "Name": "Armenia",
-      "Value": 2963243
-    }, {
-      "Name": "Jamaica",
-      "Value": 2961167
-    }, {
-      "Name": "Qatar",
-      "Value": 2881053
-    }, {
-      "Name": "Albania",
-      "Value": 2877797
-    }, {
-      "Name": "Puerto Rico",
-      "Value": 2860853
-    }, {
-      "Name": "Lithuania",
-      "Value": 2722289
-    }, {
-      "Name": "Namibia",
-      "Value": 2540905
-    }, {
-      "Name": "Gambia",
-      "Value": 2416668
-    }, {
-      "Name": "Botswana",
-      "Value": 2351627
-    }, {
-      "Name": "Gabon",
-      "Value": 2225734
-    }, {
-      "Name": "Lesotho",
-      "Value": 2142249
-    }, {
-      "Name": "North Macedonia",
-      "Value": 2083374
-    }, {
-      "Name": "Slovenia",
-      "Value": 2078938
-    }, {
-      "Name": "Guinea-Bissau",
-      "Value": 1968001
-    }, {
-      "Name": "Latvia",
-      "Value": 1886198
-    }, {
-      "Name": "Bahrain",
-      "Value": 1701575
-    }, {
-      "Name": "Equatorial Guinea",
-      "Value": 1402985
-    }, {
-      "Name": "Trinidad and Tobago",
-      "Value": 1399488
-    }, {
-      "Name": "Estonia",
-      "Value": 1326535
-    }, {
-      "Name": "Timor-Leste",
-      "Value": 1318445
-    }, {
-      "Name": "Mauritius",
-      "Value": 1271768
-    }, {
-      "Name": "Cyprus",
-      "Value": 1207359
-    }, {
-      "Name": "Eswatini",
-      "Value": 1160164
-    }, {
-      "Name": "Djibouti",
-      "Value": 988000
-    }, {
-      "Name": "Fiji",
-      "Value": 896445
-    }, {
-      "Name": "Réunion",
-      "Value": 895312
-    }, {
-      "Name": "Comoros",
-      "Value": 869601
-    }, {
-      "Name": "Guyana",
-      "Value": 786552
-    }, {
-      "Name": "Bhutan",
-      "Value": 771608
-    }, {
-      "Name": "Solomon Islands",
-      "Value": 686884
-    }, {
-      "Name": "Macao",
-      "Value": 649335
-    }, {
-      "Name": "Montenegro",
-      "Value": 628066
-    }, {
-      "Name": "Luxembourg",
-      "Value": 625978
-    }, {
-      "Name": "Western Sahara",
-      "Value": 597339
-    }, {
-      "Name": "Suriname",
-      "Value": 586632
-    }, {
-      "Name": "Cabo Verde",
-      "Value": 555987
-    }, {
-      "Name": "Maldives",
-      "Value": 540544
-    }, {
-      "Name": "Malta",
-      "Value": 441543
-    }, {
-      "Name": "Brunei",
-      "Value": 437479
-    }, {
-      "Name": "Guadeloupe",
-      "Value": 400124
-    }, {
-      "Name": "Belize",
-      "Value": 397628
-    }, {
-      "Name": "Bahamas",
-      "Value": 393244
-    }, {
-      "Name": "Martinique",
-      "Value": 375265
-    }, {
-      "Name": "Iceland",
-      "Value": 341243
-    }, {
-      "Name": "Vanuatu",
-      "Value": 307145
-    }, {
-      "Name": "French Guiana",
-      "Value": 298682
-    }, {
-      "Name": "Barbados",
-      "Value": 287375
-    }, {
-      "Name": "New Caledonia",
-      "Value": 285498
-    }, {
-      "Name": "French Polynesia",
-      "Value": 280908
-    }, {
-      "Name": "Mayotte",
-      "Value": 272815
-    }, {
-      "Name": "São Tomé and Príncipe",
-      "Value": 219159
-    }, {
-      "Name": "Samoa",
-      "Value": 198414
-    }, {
-      "Name": "Saint Lucia",
-      "Value": 183627
-    }, {
-      "Name": "Channel Islands",
-      "Value": 173863
-    }, {
-      "Name": "Guam",
-      "Value": 168775
-    }, {
-      "Name": "Curaçao",
-      "Value": 164093
-    }, {
-      "Name": "Kiribati",
-      "Value": 119449
-    }, {
-      "Name": "Micronesia",
-      "Value": 115023
-    }, {
-      "Name": "Grenada",
-      "Value": 112523
-    }, {
-      "Name": "Saint Vincent and the Grenadines",
-      "Value": 110940
-    }, {
-      "Name": "Aruba",
-      "Value": 106766
-    }, {
-      "Name": "Tonga",
-      "Value": 105695
-    }, {
-      "Name": "U.S. Virgin Islands",
-      "Value": 104425
-    }, {
-      "Name": "Seychelles",
-      "Value": 98347
-    }, {
-      "Name": "Antigua and Barbuda",
-      "Value": 97929
-    }, {
-      "Name": "Isle of Man",
-      "Value": 85033
-    }, {
-      "Name": "Andorra",
-      "Value": 77265
-    }, {
-      "Name": "Dominica",
-      "Value": 71986
-    }, {
-      "Name": "Cayman Islands",
-      "Value": 65722
-    }, {
-      "Name": "Bermuda",
-      "Value": 62278
-    }, {
-      "Name": "Marshall Islands",
-      "Value": 59190
-    }, {
-      "Name": "Northern Mariana Islands",
-      "Value": 57559
-    }, {
-      "Name": "Greenland",
-      "Value": 56770
-    }, {
-      "Name": "American Samoa",
-      "Value": 55191
-    }, {
-      "Name": "Saint Kitts and Nevis",
-      "Value": 53199
-    }, {
-      "Name": "Faeroe Islands",
-      "Value": 48863
-    }, {
-      "Name": "Sint Maarten",
-      "Value": 42876
-    }, {
-      "Name": "Monaco",
-      "Value": 39242
-    }, {
-      "Name": "Turks and Caicos",
-      "Value": 38717
-    }, {
-      "Name": "Saint Martin",
-      "Value": 38666
-    }, {
-      "Name": "Liechtenstein",
-      "Value": 38128
-    }, {
-      "Name": "San Marina",
-      "Value": 33931
-    }, {
-      "Name": "Gibraltar",
-      "Value": 33691
-    }, {
-      "Name": "British Virgin Islands",
-      "Value": 30231
-    }, {
-      "Name": "Caribbean Netherlands",
-      "Value": 26223
-    }, {
-      "Name": "Palau",
-      "Value": 18094
-    }, {
-      "Name": "Cook Islands",
-      "Value": 17564
-    }, {
-      "Name": "Anguilla",
-      "Value": 15003
-    }, {
-      "Name": "Tuvalu",
-      "Value": 11792
-    }, {
-      "Name": "Wallis and Futuna",
-      "Value": 11239
-    }, {
-      "Name": "Nauru",
-      "Value": 10824
-    }, {
-      "Name": "Saint Barthelemy",
-      "Value": 9877
-    }, {
-      "Name": "Saint Helena",
-      "Value": 6077
-    }, {
-      "Name": "Saint Pierre and Miquelon",
-      "Value": 5794
-    }, {
-      "Name": "Montserrat",
-      "Value": 4992
-    }, {
-      "Name": "Falkland Islands",
-      "Value": 3480
-    }, {
-      "Name": "Niue",
-      "Value": 1626
-    }, {
-      "Name": "Tokelau",
-      "Value": 1357
-    }, {
-      "Name": "Holy See",
-      "Value": 801
-    }]
-  }, {
-    "Name": "Country and Territory Population (2019)",
-    "IconsetId": 0,
-    "Scale": 1,
-    "BeginRound": 2,
-    "ToDecimal": 3,
-    "Dataset": [{
-      "Name": "China",
-      "Value": 1433783686
-    }, {
-      "Name": "India",
-      "Value": 1366417754
-    }, {
-      "Name": "United States",
-      "Value": 329064917
-    }, {
-      "Name": "Indonesia",
-      "Value": 270625568
-    }, {
-      "Name": "Pakistan",
-      "Value": 216565318
-    }, {
-      "Name": "Brazil",
-      "Value": 211049527
-    }, {
-      "Name": "Nigeria",
-      "Value": 200963599
-    }, {
-      "Name": "Bangladesh",
-      "Value": 163046161
-    }, {
-      "Name": "Russia",
-      "Value": 145872256
-    }, {
-      "Name": "Mexico",
-      "Value": 127575529
-    }, {
-      "Name": "Japan",
-      "Value": 126860301
-    }, {
-      "Name": "Ethiopia",
-      "Value": 112078730
-    }, {
-      "Name": "Philippines",
-      "Value": 108116615
-    }, {
-      "Name": "Egypt",
-      "Value": 100388073
-    }, {
-      "Name": "Vietnam",
-      "Value": 96462106
-    }, {
-      "Name": "Democratic Republic of Congo",
-      "Value": 86790567
-    }, {
-      "Name": "Germany",
-      "Value": 83517045
-    }, {
-      "Name": "Turkey",
-      "Value": 83429615
-    }, {
-      "Name": "Iran",
-      "Value": 82913906
-    }, {
-      "Name": "Thailand",
-      "Value": 69625582
-    }, {
-      "Name": "United Kingdom",
-      "Value": 67530172
-    }, {
-      "Name": "France",
-      "Value": 65129728
-    }, {
-      "Name": "Italy",
-      "Value": 60550075
-    }, {
-      "Name": "South Africa",
-      "Value": 58558270
-    }, {
-      "Name": "Tanzania",
-      "Value": 58005463
-    }, {
-      "Name": "Myanmar",
-      "Value": 54045420
-    }, {
-      "Name": "Kenya",
-      "Value": 52573973
-    }, {
-      "Name": "South Korea",
-      "Value": 51225308
-    }, {
-      "Name": "Colombia",
-      "Value": 50339443
-    }, {
-      "Name": "Spain",
-      "Value": 46736776
-    }, {
-      "Name": "Argentina",
-      "Value": 44780677
-    }, {
-      "Name": "Uganda",
-      "Value": 44269594
-    }, {
-      "Name": "Ukraine",
-      "Value": 43993638
-    }, {
-      "Name": "Algeria",
-      "Value": 43053054
-    }, {
-      "Name": "Sudan",
-      "Value": 42813238
-    }, {
-      "Name": "Iraq",
-      "Value": 39309783
-    }, {
-      "Name": "Afghanistan",
-      "Value": 38041754
-    }, {
-      "Name": "Poland",
-      "Value": 37887768
-    }, {
-      "Name": "Canada",
-      "Value": 37411047
-    }, {
-      "Name": "Morocco",
-      "Value": 36471769
-    }, {
-      "Name": "Saudi Arabia",
-      "Value": 34268528
-    }, {
-      "Name": "Uzbekistan",
-      "Value": 32981716
-    }, {
-      "Name": "Peru",
-      "Value": 32510453
-    }, {
-      "Name": "Malaysia",
-      "Value": 31949777
-    }, {
-      "Name": "Angola",
-      "Value": 31825295
-    }, {
-      "Name": "Ghana",
-      "Value": 30417856
-    }, {
-      "Name": "Mozambique",
-      "Value": 30366036
-    }, {
-      "Name": "Yemen",
-      "Value": 29161922
-    }, {
-      "Name": "Nepal",
-      "Value": 28608710
-    }, {
-      "Name": "Venezuela",
-      "Value": 28515829
-    }, {
-      "Name": "Madagascar",
-      "Value": 26969307
-    }, {
-      "Name": "Cameroon",
-      "Value": 25876380
-    }, {
-      "Name": "Côte d'Ivoire",
-      "Value": 25716544
-    }, {
-      "Name": "North Korea",
-      "Value": 25666161
-    }, {
-      "Name": "Australia",
-      "Value": 25203198
-    }, {
-      "Name": "Taiwan",
-      "Value": 23773876
-    }, {
-      "Name": "Niger",
-      "Value": 23310715
-    }, {
-      "Name": "Sri Lanka",
-      "Value": 21323733
-    }, {
-      "Name": "Burkina Faso",
-      "Value": 20321378
-    }, {
-      "Name": "Mali",
-      "Value": 19658031
-    }, {
-      "Name": "Romania",
-      "Value": 19364557
-    }, {
-      "Name": "Chile",
-      "Value": 18952038
-    }, {
-      "Name": "Malawi",
-      "Value": 18628747
-    }, {
-      "Name": "Kazakhstan",
-      "Value": 18551427
-    }, {
-      "Name": "Zambia",
-      "Value": 17861030
-    }, {
-      "Name": "Guatemala",
-      "Value": 17581472
-    }, {
-      "Name": "Ecuador",
-      "Value": 17373662
-    }, {
-      "Name": "Netherlands",
-      "Value": 17097130
-    }, {
-      "Name": "Syria",
-      "Value": 17070135
-    }, {
-      "Name": "Cambodia",
-      "Value": 16486542
-    }, {
-      "Name": "Senegal",
-      "Value": 16296364
-    }, {
-      "Name": "Chad",
-      "Value": 15946876
-    }, {
-      "Name": "Somalia",
-      "Value": 15442905
-    }, {
-      "Name": "Zimbabwe",
-      "Value": 14645468
-    }, {
-      "Name": "Guinea",
-      "Value": 12771246
-    }, {
-      "Name": "Rwanda",
-      "Value": 12626950
-    }, {
-      "Name": "Benin",
-      "Value": 11801151
-    }, {
-      "Name": "Tunisia",
-      "Value": 11694719
-    }, {
-      "Name": "Belgium",
-      "Value": 11539328
-    }, {
-      "Name": "Burundi",
-      "Value": 11530580
-    }, {
-      "Name": "Bolivia",
-      "Value": 11513100
-    }, {
-      "Name": "Cuba",
-      "Value": 11333483
-    }, {
-      "Name": "Haiti",
-      "Value": 11263077
-    }, {
-      "Name": "South Sudan",
-      "Value": 11062113
-    }, {
-      "Name": "Dominican Republic",
-      "Value": 10738958
-    }, {
-      "Name": "Czech Republic",
-      "Value": 10689209
-    }, {
-      "Name": "Greece",
-      "Value": 10473455
-    }, {
-      "Name": "Portugal",
-      "Value": 10226187
-    }, {
-      "Name": "Jordan",
-      "Value": 10101694
-    }, {
-      "Name": "Azerbaijan",
-      "Value": 10047718
-    }, {
-      "Name": "Sweden",
-      "Value": 10036379
-    }, {
-      "Name": "United Arab Emirates",
-      "Value": 9770529
-    }, {
-      "Name": "Honduras",
-      "Value": 9746117
-    }, {
-      "Name": "Hungary",
-      "Value": 9684679
-    }, {
-      "Name": "Belarus",
-      "Value": 9452411
-    }, {
-      "Name": "Tajikistan",
-      "Value": 9321018
-    }, {
-      "Name": "Austria",
-      "Value": 8955102
-    }, {
-      "Name": "Papua New Guinea",
-      "Value": 8776109
-    }, {
-      "Name": "Serbia",
-      "Value": 8772235
-    }, {
-      "Name": "Switzerland",
-      "Value": 8591365
-    }, {
-      "Name": "Israel",
-      "Value": 8519377
-    }, {
-      "Name": "Togo",
-      "Value": 8082366
-    }, {
-      "Name": "Sierra Leone",
-      "Value": 7813215
-    }, {
-      "Name": "Hong Kong",
-      "Value": 7436154
-    }, {
-      "Name": "Laos",
-      "Value": 7169455
-    }, {
-      "Name": "Paraguay",
-      "Value": 7044636
-    }, {
-      "Name": "Bulgaria",
-      "Value": 7000119
-    }, {
-      "Name": "Lebanon",
-      "Value": 6855713
-    }, {
-      "Name": "Libya",
-      "Value": 6777452
-    }, {
-      "Name": "Nicaragua",
-      "Value": 6545502
-    }, {
-      "Name": "El Salvador",
-      "Value": 6453553
-    }, {
-      "Name": "Kyrgyzstan",
-      "Value": 6415850
-    }, {
-      "Name": "Turkmenistan",
-      "Value": 5942089
-    }, {
-      "Name": "Singapore",
-      "Value": 5804337
-    }, {
-      "Name": "Denmark",
-      "Value": 5771876
-    }, {
-      "Name": "Finland",
-      "Value": 5532156
-    }, {
-      "Name": "Slovakia",
-      "Value": 5457013
-    }, {
-      "Name": "Republic of the Congo",
-      "Value": 5380508
-    }, {
-      "Name": "Norway",
-      "Value": 5378857
-    }, {
-      "Name": "Costa Rica",
-      "Value": 5047561
-    }, {
-      "Name": "State of Palestine",
-      "Value": 4981420
-    }, {
-      "Name": "Oman",
-      "Value": 4974986
-    }, {
-      "Name": "Liberia",
-      "Value": 4937374
-    }, {
-      "Name": "Ireland",
-      "Value": 4882495
-    }, {
-      "Name": "New Zealand",
-      "Value": 4783063
-    }, {
-      "Name": "Central African Republic",
-      "Value": 4745185
-    }, {
-      "Name": "Mauritania",
-      "Value": 4525696
-    }, {
-      "Name": "Panama",
-      "Value": 4246439
-    }, {
-      "Name": "Kuwait",
-      "Value": 4207083
-    }, {
-      "Name": "Croatia",
-      "Value": 4130304
-    }, {
-      "Name": "Moldova",
-      "Value": 4043263
-    }, {
-      "Name": "Georgia",
-      "Value": 3996765
-    }, {
-      "Name": "Eritrea",
-      "Value": 3497117
-    }, {
-      "Name": "Uruguay",
-      "Value": 3461734
-    }, {
-      "Name": "Bosnia and Herzegovina",
-      "Value": 3301000
-    }, {
-      "Name": "Mongolia",
-      "Value": 3225167
-    }, {
-      "Name": "Armenia",
-      "Value": 2957731
-    }, {
-      "Name": "Jamaica",
-      "Value": 2948279
-    }, {
-      "Name": "Puerto Rico",
-      "Value": 2933408
-    }, {
-      "Name": "Albania",
-      "Value": 2880917
-    }, {
-      "Name": "Qatar",
-      "Value": 2832067
-    }, {
-      "Name": "Lithuania",
-      "Value": 2759627
-    }, {
-      "Name": "Namibia",
-      "Value": 2494530
-    }, {
-      "Name": "Gambia",
-      "Value": 2347706
-    }, {
-      "Name": "Botswana",
-      "Value": 2303697
-    }, {
-      "Name": "Gabon",
-      "Value": 2172579
-    }, {
-      "Name": "Lesotho",
-      "Value": 2125268
-    }, {
-      "Name": "North Macedonia",
-      "Value": 2083459
-    }, {
-      "Name": "Slovenia",
-      "Value": 2078654
-    }, {
-      "Name": "Guinea-Bissau",
-      "Value": 1920922
-    }, {
-      "Name": "Latvia",
-      "Value": 1906743
-    }, {
-      "Name": "Bahrain",
-      "Value": 1641172
-    }, {
-      "Name": "Trinidad and Tobago",
-      "Value": 1394973
-    }, {
-      "Name": "Equatorial Guinea",
-      "Value": 1355986
-    }, {
-      "Name": "Estonia",
-      "Value": 1325648
-    }, {
-      "Name": "Timor-Leste",
-      "Value": 1293119
-    }, {
-      "Name": "Mauritius",
-      "Value": 1269668
-    }, {
-      "Name": "Cyprus",
-      "Value": 1198575
-    }, {
-      "Name": "Eswatini",
-      "Value": 1148130
-    }, {
-      "Name": "Djibouti",
-      "Value": 973560
-    }, {
-      "Name": "Fiji",
-      "Value": 889953
-    }, {
-      "Name": "Réunion",
-      "Value": 888927
-    }, {
-      "Name": "Comoros",
-      "Value": 850886
-    }, {
-      "Name": "Guyana",
-      "Value": 782766
-    }, {
-      "Name": "Bhutan",
-      "Value": 763092
-    }, {
-      "Name": "Solomon Islands",
-      "Value": 669823
-    }, {
-      "Name": "Macao",
-      "Value": 640445
-    }, {
-      "Name": "Montenegro",
-      "Value": 627987
-    }, {
-      "Name": "Luxembourg",
-      "Value": 615729
-    }, {
-      "Name": "Western Sahara",
-      "Value": 582463
-    }, {
-      "Name": "Suriname",
-      "Value": 581372
-    }, {
-      "Name": "Cabo Verde",
-      "Value": 549935
-    }, {
-      "Name": "Maldives",
-      "Value": 530953
-    }, {
-      "Name": "Malta",
-      "Value": 440372
-    }, {
-      "Name": "Brunei",
-      "Value": 433285
-    }, {
-      "Name": "Guadeloupe",
-      "Value": 400056
-    }, {
-      "Name": "Belize",
-      "Value": 390353
-    }, {
-      "Name": "Bahamas",
-      "Value": 389482
-    }, {
-      "Name": "Martinique",
-      "Value": 375554
-    }, {
-      "Name": "Iceland",
-      "Value": 339031
-    }, {
-      "Name": "Vanuatu",
-      "Value": 299882
-    }, {
-      "Name": "French Guiana",
-      "Value": 290832
-    }, {
-      "Name": "Barbados",
-      "Value": 287025
-    }, {
-      "Name": "New Caledonia",
-      "Value": 282750
-    }, {
-      "Name": "French Polynesia",
-      "Value": 279287
-    }, {
-      "Name": "Mayotte",
-      "Value": 266150
-    }, {
-      "Name": "São Tomé and Príncipe",
-      "Value": 215056
-    }, {
-      "Name": "Samoa",
-      "Value": 197097
-    }, {
-      "Name": "Saint Lucia",
-      "Value": 182790
-    }, {
-      "Name": "Channel Islands",
-      "Value": 172259
-    }, {
-      "Name": "Guam",
-      "Value": 167294
-    }, {
-      "Name": "Curaçao",
-      "Value": 163424
-    }, {
-      "Name": "Kiribati",
-      "Value": 117606
-    }, {
-      "Name": "Micronesia",
-      "Value": 113815
-    }, {
-      "Name": "Grenada",
-      "Value": 112003
-    }, {
-      "Name": "Saint Vincent and the Grenadines",
-      "Value": 110589
-    }, {
-      "Name": "Aruba",
-      "Value": 106314
-    }, {
-      "Name": "U.S. Virgin Islands",
-      "Value": 104578
-    }, {
-      "Name": "Tonga",
-      "Value": 104494
-    }, {
-      "Name": "Seychelles",
-      "Value": 97739
-    }, {
-      "Name": "Antigua and Barbuda",
-      "Value": 97118
-    }, {
-      "Name": "Isle of Man",
-      "Value": 84584
-    }, {
-      "Name": "Andorra",
-      "Value": 77142
-    }, {
-      "Name": "Dominica",
-      "Value": 71808
-    }, {
-      "Name": "Cayman Islands",
-      "Value": 64948
-    }, {
-      "Name": "Bermuda",
-      "Value": 62506
-    }, {
-      "Name": "Marshall Islands",
-      "Value": 58791
-    }, {
-      "Name": "Northern Mariana Islands",
-      "Value": 57216
-    }, {
-      "Name": "Greenland",
-      "Value": 56672
-    }, {
-      "Name": "American Samoa",
-      "Value": 55312
-    }, {
-      "Name": "Saint Kitts and Nevis",
-      "Value": 52823
-    }, {
-      "Name": "Faeroe Islands",
-      "Value": 48678
-    }, {
-      "Name": "Sint Maarten",
-      "Value": 42388
-    }, {
-      "Name": "Monaco",
-      "Value": 38964
-    }, {
-      "Name": "Turks and Caicos",
-      "Value": 38191
-    }, {
-      "Name": "Liechtenstein",
-      "Value": 38019
-    }, {
-      "Name": "Saint Martin",
-      "Value": 38002
-    }, {
-      "Name": "San Marina",
-      "Value": 33860
-    }, {
-      "Name": "Gibraltar",
-      "Value": 33701
-    }, {
-      "Name": "British Virgin Islands",
-      "Value": 30030
-    }, {
-      "Name": "Caribbean Netherlands",
-      "Value": 25979
-    }, {
-      "Name": "Palau",
-      "Value": 18008
-    }, {
-      "Name": "Cook Islands",
-      "Value": 17548
-    }, {
-      "Name": "Anguilla",
-      "Value": 14869
-    }, {
-      "Name": "Tuvalu",
-      "Value": 11646
-    }, {
-      "Name": "Wallis and Futuna",
-      "Value": 11432
-    }, {
-      "Name": "Nauru",
-      "Value": 10756
-    }, {
-      "Name": "Saint Barthelemy",
-      "Value": 9847
-    }, {
-      "Name": "Saint Helena",
-      "Value": 6059
-    }, {
-      "Name": "Saint Pierre and Miquelon",
-      "Value": 5822
-    }, {
-      "Name": "Montserrat",
-      "Value": 4989
-    }, {
-      "Name": "Falkland Islands",
-      "Value": 3377
-    }, {
-      "Name": "Niue",
-      "Value": 1615
-    }, {
-      "Name": "Tokelau",
-      "Value": 1340
-    }, {
-      "Name": "Holy See",
-      "Value": 799
-    }]
-  }, {
-    "Name": "Continent Population (2020)",
-    "IconsetId": null,
-    "Scale": 1,
-    "BeginRound": 2,
-    "ToDecimal": 3,
-    "Dataset": [{
-      "Name": "Asia",
-      "Value": 4641054775
-    }, {
-      "Name": "Africa",
-      "Value": 1340598147
-    }, {
-      "Name": "Europe",
-      "Value": 747636026
-    }, {
-      "Name": "Latin America & the Caribbean",
-      "Value": 653962331
-    }, {
-      "Name": "North America",
-      "Value": 368869647
-    }, {
-      "Name": "Oceania",
-      "Value": 42677813
-    }]
-  }, {
-    "Name": "Continent Population (2019)",
-    "IconsetId": null,
-    "Scale": 1,
-    "BeginRound": 2,
-    "ToDecimal": 3,
-    "Dataset": [{
-      "Name": "Asia",
-      "Value": 4601371198
-    }, {
-      "Name": "Africa",
-      "Value": 1308064195
-    }, {
-      "Name": "Europe",
-      "Value": 747182751
-    }, {
-      "Name": "Latin America & the Caribbean",
-      "Value": 648120957
-    }, {
-      "Name": "North America",
-      "Value": 366600964
-    }, {
-      "Name": "Oceania",
-      "Value": 42128035
-    }]
-  }, {
-    "Name": "Religion Population (2020)",
-    "IconsetId": 1,
-    "Scale": 1000000,
-    "BeginRound": 2,
-    "ToDecimal": 3,
-    "Dataset": [{
-      "Name": "Christianity",
-      "Value": 2300
-    }, {
-      "Name": "Islam",
-      "Value": 1900
-    }, {
-      "Name": "No Religion",
-      "Value": 1100
-    }, {
-      "Name": "Hinduism",
-      "Value": 1100
-    }, {
-      "Name": "Buddhism",
-      "Value": 506
-    }, {
-      "Name": "Chinese Traditional Religion",
-      "Value": 394
-    }, {
-      "Name": "Ethnic Religions",
-      "Value": 300
-    }, {
-      "Name": "African Traditional Religions",
-      "Value": 100
-    }, {
-      "Name": "Sikhism",
-      "Value": 23
-    }, {
-      "Name": "Spiritism",
-      "Value": 15
-    }, {
-      "Name": "Judaism",
-      "Value": 14
-    }, {
-      "Name": "Bahá'í",
-      "Value": 7
-    }, {
-      "Name": "Jainism",
-      "Value": 4.2
-    }, {
-      "Name": "Shinto",
-      "Value": 4
-    }, {
-      "Name": "Cao Dai",
-      "Value": 4
-    }, {
-      "Name": "Zoroastrianism",
-      "Value": 2.6
-    }, {
-      "Name": "Tenrikyo",
-      "Value": 2
-    }, {
-      "Name": "Animism",
-      "Value": 1.9
-    }, {
-      "Name": "Neo-Paganism",
-      "Value": 1
-    }, {
-      "Name": "Unitarian Universalism",
-      "Value": 0.8
-    }, {
-      "Name": "Rastafari",
-      "Value": 0.6
-    }]
-  }, {
-    "Name": "Nominal GDP [USD] (2017)",
-    "IconsetId": 0,
-    "Scale": 1000000,
-    "BeginRound": 3,
-    "ToDecimal": 3,
-    "Dataset": [{
-      "Name": "United States",
-      "Value": 19485394
-    }, {
-      "Name": "China",
-      "Value": 12234781
-    }, {
-      "Name": "Japan",
-      "Value": 4872415
-    }, {
-      "Name": "Germany",
-      "Value": 3693204
-    }, {
-      "Name": "United Kingdom",
-      "Value": 2631228
-    }, {
-      "Name": "France",
-      "Value": 2582492
-    }, {
-      "Name": "India",
-      "Value": 2575666
-    }, {
-      "Name": "Brazil",
-      "Value": 2055512
-    }, {
-      "Name": "Italy",
-      "Value": 1943835
-    }, {
-      "Name": "Canada",
-      "Value": 1647120
-    }, {
-      "Name": "South Korea",
-      "Value": 1577524
-    }, {
-      "Name": "Russia",
-      "Value": 1530750
-    }, {
-      "Name": "Austrailia",
-      "Value": 1408675
-    }, {
-      "Name": "Spain",
-      "Value": 1314314
-    }, {
-      "Name": "Mexico",
-      "Value": 1158229
-    }, {
-      "Name": "Indonesia",
-      "Value": 1015539
-    }, {
-      "Name": "Turkey",
-      "Value": 851541
-    }, {
-      "Name": "Netherlands",
-      "Value": 830572
-    }, {
-      "Name": "Saudi Arabia",
-      "Value": 683827
-    }, {
-      "Name": "Switzerland",
-      "Value": 678938
-    }, {
-      "Name": "Argentina",
-      "Value": 637486
-    }, {
-      "Name": "Sweden",
-      "Value": 535607
-    }, {
-      "Name": "Poland",
-      "Value": 526211
-    }, {
-      "Name": "Belgium",
-      "Value": 494763
-    }, {
-      "Name": "Iran",
-      "Value": 460976
-    }, {
-      "Name": "Thailand",
-      "Value": 455302
-    }, {
-      "Name": "Austria",
-      "Value": 416835
-    }, {
-      "Name": "Norway",
-      "Value": 399470
-    }, {
-      "Name": "United Arab Emirates",
-      "Value": 382575
-    }, {
-      "Name": "Nigeria",
-      "Value": 375769
-    }, {
-      "Name": "Israel",
-      "Value": 353268
-    }, {
-      "Name": "South Africa",
-      "Value": 348872
-    }, {
-      "Name": "Hong Kong",
-      "Value": 341659
-    }, {
-      "Name": "Ireland",
-      "Value": 331430
-    }, {
-      "Name": "Denmark",
-      "Value": 329965
-    }, {
-      "Name": "Singapore",
-      "Value": 323901
-    }, {
-      "Name": "Malaysia",
-      "Value": 314707
-    }, {
-      "Name": "Philippines",
-      "Value": 313595
-    }, {
-      "Name": "Colombia",
-      "Value": 309191
-    }, {
-      "Name": "Pakistan",
-      "Value": 302139
-    }, {
-      "Name": "Chile",
-      "Value": 277080
-    }, {
-      "Name": "Venezuela",
-      "Value": 255092
-    }, {
-      "Name": "Finland",
-      "Value": 252246
-    }, {
-      "Name": "Bangladesh",
-      "Value": 245633
-    }, {
-      "Name": "Vietnam",
-      "Value": 223779
-    }, {
-      "Name": "Czech Republic",
-      "Value": 215824
-    }, {
-      "Name": "Romania",
-      "Value": 211803
-    }, {
-      "Name": "Peru",
-      "Value": 211402
-    }, {
-      "Name": "Greece",
-      "Value": 203085
-    }, {
-      "Name": "New Zealand",
-      "Value": 202044
-    }]
-  }, {
-    "Name": "GDP per capita [USD] (2017)",
-    "IconsetId": 0,
-    "Scale": 1,
-    "BeginRound": 0,
-    "ToDecimal": 1,
-    "Dataset": [{
-      "Name": "Luxembourg",
-      "Value": 104103
-    }, {
-      "Name": "Macau",
-      "Value": 80893
-    }, {
-      "Name": "Switzerland",
-      "Value": 80190
-    }, {
-      "Name": "Norway",
-      "Value": 75505
-    }, {
-      "Name": "Iceland",
-      "Value": 70057
-    }, {
-      "Name": "Ireland",
-      "Value": 69331
-    }, {
-      "Name": "Qatar",
-      "Value": 63506
-    }, {
-      "Name": "United States",
-      "Value": 59532
-    }, {
-      "Name": "Singapore",
-      "Value": 57714
-    }, {
-      "Name": "Denark",
-      "Value": 56308
-    }, {
-      "Name": "Austrailia",
-      "Value": 53800
-    }, {
-      "Name": "Sweden",
-      "Value": 53442
-    }, {
-      "Name": "San Marino",
-      "Value": 49664
-    }, {
-      "Name": "Netherlands",
-      "Value": 48223
-    }, {
-      "Name": "Austria",
-      "Value": 47291
-    }, {
-      "Name": "Hong Kong",
-      "Value": 46194
-    }, {
-      "Name": "Finland",
-      "Value": 45703
-    }, {
-      "Name": "Canada",
-      "Value": 45032
-    }, {
-      "Name": "Germany",
-      "Value": 44470
-    }, {
-      "Name": "Belgium",
-      "Value": 43324
-    }, {
-      "Name": "New Zealand",
-      "Value": 42941
-    }, {
-      "Name": "United Arab Emirates",
-      "Value": 40699
-    }, {
-      "Name": "Israel",
-      "Value": 40270
-    }, {
-      "Name": "United Kingdom",
-      "Value": 39720
-    }, {
-      "Name": "Andorra",
-      "Value": 39147
-    }, {
-      "Name": "France",
-      "Value": 38477
-    }, {
-      "Name": "Japan",
-      "Value": 38428
-    }, {
-      "Name": "European Union",
-      "Value": 33715
-    }, {
-      "Name": "Italy",
-      "Value": 31953
-    }, {
-      "Name": "The Bahamas",
-      "Value": 30762
-    }, {
-      "Name": "South Korea",
-      "Value": 29743
-    }, {
-      "Name": "Kuwait",
-      "Value": 29040
-    }, {
-      "Name": "Brunei",
-      "Value": 28291
-    }, {
-      "Name": "Spain",
-      "Value": 28157
-    }, {
-      "Name": "Malta",
-      "Value": 26904
-    }, {
-      "Name": "Aruba",
-      "Value": 25655
-    }, {
-      "Name": "Cyprus",
-      "Value": 25234
-    }, {
-      "Name": "Bahrain",
-      "Value": 23655
-    }, {
-      "Name": "Slovenia",
-      "Value": 23597
-    }, {
-      "Name": "Portugal",
-      "Value": 21136
-    }, {
-      "Name": "Saudi Arabia",
-      "Value": 20761
-    }, {
-      "Name": "Czech Republic",
-      "Value": 20368
-    }, {
-      "Name": "Estonia",
-      "Value": 19705
-    }, {
-      "Name": "Greece",
-      "Value": 18613
-    }, {
-      "Name": "Slovakia",
-      "Value": 17605
-    }, {
-      "Name": "Saint Kitts and Nevis",
-      "Value": 17090
-    }, {
-      "Name": "Barbados",
-      "Value": 16789
-    }, {
-      "Name": "Lithuania",
-      "Value": 16681
-    }, {
-      "Name": "Trinidad and Tobago",
-      "Value": 16145
-    }, {
-      "Name": "Oman",
-      "Value": 15668
-    }]
-  }],
-  "Iconsets": [{
-    "Directory": "flag",
-    "Items": [
-      "China", "India", "United States", "Indonesia", "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Mexico", "Japan", "Ethiopia", "Philippines", "Egypt", "Vietnam",
-      "Democratic Republic of Congo", "Germany", "Thailand", "United Kingdom", "France", "Tanzania", "Italy", "Kenya", "Colombia", "Spain", "Argentina", "Algeria", "Canada", "Afghanistan",
-      "Yemen", "Cameroon", "Niger", "Romania", "Syria", "Chile", "Zambia", "Guatemala", "Netherlands", "Cambodia", "Somalia", "Guinea", "Benin", "Burundi", "Belgium", "Cuba", "Bolivia",
-      "Greece", "Czech Republic", "Jordan", "Sweden", "Azerbaijan", "Hungary", "Austria", "Switzerland"
-    ]
-  }, {
-    "Directory": "religion",
-    "Items": ["Christians", "Muslims", "No Religion", "Hindus", "Christianity", "Islam", "Hinduism"]
-  }]
-}
+  datasets : [
+    [ 'Country and Territory Population (2020)', 0, 1, 2, 3, [
+      [ 'China', 1439323776 ],
+      [ 'India', 1380004385 ],
+      [ 'United States', 331002651 ],
+      [ 'Indonesia', 273523615 ],
+      [ 'Pakistan', 220892340 ],
+      [ 'Brazil', 212559417 ],
+      [ 'Nigeria', 206139589 ],
+      [ 'Bangladesh', 164689383 ],
+      [ 'Russia', 145934462 ],
+      [ 'Mexico', 128932753 ],
+      [ 'Japan', 126476461 ],
+      [ 'Ethiopia', 114963588 ],
+      [ 'Philippines', 109581078 ],
+      [ 'Egypt', 102334404 ],
+      [ 'Vietnam', 97338579 ],
+      [ 'Democratic Republic of Congo', 89561403 ],
+      [ 'Turkey', 84339067 ],
+      [ 'Iran', 83992949 ],
+      [ 'Germany', 83783942 ],
+      [ 'Thailand', 69799978 ],
+      [ 'United Kingdom', 67886011 ],
+      [ 'France', 65273511 ],
+      [ 'Italy', 60461826 ],
+      [ 'Tanzania', 59734218 ],
+      [ 'South Africa', 59308690 ],
+      [ 'Myanmar', 54409800 ],
+      [ 'Kenya', 53771296 ],
+      [ 'South Korea', 51269185 ],
+      [ 'Colombia', 50882891 ],
+      [ 'Spain', 46754778 ],
+      [ 'Uganda', 45741007 ],
+      [ 'Argentina', 45195774 ],
+      [ 'Algeria', 43851044 ],
+      [ 'Sudan', 43849260 ],
+      [ 'Ukraine', 43733762 ],
+      [ 'Iraq', 40222493 ],
+      [ 'Afghanistan', 38928346 ],
+      [ 'Poland', 37846611 ],
+      [ 'Canada', 37742154 ],
+      [ 'Morocco', 36910560 ],
+      [ 'Saudi Arabia', 34813871 ],
+      [ 'Uzbekistan', 33469203 ],
+      [ 'Peru', 32971854 ],
+      [ 'Angola', 32866272 ],
+      [ 'Malaysia', 32365999 ],
+      [ 'Mozambique', 31255435 ],
+      [ 'Ghana', 31072940 ],
+      [ 'Yemen', 29825964 ],
+      [ 'Nepal', 29136808 ],
+      [ 'Venezuela', 28435940 ],
+      [ 'Madagascar', 27691018 ],
+      [ 'Cameroon', 26545863 ],
+      [ `Côte d'Ivoire`, 26378274 ],
+      [ 'North Korea', 25778816 ],
+      [ 'Australia', 25499884 ],
+      [ 'Niger', 24206644 ],
+      [ 'Taiwan', 23816775 ],
+      [ 'Sri Lanka', 21413249 ],
+      [ 'Burkina Faso', 20903273 ],
+      [ 'Mali', 20250833 ],
+      [ 'Romania', 19237691 ],
+      [ 'Malawi', 19129952 ],
+      [ 'Chile', 19116201 ],
+      [ 'Kazakhstan', 18776707 ],
+      [ 'Zambia', 18383955 ],
+      [ 'Guatemala', 17915568 ],
+      [ 'Ecuador', 17643054 ],
+      [ 'Syria', 17500658 ],
+      [ 'Netherlands', 17134872 ],
+      [ 'Senegal', 16743927 ],
+      [ 'Cambodia', 16718965 ],
+      [ 'Chad', 16425864 ],
+      [ 'Somalia', 15893222 ],
+      [ 'Zimbabwe', 14862924 ],
+      [ 'Guinea', 13132795 ],
+      [ 'Rwanda', 12952218 ],
+      [ 'Benin', 12123200 ],
+      [ 'Burundi', 11890784 ],
+      [ 'Tunisia', 11818619 ],
+      [ 'Bolivia', 11673021 ],
+      [ 'Belgium', 11589623 ],
+      [ 'Haiti', 11402528 ],
+      [ 'Cuba', 11326616 ],
+      [ 'South Sudan', 11193725 ],
+      [ 'Dominican Republic', 10847910 ],
+      [ 'Czech Republic', 10708981 ],
+      [ 'Greece', 10423054 ],
+      [ 'Jordan', 10203134 ],
+      [ 'Portugal', 10196709 ],
+      [ 'Azerbaijan', 10139177 ],
+      [ 'Sweden', 10099265 ],
+      [ 'Honduras', 9904607 ],
+      [ 'United Arab Emirates', 9890402 ],
+      [ 'Hungary', 9660351 ],
+      [ 'Tajikistan', 9537645 ],
+      [ 'Belarus', 9449323 ],
+      [ 'Austria', 9006398 ],
+      [ 'Papua New Guinea', 8947024 ],
+      [ 'Serbia', 8737371 ],
+      [ 'Israel', 8655535 ],
+      [ 'Switzerland', 8654622 ],
+      [ 'Togo', 8278724 ],
+      [ 'Sierra Leone', 7976983 ],
+      [ 'Hong Kong', 7496981 ],
+      [ 'Laos', 7275560 ],
+      [ 'Paraguay', 7132538 ],
+      [ 'Bulgaria', 6948445 ],
+      [ 'Libya', 6871292 ],
+      [ 'Lebanon', 6825445 ],
+      [ 'Nicaragua', 6624554 ],
+      [ 'Kyrgyzstan', 6524195 ],
+      [ 'El Salvador', 6486205 ],
+      [ 'Turkmenistan', 6031200 ],
+      [ 'Singapore', 5850342 ],
+      [ 'Denmark', 5792202 ],
+      [ 'Finland', 5540720 ],
+      [ 'Republic of the Congo', 5518087 ],
+      [ 'Slovakia', 5459642 ],
+      [ 'Norway', 5421241 ],
+      [ 'Oman', 5106626 ],
+      [ 'State of Palestine', 5101414 ],
+      [ 'Costa Rica', 5094118 ],
+      [ 'Liberia', 5057681 ],
+      [ 'Ireland', 4937786 ],
+      [ 'Central African Republic', 4829767 ],
+      [ 'New Zealand', 4822233 ],
+      [ 'Mauritania', 4649658 ],
+      [ 'Panama', 4314767 ],
+      [ 'Kuwait', 4270571 ],
+      [ 'Croatia', 4105267 ],
+      [ 'Moldova', 4033963 ],
+      [ 'Georgia', 3989167 ],
+      [ 'Eritrea', 3546421 ],
+      [ 'Uruguay', 3473730 ],
+      [ 'Bosnia and Herzegovina', 3280819 ],
+      [ 'Mongolia', 3278290 ],
+      [ 'Armenia', 2963243 ],
+      [ 'Jamaica', 2961167 ],
+      [ 'Qatar', 2881053 ],
+      [ 'Albania', 2877797 ],
+      [ 'Puerto Rico', 2860853 ],
+      [ 'Lithuania', 2722289 ],
+      [ 'Namibia', 2540905 ],
+      [ 'Gambia', 2416668 ],
+      [ 'Botswana', 2351627 ],
+      [ 'Gabon', 2225734 ],
+      [ 'Lesotho', 2142249 ],
+      [ 'North Macedonia', 2083374 ],
+      [ 'Slovenia', 2078938 ],
+      [ 'Guinea-Bissau', 1968001 ],
+      [ 'Latvia', 1886198 ],
+      [ 'Bahrain', 1701575 ],
+      [ 'Equatorial Guinea', 1402985 ],
+      [ 'Trinidad and Tobago', 1399488 ],
+      [ 'Estonia', 1326535 ],
+      [ 'Timor-Leste', 1318445 ],
+      [ 'Mauritius', 1271768 ],
+      [ 'Cyprus', 1207359 ],
+      [ 'Eswatini', 1160164 ],
+      [ 'Djibouti', 988000 ],
+      [ 'Fiji', 896445 ],
+      [ 'Réunion', 895312 ],
+      [ 'Comoros', 869601 ],
+      [ 'Guyana', 786552 ],
+      [ 'Bhutan', 771608 ],
+      [ 'Solomon Islands', 686884 ],
+      [ 'Macao', 649335 ],
+      [ 'Montenegro', 628066 ],
+      [ 'Luxembourg', 625978 ],
+      [ 'Western Sahara', 597339 ],
+      [ 'Suriname', 586632 ],
+      [ 'Cabo Verde', 555987 ],
+      [ 'Maldives', 540544 ],
+      [ 'Malta', 441543 ],
+      [ 'Brunei', 437479 ],
+      [ 'Guadeloupe', 400124 ],
+      [ 'Belize', 397628 ],
+      [ 'Bahamas', 393244 ],
+      [ 'Martinique', 375265 ],
+      [ 'Iceland', 341243 ],
+      [ 'Vanuatu', 307145 ],
+      [ 'French Guiana', 298682 ],
+      [ 'Barbados', 287375 ],
+      [ 'New Caledonia', 285498 ],
+      [ 'French Polynesia', 280908 ],
+      [ 'Mayotte', 272815 ],
+      [ 'São Tomé and Príncipe', 219159 ],
+      [ 'Samoa', 198414 ],
+      [ 'Saint Lucia', 183627 ],
+      [ 'Channel Islands', 173863 ],
+      [ 'Guam', 168775 ],
+      [ 'Curaçao', 164093 ],
+      [ 'Kiribati', 119449 ],
+      [ 'Micronesia', 115023 ],
+      [ 'Grenada', 112523 ],
+      [ 'Saint Vincent and the Grenadines', 110940 ],
+      [ 'Aruba', 106766 ],
+      [ 'Tonga', 105695 ],
+      [ 'U.S. Virgin Islands', 104425 ],
+      [ 'Seychelles', 98347 ],
+      [ 'Antigua and Barbuda', 97929 ],
+      [ 'Isle of Man', 85033 ],
+      [ 'Andorra', 77265 ],
+      [ 'Dominica', 71986 ],
+      [ 'Cayman Islands', 65722 ],
+      [ 'Bermuda', 62278 ],
+      [ 'Marshall Islands', 59190 ],
+      [ 'Northern Mariana Islands', 57559 ],
+      [ 'Greenland', 56770 ],
+      [ 'American Samoa', 55191 ],
+      [ 'Saint Kitts and Nevis', 53199 ],
+      [ 'Faeroe Islands', 48863 ],
+      [ 'Sint Maarten', 42876 ],
+      [ 'Monaco', 39242 ],
+      [ 'Turks and Caicos', 38717 ],
+      [ 'Saint Martin', 38666 ],
+      [ 'Liechtenstein', 38128 ],
+      [ 'San Marina', 33931 ],
+      [ 'Gibraltar', 33691 ],
+      [ 'British Virgin Islands', 30231 ],
+      [ 'Caribbean Netherlands', 26223 ],
+      [ 'Palau', 18094 ],
+      [ 'Cook Islands', 17564 ],
+      [ 'Anguilla', 15003 ],
+      [ 'Tuvalu', 11792 ],
+      [ 'Wallis and Futuna', 11239 ],
+      [ 'Nauru', 10824 ],
+      [ 'Saint Barthelemy', 9877 ],
+      [ 'Saint Helena', 6077 ],
+      [ 'Saint Pierre and Miquelon', 5794 ],
+      [ 'Montserrat', 4992 ],
+      [ 'Falkland Islands', 3480 ],
+      [ 'Niue', 1626 ],
+      [ 'Tokelau', 1357 ],
+      [ 'Holy See', 801 ],
+    ] ],
+    [ 'Country and Territory Population (2019)', 0, 1, 2, 3, [
+      [ 'China', 1433783686 ],
+      [ 'India', 1366417754 ],
+      [ 'United States', 329064917 ],
+      [ 'Indonesia', 270625568 ],
+      [ 'Pakistan', 216565318 ],
+      [ 'Brazil', 211049527 ],
+      [ 'Nigeria', 200963599 ],
+      [ 'Bangladesh', 163046161 ],
+      [ 'Russia', 145872256 ],
+      [ 'Mexico', 127575529 ],
+      [ 'Japan', 126860301 ],
+      [ 'Ethiopia', 112078730 ],
+      [ 'Philippines', 108116615 ],
+      [ 'Egypt', 100388073 ],
+      [ 'Vietnam', 96462106 ],
+      [ 'Democratic Republic of Congo', 86790567 ],
+      [ 'Germany', 83517045 ],
+      [ 'Turkey', 83429615 ],
+      [ 'Iran', 82913906 ],
+      [ 'Thailand', 69625582 ],
+      [ 'United Kingdom', 67530172 ],
+      [ 'France', 65129728 ],
+      [ 'Italy', 60550075 ],
+      [ 'South Africa', 58558270 ],
+      [ 'Tanzania', 58005463 ],
+      [ 'Myanmar', 54045420 ],
+      [ 'Kenya', 52573973 ],
+      [ 'South Korea', 51225308 ],
+      [ 'Colombia', 50339443 ],
+      [ 'Spain', 46736776 ],
+      [ 'Argentina', 44780677 ],
+      [ 'Uganda', 44269594 ],
+      [ 'Ukraine', 43993638 ],
+      [ 'Algeria', 43053054 ],
+      [ 'Sudan', 42813238 ],
+      [ 'Iraq', 39309783 ],
+      [ 'Afghanistan', 38041754 ],
+      [ 'Poland', 37887768 ],
+      [ 'Canada', 37411047 ],
+      [ 'Morocco', 36471769 ],
+      [ 'Saudi Arabia', 34268528 ],
+      [ 'Uzbekistan', 32981716 ],
+      [ 'Peru', 32510453 ],
+      [ 'Malaysia', 31949777 ],
+      [ 'Angola', 31825295 ],
+      [ 'Ghana', 30417856 ],
+      [ 'Mozambique', 30366036 ],
+      [ 'Yemen', 29161922 ],
+      [ 'Nepal', 28608710 ],
+      [ 'Venezuela', 28515829 ],
+      [ 'Madagascar', 26969307 ],
+      [ 'Cameroon', 25876380 ],
+      [ `Côte d'Ivoire`, 25716544 ],
+      [ 'North Korea', 25666161 ],
+      [ 'Australia', 25203198 ],
+      [ 'Taiwan', 23773876 ],
+      [ 'Niger', 23310715 ],
+      [ 'Sri Lanka', 21323733 ],
+      [ 'Burkina Faso', 20321378 ],
+      [ 'Mali', 19658031 ],
+      [ 'Romania', 19364557 ],
+      [ 'Chile', 18952038 ],
+      [ 'Malawi', 18628747 ],
+      [ 'Kazakhstan', 18551427 ],
+      [ 'Zambia', 17861030 ],
+      [ 'Guatemala', 17581472 ],
+      [ 'Ecuador', 17373662 ],
+      [ 'Netherlands', 17097130 ],
+      [ 'Syria', 17070135 ],
+      [ 'Cambodia', 16486542 ],
+      [ 'Senegal', 16296364 ],
+      [ 'Chad', 15946876 ],
+      [ 'Somalia', 15442905 ],
+      [ 'Zimbabwe', 14645468 ],
+      [ 'Guinea', 12771246 ],
+      [ 'Rwanda', 12626950 ],
+      [ 'Benin', 11801151 ],
+      [ 'Tunisia', 11694719 ],
+      [ 'Belgium', 11539328 ],
+      [ 'Burundi', 11530580 ],
+      [ 'Bolivia', 11513100 ],
+      [ 'Cuba', 11333483 ],
+      [ 'Haiti', 11263077 ],
+      [ 'South Sudan', 11062113 ],
+      [ 'Dominican Republic', 10738958 ],
+      [ 'Czech Republic', 10689209 ],
+      [ 'Greece', 10473455 ],
+      [ 'Portugal', 10226187 ],
+      [ 'Jordan', 10101694 ],
+      [ 'Azerbaijan', 10047718 ],
+      [ 'Sweden', 10036379 ],
+      [ 'United Arab Emirates', 9770529 ],
+      [ 'Honduras', 9746117 ],
+      [ 'Hungary', 9684679 ],
+      [ 'Belarus', 9452411 ],
+      [ 'Tajikistan', 9321018 ],
+      [ 'Austria', 8955102 ],
+      [ 'Papua New Guinea', 8776109 ],
+      [ 'Serbia', 8772235 ],
+      [ 'Switzerland', 8591365 ],
+      [ 'Israel', 8519377 ],
+      [ 'Togo', 8082366 ],
+      [ 'Sierra Leone', 7813215 ],
+      [ 'Hong Kong', 7436154 ],
+      [ 'Laos', 7169455 ],
+      [ 'Paraguay', 7044636 ],
+      [ 'Bulgaria', 7000119 ],
+      [ 'Lebanon', 6855713 ],
+      [ 'Libya', 6777452 ],
+      [ 'Nicaragua', 6545502 ],
+      [ 'El Salvador', 6453553 ],
+      [ 'Kyrgyzstan', 6415850 ],
+      [ 'Turkmenistan', 5942089 ],
+      [ 'Singapore', 5804337 ],
+      [ 'Denmark', 5771876 ],
+      [ 'Finland', 5532156 ],
+      [ 'Slovakia', 5457013 ],
+      [ 'Republic of the Congo', 5380508 ],
+      [ 'Norway', 5378857 ],
+      [ 'Costa Rica', 5047561 ],
+      [ 'State of Palestine', 4981420 ],
+      [ 'Oman', 4974986 ],
+      [ 'Liberia', 4937374 ],
+      [ 'Ireland', 4882495 ],
+      [ 'New Zealand', 4783063 ],
+      [ 'Central African Republic', 4745185 ],
+      [ 'Mauritania', 4525696 ],
+      [ 'Panama', 4246439 ],
+      [ 'Kuwait', 4207083 ],
+      [ 'Croatia', 4130304 ],
+      [ 'Moldova', 4043263 ],
+      [ 'Georgia', 3996765 ],
+      [ 'Eritrea', 3497117 ],
+      [ 'Uruguay', 3461734 ],
+      [ 'Bosnia and Herzegovina', 3301000 ],
+      [ 'Mongolia', 3225167 ],
+      [ 'Armenia', 2957731 ],
+      [ 'Jamaica', 2948279 ],
+      [ 'Puerto Rico', 2933408 ],
+      [ 'Albania', 2880917 ],
+      [ 'Qatar', 2832067 ],
+      [ 'Lithuania', 2759627 ],
+      [ 'Namibia', 2494530 ],
+      [ 'Gambia', 2347706 ],
+      [ 'Botswana', 2303697 ],
+      [ 'Gabon', 2172579 ],
+      [ 'Lesotho', 2125268 ],
+      [ 'North Macedonia', 2083459 ],
+      [ 'Slovenia', 2078654 ],
+      [ 'Guinea-Bissau', 1920922 ],
+      [ 'Latvia', 1906743 ],
+      [ 'Bahrain', 1641172 ],
+      [ 'Trinidad and Tobago', 1394973 ],
+      [ 'Equatorial Guinea', 1355986 ],
+      [ 'Estonia', 1325648 ],
+      [ 'Timor-Leste', 1293119 ],
+      [ 'Mauritius', 1269668 ],
+      [ 'Cyprus', 1198575 ],
+      [ 'Eswatini', 1148130 ],
+      [ 'Djibouti', 973560 ],
+      [ 'Fiji', 889953 ],
+      [ 'Réunion', 888927 ],
+      [ 'Comoros', 850886 ],
+      [ 'Guyana', 782766 ],
+      [ 'Bhutan', 763092 ],
+      [ 'Solomon Islands', 669823 ],
+      [ 'Macao', 640445 ],
+      [ 'Montenegro', 627987 ],
+      [ 'Luxembourg', 615729 ],
+      [ 'Western Sahara', 582463 ],
+      [ 'Suriname', 581372 ],
+      [ 'Cabo Verde', 549935 ],
+      [ 'Maldives', 530953 ],
+      [ 'Malta', 440372 ],
+      [ 'Brunei', 433285 ],
+      [ 'Guadeloupe', 400056 ],
+      [ 'Belize', 390353 ],
+      [ 'Bahamas', 389482 ],
+      [ 'Martinique', 375554 ],
+      [ 'Iceland', 339031 ],
+      [ 'Vanuatu', 299882 ],
+      [ 'French Guiana', 290832 ],
+      [ 'Barbados', 287025 ],
+      [ 'New Caledonia', 282750 ],
+      [ 'French Polynesia', 279287 ],
+      [ 'Mayotte', 266150 ],
+      [ 'São Tomé and Príncipe', 215056 ],
+      [ 'Samoa', 197097 ],
+      [ 'Saint Lucia', 182790 ],
+      [ 'Channel Islands', 172259 ],
+      [ 'Guam', 167294 ],
+      [ 'Curaçao', 163424 ],
+      [ 'Kiribati', 117606 ],
+      [ 'Micronesia', 113815 ],
+      [ 'Grenada', 112003 ],
+      [ 'Saint Vincent and the Grenadines', 110589 ],
+      [ 'Aruba', 106314 ],
+      [ 'U.S. Virgin Islands', 104578 ],
+      [ 'Tonga', 104494 ],
+      [ 'Seychelles', 97739 ],
+      [ 'Antigua and Barbuda', 97118 ],
+      [ 'Isle of Man', 84584 ],
+      [ 'Andorra', 77142 ],
+      [ 'Dominica', 71808 ],
+      [ 'Cayman Islands', 64948 ],
+      [ 'Bermuda', 62506 ],
+      [ 'Marshall Islands', 58791 ],
+      [ 'Northern Mariana Islands', 57216 ],
+      [ 'Greenland', 56672 ],
+      [ 'American Samoa', 55312 ],
+      [ 'Saint Kitts and Nevis', 52823 ],
+      [ 'Faeroe Islands', 48678 ],
+      [ 'Sint Maarten', 42388 ],
+      [ 'Monaco', 38964 ],
+      [ 'Turks and Caicos', 38191 ],
+      [ 'Liechtenstein', 38019 ],
+      [ 'Saint Martin', 38002 ],
+      [ 'San Marina', 33860 ],
+      [ 'Gibraltar', 33701 ],
+      [ 'British Virgin Islands', 30030 ],
+      [ 'Caribbean Netherlands', 25979 ],
+      [ 'Palau', 18008 ],
+      [ 'Cook Islands', 17548 ],
+      [ 'Anguilla', 14869 ],
+      [ 'Tuvalu', 11646 ],
+      [ 'Wallis and Futuna', 11432 ],
+      [ 'Nauru', 10756 ],
+      [ 'Saint Barthelemy', 9847 ],
+      [ 'Saint Helena', 6059 ],
+      [ 'Saint Pierre and Miquelon', 5822 ],
+      [ 'Montserrat', 4989 ],
+      [ 'Falkland Islands', 3377 ],
+      [ 'Niue', 1615 ],
+      [ 'Tokelau', 1340 ],
+      [ 'Holy See', 799 ],
+    ] ],
+    [ 'Continent Population (2020)', null, 1, 2, 3, [
+      [ 'Asia', 4641054775 ],
+      [ 'Africa', 1340598147 ],
+      [ 'Europe', 747636026 ],
+      [ 'Latin America & the Caribbean', 653962331 ],
+      [ 'North America', 368869647 ],
+      [ 'Oceania', 42677813 ],
+    ] ],
+    [ 'Continent Population (2019)', null, 1, 2, 3, [
+      [ 'Asia', 4601371198 ],
+      [ 'Africa', 1308064195 ],
+      [ 'Europe', 747182751 ],
+      [ 'Latin America & the Caribbean', 648120957 ],
+      [ 'North America', 366600964 ],
+      [ 'Oceania', 42128035 ],
+    ] ],
+    [ 'Religion Population (2020)', 1, 1000000, 2, 3, [
+      [ 'Christianity', 2300 ],
+      [ 'Islam', 1900 ],
+      [ 'No Religion', 1100 ],
+      [ 'Hinduism', 1100 ],
+      [ 'Buddhism', 506 ],
+      [ 'Chinese Traditional Religion', 394 ],
+      [ 'Ethnic Religions', 300 ],
+      [ 'African Traditional Religions', 100 ],
+      [ 'Sikhism', 23 ],
+      [ 'Spiritism', 15 ],
+      [ `Bahá'í`, 7 ],
+      [ 'Jainism', 4.2 ],
+      [ 'Shinto', 4 ],
+      [ 'Cao Dai', 4 ],
+      [ 'Zoroastrianism', 2.6 ],
+      [ 'Tenrikyo', 2 ],
+      [ 'Animism', 1.9 ],
+      [ 'Neo-Paganism', 1 ],
+      [ 'Unitarian Universalism', 0.8 ],
+      [ 'Rastafari', 0.6 ],
+    ] ],
+    [ 'Nominal GDP [USD] (2017)', 0, 1000000, 3, 3, [
+      [ 'United States', 19485394 ],
+      [ 'China', 12234781 ],
+      [ 'Japan', 4872415 ],
+      [ 'Germany', 3693204 ],
+      [ 'United Kingdom', 2631228 ],
+      [ 'France', 2582492 ],
+      [ 'India', 2575666 ],
+      [ 'Brazil', 2055512 ],
+      [ 'Italy', 1943835 ],
+      [ 'Canada', 1647120 ],
+      [ 'South Korea', 1577524 ],
+      [ 'Russia', 1530750 ],
+      [ 'Austrailia', 1408675 ],
+      [ 'Spain', 1314314 ],
+      [ 'Mexico', 1158229 ],
+      [ 'Indonesia', 1015539 ],
+      [ 'Turkey', 851541 ],
+      [ 'Netherlands', 830572 ],
+      [ 'Saudi Arabia', 683827 ],
+      [ 'Switzerland', 678938 ],
+      [ 'Argentina', 637486 ],
+      [ 'Sweden', 535607 ],
+      [ 'Poland', 526211 ],
+      [ 'Belgium', 494763 ],
+      [ 'Iran', 460976 ],
+      [ 'Thailand', 455302 ],
+      [ 'Austria', 416835 ],
+      [ 'Norway', 399470 ],
+      [ 'United Arab Emirates', 382575 ],
+      [ 'Nigeria', 375769 ],
+      [ 'Israel', 353268 ],
+      [ 'South Africa', 348872 ],
+      [ 'Hong Kong', 341659 ],
+      [ 'Ireland', 331430 ],
+      [ 'Denmark', 329965 ],
+      [ 'Singapore', 323901 ],
+      [ 'Malaysia', 314707 ],
+      [ 'Philippines', 313595 ],
+      [ 'Colombia', 309191 ],
+      [ 'Pakistan', 302139 ],
+      [ 'Chile', 277080 ],
+      [ 'Venezuela', 255092 ],
+      [ 'Finland', 252246 ],
+      [ 'Bangladesh', 245633 ],
+      [ 'Vietnam', 223779 ],
+      [ 'Czech Republic', 215824 ],
+      [ 'Romania', 211803 ],
+      [ 'Peru', 211402 ],
+      [ 'Greece', 203085 ],
+      [ 'New Zealand', 202044 ],
+    ] ],
+    [ 'GDP per capita [USD] (2017)', 0, 1, 0, 1, [
+      [ 'Luxembourg', 104103 ],
+      [ 'Macau', 80893 ],
+      [ 'Switzerland', 80190 ],
+      [ 'Norway', 75505 ],
+      [ 'Iceland', 70057 ],
+      [ 'Ireland', 69331 ],
+      [ 'Qatar', 63506 ],
+      [ 'United States', 59532 ],
+      [ 'Singapore', 57714 ],
+      [ 'Denark', 56308 ],
+      [ 'Austrailia', 53800 ],
+      [ 'Sweden', 53442 ],
+      [ 'San Marino', 49664 ],
+      [ 'Netherlands', 48223 ],
+      [ 'Austria', 47291 ],
+      [ 'Hong Kong', 46194 ],
+      [ 'Finland', 45703 ],
+      [ 'Canada', 45032 ],
+      [ 'Germany', 44470 ],
+      [ 'Belgium', 43324 ],
+      [ 'New Zealand', 42941 ],
+      [ 'United Arab Emirates', 40699 ],
+      [ 'Israel', 40270 ],
+      [ 'United Kingdom', 39720 ],
+      [ 'Andorra', 39147 ],
+      [ 'France', 38477 ],
+      [ 'Japan', 38428 ],
+      [ 'European Union', 33715 ],
+      [ 'Italy', 31953 ],
+      [ 'The Bahamas', 30762 ],
+      [ 'South Korea', 29743 ],
+      [ 'Kuwait', 29040 ],
+      [ 'Brunei', 28291 ],
+      [ 'Spain', 28157 ],
+      [ 'Malta', 26904 ],
+      [ 'Aruba', 25655 ],
+      [ 'Cyprus', 25234 ],
+      [ 'Bahrain', 23655 ],
+      [ 'Slovenia', 23597 ],
+      [ 'Portugal', 21136 ],
+      [ 'Saudi Arabia', 20761 ],
+      [ 'Czech Republic', 20368 ],
+      [ 'Estonia', 19705 ],
+      [ 'Greece', 18613 ],
+      [ 'Slovakia', 17605 ],
+      [ 'Saint Kitts and Nevis', 17090 ],
+      [ 'Barbados', 16789 ],
+      [ 'Lithuania', 16681 ],
+      [ 'Trinidad and Tobago', 16145 ],
+      [ 'Oman', 15668 ],
+    ] ],
+  ].map((x) => ({
+    name : x[0],
+    iconsetId : x[1],
+    scale : x[2],
+    beginRound : x[3],
+    toDecimal : x[4],
+    data : x[5].map((x2) => ({ name : x2[0], value : x2[1] })),
+  })),
+  iconsets : [
+    [
+      'flag', [
+        'China',
+        'India',
+        'United States',
+        'Indonesia',
+        'Brazil',
+        'Pakistan',
+        'Nigeria',
+        'Bangladesh',
+        'Russia',
+        'Mexico',
+        'Japan',
+        'Ethiopia',
+        'Philippines',
+        'Egypt',
+        'Vietnam',
+        'Democratic Republic of Congo',
+        'Germany',
+        'Thailand',
+        'United Kingdom', 'France',
+        'Tanzania',
+        'Italy',
+        'Kenya',
+        'Colombia',
+        'Spain',
+        'Argentina',
+        'Algeria',
+        'Canada',
+        'Afghanistan',
+        'Yemen',
+        'Cameroon',
+        'Niger',
+        'Romania',
+        'Syria',
+        'Chile',
+        'Zambia',
+        'Guatemala',
+        'Netherlands',
+        'Cambodia',
+        'Somalia',
+        'Guinea',
+        'Benin',
+        'Burundi',
+        'Belgium',
+        'Cuba',
+        'Bolivia',
+        'Greece',
+        'Czech Republic',
+        'Jordan',
+        'Sweden',
+        'Azerbaijan',
+        'Hungary',
+        'Austria',
+        'Switzerland',
+      ],
+    ],
+    [ 'religion', [
+      'Christians',
+      'Muslims',
+      'No Religion',
+      'Hindus',
+      'Christianity',
+      'Islam',
+      'Hinduism',
+    ] ],
+  ].map((x) => ({ directory : x[0], items : x[1] })),
+};
