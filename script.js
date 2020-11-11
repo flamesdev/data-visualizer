@@ -78,10 +78,11 @@ function populateScreen(id) {
   document.body.append(screen);
 }
 
-$(() => {
+window.addEventListener('load', () => {
   for (let i = 0; i < data.datasets.length; i++) {
     populateScreen(i);
   }
+
   setScreen(0);
   document.body.style.visibility = 'visible';
 });
