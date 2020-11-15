@@ -3,13 +3,13 @@ const maxIndex = data.datasets.length - 1;
 
 function setScreen(newValue) {
   if (screenId !== null) {
-    const screen = document.getElementById(`screen${screenId}`);
+    const screen = this[`screen${screenId}`];
     screen.style.visibility = 'hidden';
     screen.style.display = 'none';
   }
 
   screenId = newValue;
-  const screen = document.getElementById(`screen${screenId}`);
+  const screen = this[`screen${screenId}`];
   title.innerHTML = data.datasets[screenId].name;
   screen.style.visibility = 'visible';
   screen.style.display = 'block';
@@ -20,16 +20,12 @@ function truncateToDecimals(number, decimal) {
   return Math.trunc(number * pow) / pow;
 }
 
-const suffixes = [ '', 'K', 'M', 'B', 'T' ];
 function numberToText(number, beginRound, decimal) {
-  const { length } = number.toString();
-  const id = Math.trunc((length - 1) / 3);
+  const suffixes = [ '', 'K', 'M', 'B', 'T' ];
+  const id = Math.trunc((number.toString().length - 1) / 3);
   number /= 10 ** (id * 3);
-  if (beginRound !== null && id - 1 >= beginRound) {
-    return truncateToDecimals(number, decimal) + suffixes[id];
-  } else {
-    return Math.trunc(number) + suffixes[id];
-  }
+  
+  return beginRound !== null && id - 1 >= beginRound ? truncateToDecimals(number, decimal) + suffixes[id] : Math.trunc(number) + suffixes[id];
 }
 
 function nextScreen() {
@@ -56,8 +52,8 @@ function populateScreen(id) {
     const span = document.createElement('span');
 
     const icon = document.createElement('img');
-    if (iconset !== undefined) {
-      icon.src = `icons/${iconset.directory}/${iconset.items.includes(x.name) ? x.name : 'Blank'}.svg`;
+    if (iconset) {
+      icon.src = `icons/${iconset.directory}/${iconset.items.includes(x.name) ? x.name.toLowerCase().replace(/ /g, '_') : 'placeholder'}.svg`;
     }
 
     span.appendChild(icon);
@@ -70,11 +66,10 @@ function populateScreen(id) {
   });
 
   const button = document.createElement('button');
-  button.innerHTML = 'Next Screen';
-  button.onclick = nextScreen;
+  button.innerHTML = 'Next screen';
+  button.addEventListener('click', nextScreen);
 
   screen.appendChild(button);
-
   document.body.append(screen);
 }
 
