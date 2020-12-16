@@ -44,25 +44,24 @@ window.addEventListener('load', () => {
     const iconset = data.iconsets[dataset.iconsetId];
     const max = datasetData[0].value;
     datasetData.forEach((x) => {
-      const p = document.createElement('p');
-      p.innerHTML = `${x.name} - ${numberToText(parseInt(x.value * dataset.scale, 10), dataset.beginRound, dataset.toDecimal)}`;
+      const text = document.createElement('span');
+      text.innerHTML = `${x.name} - ${numberToText(parseInt(x.value * dataset.scale, 10), dataset.beginRound, dataset.toDecimal)}`;
 
       const div = document.createElement('div');
-      div.style.width = `${x.value / max * 100}%`;
-      div.className = 'bar';
-
-      const span = document.createElement('span');
-
       const icon = document.createElement('img');
       if (iconset) {
         icon.src = `icons/${iconset.directory}/${iconset.items.includes(x.name) ? x.name.toLowerCase().replace(/ /g, '_') : 'placeholder'}.svg`;
       }
 
-      span.appendChild(icon);
-      span.appendChild(p);
+      div.appendChild(icon);
+      div.appendChild(text);
 
-      screen.appendChild(span);
+      const bar = document.createElement('div');
+      bar.style.width = `${x.value / max * 100}%`;
+      bar.className = 'bar';
+
       screen.appendChild(div);
+      screen.appendChild(bar);
       screen.style.visibility = 'hidden';
       screen.style.display = 'none';
     });
