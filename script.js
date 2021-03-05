@@ -1,4 +1,3 @@
-/* global data title document window */
 let screenId = null;
 const maxIndex = data.datasets.length - 1;
 
@@ -27,11 +26,15 @@ window.addEventListener('load', () => {
       return Math.trunc(number2 * pow) / pow;
     }
 
-    const suffixes = [ '', 'K', 'M', 'B', 'T' ];
+    const suffixes = ['', 'K', 'M', 'B', 'T'];
     const id = Math.trunc((number.toString().length - 1) / 3);
-    const adjustedNumber = number / (10 ** (id * 3));
+    const adjustedNumber = number / 10 ** (id * 3);
 
-    return (beginRound && id - 1 >= beginRound ? truncateToDecimals(adjustedNumber, decimal) : Math.trunc(adjustedNumber)) + suffixes[id];
+    return (
+      (beginRound && id - 1 >= beginRound
+        ? truncateToDecimals(adjustedNumber, decimal)
+        : Math.trunc(adjustedNumber)) + suffixes[id]
+    );
   }
 
   for (let i = 0; i < data.datasets.length; i++) {
@@ -45,19 +48,27 @@ window.addEventListener('load', () => {
     const max = datasetData[0].value;
     datasetData.forEach((x) => {
       const text = document.createElement('span');
-      text.innerHTML = `${x.name} - ${numberToText(parseInt(x.value * dataset.scale, 10), dataset.beginRound, dataset.toDecimal)}`;
+      text.innerHTML = `${x.name} - ${numberToText(
+        parseInt(x.value * dataset.scale, 10),
+        dataset.beginRound,
+        dataset.toDecimal
+      )}`;
 
       const div = document.createElement('div');
       const icon = document.createElement('img');
       if (iconset) {
-        icon.src = `icons/${iconset.directory}/${iconset.items.includes(x.name) ? x.name.toLowerCase().replace(/ /g, '_') : 'placeholder'}.svg`;
+        icon.src = `icons/${iconset.directory}/${
+          iconset.items.includes(x.name)
+            ? x.name.toLowerCase().replace(/ /g, '_')
+            : 'placeholder'
+        }.svg`;
       }
 
       div.appendChild(icon);
       div.appendChild(text);
 
       const bar = document.createElement('div');
-      bar.style.width = `${x.value / max * 100}%`;
+      bar.style.width = `${(x.value / max) * 100}%`;
       bar.className = 'bar';
 
       screen.appendChild(div);

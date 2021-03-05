@@ -3,7 +3,8 @@ body {
   visibility: hidden;
 }
 
-h1, span {
+h1,
+span {
   font-family: 'Montserrat';
   color: white;
   padding: 0;
