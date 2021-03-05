@@ -492,16 +492,6 @@ var data = {
       [ 'North America', 366600964 ],
       [ 'Oceania', 42128035 ],
     ] ],
-    [ 'Religion Population (2015)', 1, 10000, 2, 3, [
-      [ 'Christians', 227625 ],
-      [ 'Muslims', 175262 ],
-      [ 'Unaffiliated', 116502 ],
-      [ 'Hindus', 109911 ],
-      [ 'Buddhists', 49938 ],
-      [ 'Folk Religion', 41828 ],
-      [ 'Other Religions', 5971 ],
-      [ 'Jews', 1427 ],
-    ] ],
     [ 'Nominal GDP [USD] (2017)', 0, 1000000, 3, 3, [
       [ 'United States', 19485394 ],
       [ 'China', 12234781 ],
@@ -672,11 +662,5 @@ var data = {
         'Switzerland',
       ],
     ],
-    [ 'religion', [
-      'Christians',
-      'Muslims',
-      'Unaffiliated',
-      'Hindus',
-    ] ],
   ].map((x) => ({ directory : x[0], items : x[1] })),
 };
