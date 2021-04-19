@@ -578,7 +578,7 @@ var data = {
       ],
     ],
     [
-      'GDP per capita [USD] (2017)',
+      'GDP per Capita [USD] (2017)',
       0,
       1,
       0,
